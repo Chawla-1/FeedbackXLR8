@@ -1,0 +1,516 @@
+review_id,rating,review_text,sentiment,theme,source
+GOLD-LIVE-001,3,the app crashes after opening,negative,crash,live_playstore_com_xvoid_vault
+GOLD-LIVE-002,5,great...it's easy to recall multiple app and site password.,positive,praise,live_playstore_com_xvoid_vault
+GOLD-LIVE-003,4,"Useful App for me specifically, because I mostly forget my passes . although there is scope for better ui.",mixed,ui_ux,live_playstore_com_xvoid_vault
+GOLD-LIVE-004,3,Very decent and optimised app for Android. The advertisement experience could be better. UI is a little bit sluggish but does the job.,mixed,performance,live_playstore_com_xvoid_vault
+GOLD-MIX-001,3,"Great UI and clean design, BUT the app crashes after opening vault.",mixed,crash,curated_mixed
+GOLD-MIX-002,3,"Love the offline password recall, however syncing between devices is terribly slow.",mixed,performance,curated_mixed
+GOLD-MIX-003,3,"Awesome concept and features, although OTP verification SMS never arrives.",mixed,auth_otp,curated_mixed
+GOLD-MIX-004,3,Very useful daily tool yet subscription auto-charged twice without invoice.,mixed,billing,curated_mixed
+GOLD-MIX-005,4,"Super secure vault, but dark mode colors look weird and unreadable.",mixed,ui_ux,curated_mixed
+GOLD-MIX-006,3,"Nice password generator, though battery drain is noticeably heavy in background.",mixed,performance,curated_mixed
+GOLD-MIX-007,3,"Good password management app, phir bhi login screen freezes frequently.",mixed,crash,curated_mixed
+GOLD-MIX-008,3,"Clean interface and easy setup, although fingerprint unlock fails 50% of time.",mixed,auth_otp,curated_mixed
+GOLD-MIX-009,3,"Useful encryption features, but ads pop up every three taps.",mixed,other,curated_mixed
+GOLD-MIX-010,3,"I like the simple layout, yet biometric login stopped working after latest update.",mixed,auth_otp,curated_mixed
+GOLD-HUMAN-001,5,It's better than whatsapp,positive,praise,human_labels_150
+GOLD-HUMAN-002,1,"I hate stikers in this """"""""""""""""Please urge your company to remove the stickers as insulting to buddhism here.And indeed worried about what to include such""""""""""""""""""""",negative,other,human_labels_150
+GOLD-HUMAN-003,3,Difficult to handle file sharing,neutral,other,human_labels_150
+GOLD-HUMAN-004,5,best massaging app ever,positive,praise,human_labels_150
+GOLD-HUMAN-005,1,Service is not good. account deleting issues. I try many times but not deleted,mixed,auth_otp,human_labels_150
+GOLD-HUMAN-006,3,I am using Samsung galaxy S7 edge. I m not getting number of notification alerts on this telegram icon.,neutral,performance,human_labels_150
+GOLD-HUMAN-007,3,i wanna add a new sticker in my pack. The stickers bot said it's done but i can't see that in my pack. And it same about deleting them too.,negative,other,human_labels_150
+GOLD-HUMAN-008,4,Telegram You are the best,positive,performance,human_labels_150
+GOLD-HUMAN-009,1,Rivoglio il Telegram di prima Non copiate WhatsApp  per favore. Adoravo la possibilità di utilizzare gli asterischi senza il grassetto  e le emoticon sono cambiate  sono diventate orrende,neutral,performance,human_labels_150
+GOLD-HUMAN-010,3,good but notification list not desply,mixed,praise,human_labels_150
+GOLD-HUMAN-011,5,Thank god super,positive,praise,human_labels_150
+GOLD-HUMAN-012,3,No way to export secure chats history.,neutral,other,human_labels_150
+GOLD-HUMAN-013,5,Good Very nice,positive,praise,human_labels_150
+GOLD-HUMAN-014,4,Good This is good and bad,mixed,praise,human_labels_150
+GOLD-HUMAN-015,5,Hi Real good,positive,praise,human_labels_150
+GOLD-HUMAN-016,1,We are all traceable by this application. In authoritarian countries  that means death!,neutral,auth_otp,human_labels_150
+GOLD-HUMAN-017,1,NAD . this app is very bad . never download this,negative,other,human_labels_150
+GOLD-HUMAN-018,3,App is good but sometime it takes a lot of time to connect.....connecting and connecting....... .,mixed,praise,human_labels_150
+GOLD-HUMAN-019,3,Some countries unable to connect,neutral,other,human_labels_150
+GOLD-HUMAN-020,4,Comfortable & easy app to use,positive,praise,human_labels_150
+GOLD-HUMAN-021,3,Just a messaging app? Dont get it,neutral,other,human_labels_150
+GOLD-HUMAN-022,2,Anil Kumar,neutral,other,human_labels_150
+GOLD-HUMAN-023,2,pLease add Voice Call and Video Call  likes WA. Big Thanks. 👍👍👍👍👍 will give 5Stars later.,positive,praise,human_labels_150
+GOLD-HUMAN-024,3,nc way to connect with people with new way I like it,neutral,other,human_labels_150
+GOLD-HUMAN-025,4,Good Good Apps,positive,praise,human_labels_150
+GOLD-HUMAN-026,1,The new emoji are DISGUSTING  and many people agree with me. Can't even use them without feeling weird anymore.,negative,other,human_labels_150
+GOLD-HUMAN-027,2,Open source projects are probably abandoned... not updated for more than months... No end to end encryption for bots. No support. The support account NEVER replies. Connected with your phone number.,neutral,auth_otp,human_labels_150
+GOLD-HUMAN-028,5,Good I like this app,positive,praise,human_labels_150
+GOLD-HUMAN-029,2,Cannot add other people in to the groupchat!!!,negative,other,human_labels_150
+GOLD-HUMAN-030,4,Best messaging app Why not include in teligram video feature to see chatting person as like in KiK app,positive,performance,human_labels_150
+GOLD-HUMAN-031,2,Teligram So nice,positive,performance,human_labels_150
+GOLD-HUMAN-032,4,Nice Suuperb,positive,praise,human_labels_150
+GOLD-HUMAN-033,1,Beem Super,positive,praise,human_labels_150
+GOLD-HUMAN-034,3,In IOS it's very useful and user friendlier than android,positive,praise,human_labels_150
+GOLD-HUMAN-035,4,Honhonhon Good and easy to use,positive,praise,human_labels_150
+GOLD-HUMAN-036,1,profile picture should hidden and high security but now every body can see my profile pictures,neutral,other,human_labels_150
+GOLD-HUMAN-037,2,"If you guys can't solve its connectivity problem then bring minor or '' custom themes'' are useless. I Don't like it not only bcz it has no voice and video chat but since its last update I can't receive messages neither I can send any  whenever I try to send a message it starts showing """"connecting"""" and this connecting process takes ages to connect though all my other apps work fine as and Internet connection is fiber optic and in use 24/7.",negative,other,human_labels_150
+GOLD-HUMAN-038,5,awesome app i hate new whatsapp  thanks,mixed,praise,human_labels_150
+GOLD-HUMAN-039,4,Join it Nothing,neutral,other,human_labels_150
+GOLD-HUMAN-040,4,I am no longer able to pin channels and contacts to the top of the list  please it is one of the best features of the app  alongside the calls and other features  please bring it back,positive,praise,human_labels_150
+GOLD-HUMAN-041,3,Needs an ability to pin the favorite chats/channels to the top of the main list or make folders for them to organize them.,neutral,other,human_labels_150
+GOLD-HUMAN-042,3,Useful Hey  This is very useful app but uploading process is slow as compare to other apps!!,mixed,performance,human_labels_150
+GOLD-HUMAN-043,5,Please make it able to categorize groups and channels! It's Fine and very helpful  please make it able to categorize channels and groups.,positive,praise,human_labels_150
+GOLD-HUMAN-044,5,Excellent Excellent app,positive,praise,human_labels_150
+GOLD-HUMAN-045,3,It needs more improvement,neutral,other,human_labels_150
+GOLD-HUMAN-046,1,Why I can't sent pictures?,negative,other,human_labels_150
+GOLD-HUMAN-047,1,Not working 😠,negative,other,human_labels_150
+GOLD-HUMAN-048,1,Poor implementation of material design. The font size wouldn't change when I change it via system settings. (Edit) In respond for the reply : Not the chat font size. But the overall font size.,negative,ui_ux,human_labels_150
+GOLD-HUMAN-049,5,When i started using Telegram i was thinking that it was worse and i uninstalled it but my friend asked me for talking to me on telegram as he was gonna send me something throuhg Telegram  i started using it again and i loved it. It is amazing.,positive,performance,human_labels_150
+GOLD-HUMAN-050,3,People who have telegram is not being shown in my contact list,neutral,performance,human_labels_150
+GOLD-HUMAN-051,2,This update is no voice call 👎,negative,other,human_labels_150
+GOLD-HUMAN-052,2,So good Kdk,positive,praise,human_labels_150
+GOLD-HUMAN-053,5,I like it that's good personaly but its st oil good I don't know why,positive,praise,human_labels_150
+GOLD-HUMAN-054,4,Indian app G,neutral,other,human_labels_150
+GOLD-HUMAN-055,4,Odilbek I Love Uzbekistanb,positive,praise,human_labels_150
+GOLD-HUMAN-056,4,Thats good but is not very safe ...,mixed,praise,human_labels_150
+GOLD-HUMAN-057,2,Naveen Kumar ji,neutral,other,human_labels_150
+GOLD-HUMAN-058,4,A veryy good app.... love it my email is alex_smith@yahoo.com please fix,positive,praise,human_labels_150
+GOLD-HUMAN-059,2,Internal video player sucks There are lots of problems with internal video player,negative,other,human_labels_150
+GOLD-HUMAN-060,4,User friendly Superb,positive,praise,human_labels_150
+GOLD-HUMAN-061,2,Dia connecting mulu . Padahal sinyal aku lagi bagus bgt. Dibuat download apps di playstore cepet tapi buat connect di apps ini eror mulu. Knp nih? Tolong bantuannya ya,negative,performance,human_labels_150
+GOLD-HUMAN-062,1,Remove lord buddah sticker pack I hate this app,negative,other,human_labels_150
+GOLD-HUMAN-063,2,Copy of WhatsApp,neutral,other,human_labels_150
+GOLD-HUMAN-064,3,Not bad.and It's very easy.,mixed,praise,human_labels_150
+GOLD-HUMAN-065,2,خوب نیست چون بیشتر نرم افزار هارا در خود ندارد مثل برنامه B612,neutral,other,human_labels_150
+GOLD-HUMAN-066,5,Excellent application I loved the app!!!!,positive,praise,human_labels_150
+GOLD-HUMAN-067,5,Best messanger - also because of the bot support,positive,praise,human_labels_150
+GOLD-HUMAN-068,3,Just moved in from WhatsApp. At the moment  it satisfies all my messaging needs. I will be updating this review as I get to know the app better. Thank you.,positive,praise,human_labels_150
+GOLD-HUMAN-069,5,Please add interactive notifications (view picture  show location  listen voice message...),neutral,other,human_labels_150
+GOLD-HUMAN-070,3,Latest version 3.17+ has noticeable lagging when scrolling chat list. Seems it connected somehow with newly implemented custom themes engine  which causes such behavior. Inside chats it's OK. Hope that will be fixed asap,negative,performance,human_labels_150
+GOLD-HUMAN-071,1,WhatsApp very good anything,positive,praise,human_labels_150
+GOLD-HUMAN-072,1,Such a WhatsApp wannabe,neutral,other,human_labels_150
+GOLD-HUMAN-073,1,One of the best app Its different sticker on the app,positive,praise,human_labels_150
+GOLD-HUMAN-074,2,Still optimisation required to meet users requirement,neutral,ui_ux,human_labels_150
+GOLD-HUMAN-075,2,No fingerprint lock With the last update I can't use my fingerprint to unlock the app anymore.,negative,other,human_labels_150
+GOLD-HUMAN-076,2,Hangs a lot.. After the recent update.. it zooms and hang often.. otherwise a good app,mixed,praise,human_labels_150
+GOLD-HUMAN-077,4,Problem is just the calls that there is delay for transfer and receiving voice in calls,negative,other,human_labels_150
+GOLD-HUMAN-078,4,games my phone samsung coreprime i cant play olympic games its blackout,neutral,other,human_labels_150
+GOLD-HUMAN-079,2,Anand Super plz use the telegram and save the indian army,positive,performance,human_labels_150
+GOLD-HUMAN-080,4,BRING REGULAR CALLS & VIDEO CALLS TO TELEGRAM. Im really loving this App. The fact I can send tons of photos without any limit  send and receive docs and recoord the loongest VNs on earth is really cool  it is literally the coolest thing ever in comparison to WhatsApp and Facebook. The only reason I am giving this App 4 stars is 'cos it cant make regular calls & Video calls  so to make Telegram way better by 5x with all these other mainstream Apps  kindly bring regular calls & video calls to Telegram ☺. Otherwise I recommend this App. SUPER COOL!! 🔥🙌,positive,performance,human_labels_150
+GOLD-HUMAN-081,4,Best app for shearing pics..,positive,praise,human_labels_150
+GOLD-HUMAN-082,4,Nice application for the use of the day,positive,praise,human_labels_150
+GOLD-HUMAN-083,2,Notification problems Ever since the new update i haven't been getting notifications,negative,other,human_labels_150
+GOLD-HUMAN-084,5,The best messager in this time,positive,praise,human_labels_150
+GOLD-HUMAN-085,3,Something missing... Very good app but some feautures missing...like deleting group chat history :/ even if u delete group chat cache  it still loads full chat history again and again and...,mixed,praise,human_labels_150
+GOLD-HUMAN-086,2,Telegram is not accessible for visually impaired people!,neutral,performance,human_labels_150
+GOLD-HUMAN-087,4,Good app  fast and apparently secure one too. But still i have a problem with desktop version in which when you press above button  its function automatically will switch into edit and it make you trouble.,mixed,ui_ux,human_labels_150
+GOLD-HUMAN-088,5,Good features,positive,praise,human_labels_150
+GOLD-HUMAN-089,1,I need to create PDF form yourself chat and private chat..Mobogram save and keeps changing photo profile this is very very bad...,negative,performance,human_labels_150
+GOLD-HUMAN-090,4,good apps👍👍,positive,praise,human_labels_150
+GOLD-HUMAN-091,5,Five star app,positive,praise,human_labels_150
+GOLD-HUMAN-092,5,The best messaging app by far. Anyway has it's own little bugs. No way to change messages look when editing themes.,mixed,crash,human_labels_150
+GOLD-HUMAN-093,3,Great But I just hate that at times it just does not want to open images I even restart my phone without any help work on this,mixed,praise,human_labels_150
+GOLD-HUMAN-094,1,I dont think it should be phone based.,neutral,other,human_labels_150
+GOLD-HUMAN-095,3,It's actually pretty good  but.... The app is pretty awesome  but I've been having a delay in messaging. The message gets sent through just fine at my end but receiving at the other end can take anywhere between 2 minutes to two hours. There has even been instances of the delay being more than a day. My friend is almost always connected to his WiFi so I know that internet is not the issue as messages do go through other apps  just not this one. I hope that this will be something you take into consideration for a later update.,mixed,praise,human_labels_150
+GOLD-HUMAN-096,5,Super Be indian buy indian,positive,praise,human_labels_150
+GOLD-HUMAN-097,3,Still waiting for calls my email is alex_smith@yahoo.com please fix,neutral,other,human_labels_150
+GOLD-HUMAN-098,2,I fed up with this spam u know can u update your app again and make spams only for group that blocked u . Not for another groups. U know i can't send letters to my form my groups strengers but they didn't spammed me how it can be. Comprehension pls! I have liked this app. But now it is not. Understandable?,negative,other,human_labels_150
+GOLD-HUMAN-099,4,It's so speed It is really a telegram,neutral,performance,human_labels_150
+GOLD-HUMAN-100,3,Contacts is not synchronised As WhatsApp when it installed contacts in our mobile automatically synchronised..but in this telegram application contact synchronisation is not there... please let me know how to do this..,neutral,performance,human_labels_150
+GOLD-HUMAN-101,1,Very bad Please urge your company to remove the stickers as insulting to Buddhism here. And indeed worried about what to include such,negative,other,human_labels_150
+GOLD-HUMAN-102,1,Phone number very bad im not reg in telegram im very deleted account and reg please help me google,negative,auth_otp,human_labels_150
+GOLD-HUMAN-103,4,Notification Issue Sometimes it does not show notifications of messages received then i start using PLUSMESSENGER. And sometimes plusmessenger starts doing the same thing then i use official TG App,negative,other,human_labels_150
+GOLD-HUMAN-104,5,Best messaging app for in my opinion  keep up the good work,positive,praise,human_labels_150
+GOLD-HUMAN-105,3,tes di coba dulu,neutral,other,human_labels_150
+GOLD-HUMAN-106,5,Bug Not working,negative,crash,human_labels_150
+GOLD-HUMAN-107,3,Great application Its great application better than what's app and other social applicationbut need some improvement the video sending is very low non other than all is good.,positive,praise,human_labels_150
+GOLD-HUMAN-108,3,It's just a little more secure than WhatsApp. Use Signal people!,neutral,other,human_labels_150
+GOLD-HUMAN-109,5,Fantastic program,positive,performance,human_labels_150
+GOLD-HUMAN-110,2,More than 20 minutes to send small voice note  photos and videos too.. please fix this. Make it fast like other apps.,neutral,other,human_labels_150
+GOLD-HUMAN-111,2,Wish this was an app that didn't need a phone number,neutral,other,human_labels_150
+GOLD-HUMAN-112,4,Great app  super helpful.,positive,praise,human_labels_150
+GOLD-HUMAN-113,4,Good Beautiful,positive,praise,human_labels_150
+GOLD-HUMAN-114,1,I can't take a shortcut on it,negative,other,human_labels_150
+GOLD-HUMAN-115,4,S i Love Very nice,positive,praise,human_labels_150
+GOLD-HUMAN-116,3,Stop Banning People bcos someone said he thinks its spam. Now i want to talk to mutual friends who just joined Telegram I cannot bcos of your Ban. Very irritating,negative,performance,human_labels_150
+GOLD-HUMAN-117,2,end-to-end encryption and delayed messages I like a lot of telegram  it has a tons of resources  but unfortunately end-to-end encryption it's not enabled by default; another problem is  all messages are delivered delayed.,negative,performance,human_labels_150
+GOLD-HUMAN-118,1,Requires your phone and sms permission from the start. Avoid if possible.,neutral,ui_ux,human_labels_150
+GOLD-HUMAN-119,4,All the best,positive,praise,human_labels_150
+GOLD-HUMAN-120,2,There is video call or not... please tell me.....,neutral,other,human_labels_150
+GOLD-HUMAN-121,4,Awesome application .. It work better than hike... chat lock option is unique in this app.... totally fab...,positive,praise,human_labels_150
+GOLD-HUMAN-122,1,Error invalid number on cdma network. Support not answering - only useless bot messages.,negative,other,human_labels_150
+GOLD-HUMAN-123,1,This is possible hack others we need to improve I like to use telegram but we need security,negative,performance,human_labels_150
+GOLD-HUMAN-124,5,One of the best I confirm it is👍,positive,praise,human_labels_150
+GOLD-HUMAN-125,2,I can't sign up Just downloaded it and got to the registration progress. But when I type in my name  it blocked me from signing up,negative,other,human_labels_150
+GOLD-HUMAN-126,1,I hate This app included consulting sticker buddhism,negative,other,human_labels_150
+GOLD-HUMAN-127,1,Why am I automatically joining some channels??? It is a significant security issue! I do not want to be joined channels without any action from my side. What is going on in the telegram?? Please give us an ability to filter channels  no one should be able to subscribe us to channels on behalf of us. An update can fix this and we can disable joining channels manually.,negative,performance,human_labels_150
+GOLD-HUMAN-128,1,I wish the app had an undone share contact button because sometimes it glitches and it shares you contact with the wrong Person! I hate it !,negative,ui_ux,human_labels_150
+GOLD-HUMAN-129,4,No call ability!!,neutral,other,human_labels_150
+GOLD-HUMAN-130,1,Used to be great And then 1 update came that made the app unusable. Whenever in group chat the persons image is displayed after the end of his sentences  not before. Makes reading the chat a pain. And they did that on all devices... Give option for the old layout or bring it back. Why make changes that are negative?,mixed,crash,human_labels_150
+GOLD-HUMAN-131,3,"Good but misleading A good alternative to iMessage/Skype etc. that's easy to use and works on all platforms. However  only """"""""""""""""secret"""""""""""""""" chats have end to end encryption and they're not available on desktop.""""",mixed,praise,human_labels_150
+GOLD-HUMAN-132,1,Still doesn't have Persian language I removed my 5 stars. Sorry but you need to respect Persian people.,neutral,other,human_labels_150
+GOLD-HUMAN-133,5,Great app yarrr No need to describe,positive,praise,human_labels_150
+GOLD-HUMAN-134,3,Video call. Where is the option of video call???,neutral,other,human_labels_150
+GOLD-HUMAN-135,1,Not able to login because I've done multiple attempts  give me my account back !!!,negative,auth_otp,human_labels_150
+GOLD-HUMAN-136,2,Remove modern Buddha stiker pack.,neutral,other,human_labels_150
+GOLD-HUMAN-137,3,Messages are disappearing into the ether in Private chats; notifications only  but zero messages,neutral,other,human_labels_150
+GOLD-HUMAN-138,2,"Fix it Telegram always say """"""""""""""""""""""""""""""""connecting..."""""""""""""""""""""""""""""""" in my lenovo mobile""""",neutral,performance,human_labels_150
+GOLD-HUMAN-139,5,Please stop renaming my files when downloading!,negative,other,human_labels_150
+GOLD-HUMAN-140,1,Wonderful app This is too much useful to us.. Amazing. I love it,positive,praise,human_labels_150
+GOLD-HUMAN-141,5,It is s good app for chat and sharing file,positive,praise,human_labels_150
+GOLD-HUMAN-142,5,Great messaging app!,positive,praise,human_labels_150
+GOLD-HUMAN-143,4,All abouts good,positive,praise,human_labels_150
+GOLD-HUMAN-144,2,Can't sync contact Contact on telegram can't sync from my contact who have telegram. Please help. I'm using asus zenfone 3 laser  and I had allowed app permissions,negative,performance,human_labels_150
+GOLD-HUMAN-145,2,I don't get notification and it's always searching for network,neutral,other,human_labels_150
+GOLD-HUMAN-146,5,Best App Ever,positive,praise,human_labels_150
+GOLD-HUMAN-147,5,It's very good.thank's,positive,praise,human_labels_150
+GOLD-HUMAN-148,3,Deleted supergroup comes again in history after leaving and deleting.,negative,other,human_labels_150
+GOLD-HUMAN-149,2,Update needed After update it has become very slow. Messages are sent very slow even at high Internet speeds. Downloading media takes top long. Please fix it.,negative,performance,human_labels_150
+GOLD-HUMAN-150,5,cause that make make use much resource (RAM and memory). this app awesome  maybe in the next this app popular like Whats*pp who has block this. 😊 Now telegram Awesome,positive,performance,human_labels_150
+GOLD-VAL-0362,1,I hate sticker in this Please urge your company to remove the stickers as insulting to Buddhism here. And indeed worried about what to include such,negative,other,validation_500
+GOLD-VAL-0074,1,I think it's best and useful messaging,negative,praise,validation_500
+GOLD-VAL-0375,1,Insult of religious icons Insult of religious beliefs and idols should be prohibited by the developers.,negative,other,validation_500
+GOLD-VAL-0156,1,"I hate stickers in this """"""""""""""""Please urge your company to remove the stickers as insulting to buddhism here.and indeed worried about what to imclude such""""""""""""""""""""",negative,other,validation_500
+GOLD-VAL-0105,1,You dishonour our religion ( Buddhist) in your stickers... plz don't it...,negative,other,validation_500
+GOLD-VAL-0395,1,Edit...New issue with group chat user name Edit.... Yes  I know how to add people to groups  but it won't let me create a group with people whom I only have user names for.... It takes for granted I have people saved to contacts Even if I'm the creator of the group... I really love this app  and would like to use for my online games  but it's almost impossible to create a group with just user names without giving out my phone number or getting theirs. Self destruct Timer also needs more minute choices (5  ten  30),negative,praise,validation_500
+GOLD-VAL-0378,5,Could include vedio calling also,positive,praise,validation_500
+GOLD-VAL-0125,1,Worst...it does get download...,negative,other,validation_500
+GOLD-VAL-0069,1,Reza Farzan,negative,other,validation_500
+GOLD-VAL-0451,2,"video not work video in telegram not work only should click on """"""""""""""""open in ...""""""""""""""""""""",negative,other,validation_500
+GOLD-VAL-0010,3,Good app but it has problem with high battery drain  drains more battery than OS or screen  once fixed this deserves 5 stars  edit: battery drain fixed  Update: newest version has very slow gallery loading of thumbnails  will rate back to 5 stars once fixed,mixed,performance,validation_500
+GOLD-VAL-0195,5,Maybe it's good if we can video call via telegram too. Thanks,positive,praise,validation_500
+GOLD-VAL-0407,1,i dont do somthing but i have limits 😐,negative,other,validation_500
+GOLD-VAL-0085,1,Bad Scirity is bad,negative,other,validation_500
+GOLD-VAL-0372,3,Prove yourself as Indian brand I started using and recommending telegram because its Indian. But for occasions that are in India only  I can't find any stickers. I can find only foreigners stickers other than gandhi ji. Just try to understand users,mixed,other,validation_500
+GOLD-VAL-0389,5,Outstanding app We can doing our cse preparation on it .,positive,praise,validation_500
+GOLD-VAL-0496,5,Awsome I Just Lov3 It,positive,praise,validation_500
+GOLD-VAL-0031,3,"Please work on how we can delete unwanted messages in group chats  the whole place gets congested with messages that are not relevant and you can't delete. Messages like """"i'm happy to be here"""" telegram should make it possible to have a delete icon for things like this on group chats  you have it in individual chats.",neutral,other,validation_500
+GOLD-VAL-0317,3,Its very good bt the only problem in this is no notification is coming when the message is cime..and this problem overcome all good things in the app..,neutral,praise,validation_500
+GOLD-VAL-0409,1,Very late to download,negative,other,validation_500
+GOLD-VAL-0491,5,Thank you.,positive,praise,validation_500
+GOLD-VAL-0492,3,Good Ntg say,neutral,praise,validation_500
+GOLD-VAL-0281,1,Not downloading I can't download any media.....it's sucks,negative,performance,validation_500
+GOLD-VAL-0357,1,Stucked contact list Full of bug app   Simple phone number base contact list but username base accounting . if you delete a phone number from your contact telegram never delete it  also save new number of that person to your contact if changed  if you changed your number telegram let it know to every one have your number in phonebook  even you don't know them and don't have in your phonebook  if you block some body and that person create new Acount with same number   blocked number unblocked easily.,negative,crash,validation_500
+GOLD-VAL-0077,1,I need is delete option ... Developers don't reply unless you add that . .. pervious reply said that hold and tap delete option which is not there ...,negative,other,validation_500
+GOLD-VAL-0462,5,This app is good for me and all of the people in iran,positive,praise,validation_500
+GOLD-VAL-0498,1,the privacy u let them know im come back /online.ed* what i mean is when i log in my friend get informed.hate this..please fix tq,negative,other,validation_500
+GOLD-VAL-0212,4,Easy to use It's easy but  if there is voice call and video call is more perfect for this app...,mixed,praise,validation_500
+GOLD-VAL-0102,3,I don't have a call-function!,neutral,other,validation_500
+GOLD-VAL-0335,4,In order to compete with Whatsapp  ⑴ make archiving conversations available so that I can make my conversation page tidier. ⑵ Let us know who read our messages in groups! There's no way to do it in Telegram. ⑶ Status like Whatsapp could be added (optional). Please improve  love it.,positive,praise,validation_500
+GOLD-VAL-0476,3,please make the badge notify for android please...,neutral,other,validation_500
+GOLD-VAL-0337,1,Lord budhdhaa Removs it,negative,other,validation_500
+GOLD-VAL-0441,5,Best speed Nice and very easy to use and very fast.,positive,praise,validation_500
+GOLD-VAL-0174,5,plz focus on what really need to being a good social messenger..... I love very much telegram but it's very good if u add new feature as post moments n like and comment on post... thank u.,positive,praise,validation_500
+GOLD-VAL-0003,2,Persian Add to Telegram Language Persian 😐,negative,other,validation_500
+GOLD-VAL-0334,5,Easy to use for everyone. Great,positive,praise,validation_500
+GOLD-VAL-0410,1,THIS APP IS AN RUSSIAN SPY APP  Can't believe? Search on wikipedia,negative,other,validation_500
+GOLD-VAL-0071,1,It's not working,negative,other,validation_500
+GOLD-VAL-0210,1,Not good so much,negative,praise,validation_500
+GOLD-VAL-0064,3,"Confusing BdGDDJ4T. Maybe I am just behind times as far as all the technical jargon is concerned  but I am really having a hard time understanding why I would need Telegram  which none of my friends are signed up for  when almost every human being has Facebook. I don't know anyone outside of the U.S. and I don't belong to any large """"""""""""""""groups"""""""""""""""". Most of the people I know are on Messenger and it is a very easy application to use. I am not seeing any reason to use Telegram.""""",mixed,praise,validation_500
+GOLD-VAL-0385,3,app still works very well but is eating my battery after the last couple of updates. power consumption up by at least 100%!,mixed,performance,validation_500
+GOLD-VAL-0094,1,My telegram was hacked and it was nt getting connected,negative,other,validation_500
+GOLD-VAL-0486,4,i can't add stickers. when in tap them not show add option.,positive,praise,validation_500
+GOLD-VAL-0186,5,Gives update in a little bit long periods but perfect updates...every time new things come with telegram...thanks alot,positive,praise,validation_500
+GOLD-VAL-0034,5,Wonderful really Faster coming cations,positive,praise,validation_500
+GOLD-VAL-0078,5,Telegram That's a good app.,positive,praise,validation_500
+GOLD-VAL-0001,2,Speed ➡((Leaders of telegram)) please pay attention:😡😩 to me.please fix problems of speed specific download speed in IRAN & support persian language.answer me hurry up.?,negative,other,validation_500
+GOLD-VAL-0012,4,Good Use for Indian apk,positive,praise,validation_500
+GOLD-VAL-0416,1,Why do I have to always click on the app before I see notifications. Can't it push notifications to my phone the way Whatsapp does? Fix this please,negative,other,validation_500
+GOLD-VAL-0023,1,I hate this because it (stickers )insult lord budhdha,negative,other,validation_500
+GOLD-VAL-0073,2,Sending Large file Taking so long to sending large file  and failed,negative,other,validation_500
+GOLD-VAL-0183,3,Actually great but with MAJOR notification problem Honestly a great app but the fact that routinely I see a little notification on the telegram app  go into it and theres no unread message! And the notification indicator stays and just piles up as more messages come. Had to dlete and reinstall multiple times to get rid of it. As a messenger app thats a pretty big basic feature you need to get right.,mixed,praise,validation_500
+GOLD-VAL-0132,5,Gay's please use telegram  each true Indian as to use this app  r u Indian,positive,praise,validation_500
+GOLD-VAL-0411,5,Awesome app 😘 no need to backup our chat ....,positive,praise,validation_500
+GOLD-VAL-0194,1,Keeps awake the device all time. Battery hog with Radio active and Keep awake,negative,performance,validation_500
+GOLD-VAL-0056,5,Honor 8 Nice app easy and fast 👍👍👍,positive,praise,validation_500
+GOLD-VAL-0149,2,The sending ..photos are very slow to load,negative,performance,validation_500
+GOLD-VAL-0019,1,Very nice Swag,negative,other,validation_500
+GOLD-VAL-0205,5,Very nice app but the only problem i have is it does not make provision for read messages to be deleted. I think administration would that into consideration.,positive,praise,validation_500
+GOLD-VAL-0079,3,It's a shame for this app cause not index hash tags to search engines! Big shame...,neutral,other,validation_500
+GOLD-VAL-0495,5,Best app better than whatsapp,positive,praise,validation_500
+GOLD-VAL-0263,1,This software made by PayTup. The has been cheated with every depositor. So  please don't believe this software. Do not use this telegram bot,negative,other,validation_500
+GOLD-VAL-0324,3,This app is slow,neutral,performance,validation_500
+GOLD-VAL-0484,5,WhatsApp'tan çok çok daha iyi uygulama. Kesinlikle tavsiye ederim.,positive,praise,validation_500
+GOLD-VAL-0080,3,Pls include video calling...,neutral,other,validation_500
+GOLD-VAL-0040,5,👍👍👍 but sometime failed synchronizing contacts,positive,praise,validation_500
+GOLD-VAL-0452,5,Neil Delicious app...,positive,praise,validation_500
+GOLD-VAL-0047,5,Good ! XLraF3kl I feel very happy to be able to use this application. It's great. Mong manufacturers will add many new things in the future. Thank you,positive,praise,validation_500
+GOLD-VAL-0239,5,Love you Superb,positive,praise,validation_500
+GOLD-VAL-0392,3,This is have bug But good app and useful Please remove the bug,mixed,crash,validation_500
+GOLD-VAL-0353,5,Awesome Nice application,positive,praise,validation_500
+GOLD-VAL-0342,2,Cannot sign in to telegram Fill up the names  but it wont go to next..,negative,auth_otp,validation_500
+GOLD-VAL-0278,1,Dont know y it stops working and shows status of c9nnecting even the network is gud and all other apps working properly,negative,other,validation_500
+GOLD-VAL-0291,1,New version3.16 not good New ver has bug in open menu and back from chat screen and another places has bug please fix it.,negative,crash,validation_500
+GOLD-VAL-0318,5,Living sajan,positive,praise,validation_500
+GOLD-VAL-0305,5,Wonderful app,positive,praise,validation_500
+GOLD-VAL-0269,3,I cant download pictures from my friends ..please help me .,neutral,other,validation_500
+GOLD-VAL-0070,2,I like it app,negative,other,validation_500
+GOLD-VAL-0456,5,Best app It's the best app in the world.,positive,praise,validation_500
+GOLD-VAL-0466,2,This app most work in iran v Iranian Why not have Persian language,negative,other,validation_500
+GOLD-VAL-0155,3,Telegram Suler,neutral,other,validation_500
+GOLD-VAL-0083,3,Khaled al hamad I have bought a new smartphone (LG V20) but I can't register. Please fix this issue,mixed,other,validation_500
+GOLD-VAL-0478,2,After convert group to super group  admin can't be left or exit of group  finally admin should be deleted group!,negative,praise,validation_500
+GOLD-VAL-0173,3,App is very useful and has cool stickers. Thank u for voice calls. If it is possible  be kind to add second tick for arrived messages and blue tick for read.,neutral,other,validation_500
+GOLD-VAL-0322,3,Chat street It's k not bad...use once surely u'll like it,neutral,other,validation_500
+GOLD-VAL-0091,2,brysnm good,negative,praise,validation_500
+GOLD-VAL-0181,2,Hi my massage are not getting delivered help please,negative,other,validation_500
+GOLD-VAL-0415,5,try to develope it,positive,praise,validation_500
+GOLD-VAL-0313,3,Please add an option to hide/disable the mic icon in the chat window. I would prefer to use Telegram without any calling-features.,neutral,other,validation_500
+GOLD-VAL-0279,2,Good work but Unofficial apps are outmodding because you fail to listen to users.,negative,praise,validation_500
+GOLD-VAL-0382,3,1. my friend logged in his gmail account on my device aaaaand all of his contacts became my telegram contact. I cant delete them. Please  i hope you to make a feature to delete multiple contacts --- 2. Some files which was uploaded had a looooong name but i cant see the full name  soooo i hope you guys make it moving to see full name. Oh god. My bad english. I hope you understand,mixed,other,validation_500
+GOLD-VAL-0473,5,I wish these new stuffs and updates won't effect on speed and network consuming.,positive,praise,validation_500
+GOLD-VAL-0363,1,The fake app I remove from my mobile when one person wants report you then you can't send massages and other something's to other people's  its should be unreachable for that one person not for all people's..,negative,other,validation_500
+GOLD-VAL-0325,5,Useful It is made by indians. It has better features than whatsapp,positive,praise,validation_500
+GOLD-VAL-0432,5,limit contacts for send multimedia Please add an option to limit some contacts for receive multimedia files from them. لطفا گزینه‌ای ایجاد کنید تا برخی مخاطبین رو محدود کنیم تا نتونن برای ما عکس و فیلم بفرستن. اگر کسی با من موافقه نظرمو لایک کنه لطفا.,positive,praise,validation_500
+GOLD-VAL-0348,3,Contact deleting and management is poor,neutral,other,validation_500
+GOLD-VAL-0087,5,Fly  safely...  out there !,positive,praise,validation_500
+GOLD-VAL-0076,2,For some time now it keeps stopping unexpectedly and i can't login,negative,auth_otp,validation_500
+GOLD-VAL-0439,5,Awesome esp delete function,positive,praise,validation_500
+GOLD-VAL-0016,2,I live in Europe and I don't have a call-function!,negative,other,validation_500
+GOLD-VAL-0250,4,Add starred messages 🌟,positive,praise,validation_500
+GOLD-VAL-0434,3,Slow download of videos   needs to be faster !!,neutral,performance,validation_500
+GOLD-VAL-0020,3,Very good app with a nice interface and secure messaging. Only a problem with this is that you get notifications when you enter the app and it shows half n hour ago tag...even the data is on  autostart is on  notifications are on..i don't get notifications🖖,neutral,praise,validation_500
+GOLD-VAL-0323,5,i think its wonderfull,positive,praise,validation_500
+GOLD-VAL-0333,4,Apps Почему игры так тормозят. Meizu m2 note,positive,praise,validation_500
+GOLD-VAL-0057,5,This is first indian messanger app,positive,praise,validation_500
+GOLD-VAL-0302,1,It's very slow app. It doesn't have any good quality,negative,performance,validation_500
+GOLD-VAL-0230,4,It is nice and safe for me,positive,praise,validation_500
+GOLD-VAL-0332,5,Best messaging app I have used  couldn't live without it now! Only one thing could make it better for me and that is SMS integration.,positive,praise,validation_500
+GOLD-VAL-0133,3,Impressed Wonderful app,neutral,other,validation_500
+GOLD-VAL-0138,5,Perfect & very useful,positive,praise,validation_500
+GOLD-VAL-0424,5,powerful very good but it is not supported persian language,positive,praise,validation_500
+GOLD-VAL-0336,5,goooooooooddddddd,positive,praise,validation_500
+GOLD-VAL-0026,3,It's just ok,neutral,other,validation_500
+GOLD-VAL-0465,1,To be honest  this is a great app... Lot of features and stuff. But the reason behind Why I hate this app is the Stickers. Why did u guys add a bunch of stickers with Lord Buddha in it... That's Disappointing. Seriously... It's a religion  have some respect..!,negative,praise,validation_500
+GOLD-VAL-0282,2,How is tis app guys i never used tis app ya,negative,other,validation_500
+GOLD-VAL-0248,5,Awsome app I love this app it is really awsome,positive,praise,validation_500
+GOLD-VAL-0238,5,Awsome Its very useful for Iranians person,positive,praise,validation_500
+GOLD-VAL-0118,1,Deactivation problem Having issues when deactivating   had to unstall. Will complain for google as well,negative,other,validation_500
+GOLD-VAL-0043,3,Big Problem Good job! but we are facing a big problem... when we download a file from a channel   the file's name consists of many numbers   so we need when we download any file   the file will be downloaded with its real and original name not numbers.... Thank you .....,mixed,praise,validation_500
+GOLD-VAL-0221,2,"Ruined by latest update.. Why would you ruin such an awesome app by forcing the same  retarded markdown syntax as Skype uses  but without the """"""""""""""""/me"""""""""""""""" Skype provides to enable description of actions  even though using asterisks is usually far more intuitive? Couldn't you at least have made it optional?""""",negative,ui_ux,validation_500
+GOLD-VAL-0177,1,"I heta stickers """"""""""""""""Please urge your company to remove the stickers as insulting to Buddhism here. And indeed worried about what to include such""""""""""""""""""""",negative,other,validation_500
+GOLD-VAL-0321,5,Fantastic... !!!,positive,praise,validation_500
+GOLD-VAL-0154,5,Good appl I like this app  for group you are the best.,positive,praise,validation_500
+GOLD-VAL-0232,5,useful app for compitative exams,positive,praise,validation_500
+GOLD-VAL-0228,3,Hope dev will add a choice to mark all or mark several file to share.. (just like mark all in gallery for android phones..) WhatsApp can only share maximum 9 images  hope telegram will not limit the function..,neutral,other,validation_500
+GOLD-VAL-0418,5,Very super,positive,praise,validation_500
+GOLD-VAL-0204,5,The best IM ever used ............,positive,praise,validation_500
+GOLD-VAL-0127,3,suck screenshot couldnt capture those sweet message. too bad ugh,neutral,other,validation_500
+GOLD-VAL-0330,1,Need to report about this app This is dusgusting app... it is using our lord buddha as their stickers.. I would like to report this app..,negative,other,validation_500
+GOLD-VAL-0032,1,Masih reber...selalu nk update....hari hari ada audit ke,negative,other,validation_500
+GOLD-VAL-0114,4,Keep updated,positive,praise,validation_500
+GOLD-VAL-0471,1,i forget my password,negative,auth_otp,validation_500
+GOLD-VAL-0272,1,Misbehaving lord Buddha This app contains set of stickers called modern loard Buddah.,negative,other,validation_500
+GOLD-VAL-0141,5,Awesome Messaging App Makes my everyday messaging lot more easy in my android smartphone and computer.,positive,praise,validation_500
+GOLD-VAL-0058,4,Android 4 2 2 © GLX ASA,positive,praise,validation_500
+GOLD-VAL-0193,3,Not A Shore,neutral,other,validation_500
+GOLD-VAL-0025,5,The future of modern messaging,positive,praise,validation_500
+GOLD-VAL-0018,5,Ausome messenger app.Best to WhatsApp.,positive,praise,validation_500
+GOLD-VAL-0266,1,We Hate this app  plz remove buddha's stikers  dont do this again. disgusting ...,negative,other,validation_500
+GOLD-VAL-0067,3,Voice and video call? Status update and hold group chat message and click info to see read by who just like WhatsApp and also free voice call and video call! When telegram have it?,neutral,other,validation_500
+GOLD-VAL-0209,3,Eh Useful but...,neutral,other,validation_500
+GOLD-VAL-0480,5,Aswome But can add still some features,positive,praise,validation_500
+GOLD-VAL-0095,3,Super Thanks,neutral,praise,validation_500
+GOLD-VAL-0254,4,Night Mode Be the first messenger apps to add Night Mode feature. That's awesome!,positive,praise,validation_500
+GOLD-VAL-0267,3,Nice got to improve a little to love it,neutral,praise,validation_500
+GOLD-VAL-0024,1,Boss Super,negative,praise,validation_500
+GOLD-VAL-0223,5,Best messaging (and now calling) app!,positive,praise,validation_500
+GOLD-VAL-0262,5,Very Very nice,positive,praise,validation_500
+GOLD-VAL-0427,2,Notification issue on nougat. After the update no notifications show up on my oneplus3,negative,other,validation_500
+GOLD-VAL-0006,1,Something is seriously wrong with the setup process... Pass code initially recv'd was unable to enter as either the app or my cell auto skipped by that screen thus invalidating that code... Unable to find an answer in the FAQS messaged support asking if it would effect the functionality... Response did not answer my question and from what I can tell one can't simply enter a new pass code anywhere once installed.. Therefore uninstall  cleared cache and reinstalled.. The new code support sent obviously no longer worked and a new one was never recv'd... Another problem as when you click the pass code not received another one is sent but kicked out of the pass code screen no water to get back to it... A message in the app has a link to click if pass code not received and a timer pops up saying a rep w call you back... Clicked 2x's and no return call after waiting much longer than the less than 2 min displayed... Deleted as this is simply annoying... Had their support answered my question correctly to begin with don't think I'd be as irked wasting my time or called as didn't ask for a call back so don't add a msg saying someone will when they don't... also annoying... Work in IT and completely understand issues happen either w the app even possibly my error yet not much patience when misinformation... Delete...,negative,other,validation_500
+GOLD-VAL-0117,2,Please add indonesian language  thanks,negative,other,validation_500
+GOLD-VAL-0046,5,Great site for secret chat,positive,praise,validation_500
+GOLD-VAL-0017,3,Pls update data backup facility in app,neutral,other,validation_500
+GOLD-VAL-0463,5,Very good for sending videos!,positive,praise,validation_500
+GOLD-VAL-0358,3,Imcoming alert issue. Have to activate the app and all the msg come in 1 shot. Please fix this problem!!!,neutral,other,validation_500
+GOLD-VAL-0004,5,Best messenger app I've ever used so far,positive,praise,validation_500
+GOLD-VAL-0219,2,Error 924 while updating......,negative,other,validation_500
+GOLD-VAL-0406,3,Telegram is the best messenger available  but it's app lacks support for visually impaired people. The application don't follow the font size specified in Android Settings and you'll be able to change only chat's font size. Otherwise is a pretty reliable client  but it need some improvements.,mixed,praise,validation_500
+GOLD-VAL-0061,3,It is good but not sure Because suddenly the haker come and they get your information,mixed,praise,validation_500
+GOLD-VAL-0111,5,Zor maloc bosa shundo bolar,positive,praise,validation_500
+GOLD-VAL-0319,1,Sri lanka I hated this app because this app add a lord Budda of sticker.this is the reason I hated this app,negative,other,validation_500
+GOLD-VAL-0429,1,What is modern buddha... don't humiliate other religions... we very very respect to him.. but in this application humiliated to lord buddha...,negative,other,validation_500
+GOLD-VAL-0030,1,Haaang Haaang,negative,other,validation_500
+GOLD-VAL-0438,1,It reported me for no reason,negative,other,validation_500
+GOLD-VAL-0472,3,Turkce Turklerin gp varsa bana soylesinler,neutral,other,validation_500
+GOLD-VAL-0027,3,Please add this option: Don't add/copy telegram contacts to/in device's contacts. It is really a big problem.,neutral,other,validation_500
+GOLD-VAL-0008,5,‌the best one that i use,positive,praise,validation_500
+GOLD-VAL-0454,5,So classical apps,positive,praise,validation_500
+GOLD-VAL-0109,1,doesn't connect in Android version doesn't response while web version on the cell phone is ok,negative,other,validation_500
+GOLD-VAL-0038,4,Please add a feature for archiving conversations like WhatsApp does.,positive,praise,validation_500
+GOLD-VAL-0158,1,"I hate stickers in this called """"""""""""""""modern buddha"""""""""""""""" """"""""""""""""Please urge your company to remove the stickers as insulting to buddhism here.And indeed worried about what to include such""""""""""""""""""""",negative,other,validation_500
+GOLD-VAL-0490,3,Need fast scroll Please telegram team give the fast scroll to achieve the first / last post..,neutral,other,validation_500
+GOLD-VAL-0119,5,Woooow OUR EXCELLENT INDIAN APP👌👌👍👍🆓🆓🆓🆒🆒 🏆🏆,positive,praise,validation_500
+GOLD-VAL-0115,3,This is gud nly... but still lots of lagging is there... like this apps upgraded to extreme level like voice call  video call  picture status update...etc Please update this app then I will give 5 stars,mixed,performance,validation_500
+GOLD-VAL-0176,4,Thank you so much.👍,positive,praise,validation_500
+GOLD-VAL-0374,2,GPL violation Source code on GitHub is old,negative,other,validation_500
+GOLD-VAL-0182,5,p is perfect,positive,praise,validation_500
+GOLD-VAL-0145,2,The video quality is very poor  the compression is too strong and videos looks very pixelated,negative,other,validation_500
+GOLD-VAL-0370,3,Not so good It is easy to use.,neutral,praise,validation_500
+GOLD-VAL-0391,1,My telegram is not working,negative,other,validation_500
+GOLD-VAL-0196,1,Hate thiss app යාලුවනෙ මෙකෙ අපෙ බුදුන් වහන්සේට අගවුරව වන විදිහෙ ස්ටිකර් වගයක් තියෙනව. Not download,negative,other,validation_500
+GOLD-VAL-0405,3,We want Messege.....send delivered seen option like whatsapp,neutral,other,validation_500
+GOLD-VAL-0276,1,I hate stikers in this Plese urge your company to remove the stickers as insulting to buddhism here. And indeed worried about what to include such,negative,other,validation_500
+GOLD-VAL-0455,3,Remove the calling option or this telegram seems like whatsapp,neutral,other,validation_500
+GOLD-VAL-0142,1,Iam not able to login in ... Please help me out,negative,auth_otp,validation_500
+GOLD-VAL-0366,5,call fitur ??,positive,praise,validation_500
+GOLD-VAL-0068,5,You can't search member in a group  you can delete your message that has been delivered and the after you delete  the receiver can't read that message. If you want to add new contact  you must know the number. That make difficult if you want to make a group. because when you want to make a group  you must at least have one person. And if you want to make a group that will be filled by a new person whom you don't know  it will make complicated,positive,praise,validation_500
+GOLD-VAL-0211,1,everytime i finish a call i have to rate. stupid stupid update. uninstalling soon,negative,other,validation_500
+GOLD-VAL-0169,3,Mmf فارسی ترجمه نشده که کامل متوجه بشم,neutral,other,validation_500
+GOLD-VAL-0494,5,Super It's useful...... awesome,positive,praise,validation_500
+GOLD-VAL-0376,5,I think this app is very help full and awsome,positive,praise,validation_500
+GOLD-VAL-0401,1,The best is plus massenger,negative,praise,validation_500
+GOLD-VAL-0273,1,Telegram .... Why not support language iran (Persian) omg why not support???!!!!!!! (juat thanks fir dark team!!),negative,other,validation_500
+GOLD-VAL-0110,5,Better than whatsapp It's flexible (multiple platforms)  free  secure and faster just as they advertise. Removed a star because there is no Dark Theme yet.,positive,praise,validation_500
+GOLD-VAL-0249,1,Game is spamming.,negative,other,validation_500
+GOLD-VAL-0146,1,Hate this app Please remove the lord buddha stiker pack..it is not a joke...,negative,other,validation_500
+GOLD-VAL-0093,2,App and deaktop version keeps teeling Too Fast try again later.what is this message.,negative,other,validation_500
+GOLD-VAL-0153,5,TANWAR Sonpur,positive,praise,validation_500
+GOLD-VAL-0368,1,Hated it 😤😤,negative,other,validation_500
+GOLD-VAL-0468,1,Im unable to send pictures to anyone.,negative,other,validation_500
+GOLD-VAL-0084,5,The best Emoji in The Telegram,positive,praise,validation_500
+GOLD-VAL-0246,5,Works well in a crowded area. It is what it is  does as it says. The choice of the professionals.,positive,praise,validation_500
+GOLD-VAL-0166,3,Unreliable Two times in the last two months Telegram has had issues  rendering users across the globe unable to connect to the servers. Apart from that  the app is great. Please improve reliability!,neutral,praise,validation_500
+GOLD-VAL-0164,5,Good app nv1EWCWz Thank you very much for this product. I look forward to using more and more products like this from you. It was great chatting software,positive,praise,validation_500
+GOLD-VAL-0200,1,Wow u make this app where u cant sign back in just wow please make it where u can sign back in,negative,other,validation_500
+GOLD-VAL-0229,1,Update my telegram app,negative,other,validation_500
+GOLD-VAL-0075,1,Badge counter on android not working. Pls fix this. Would be good to have the badge counter. Thanks.,negative,praise,validation_500
+GOLD-VAL-0479,2,Anniying update if transfer to SD storage Keep asking update even it's latest version. It just because transfer frim phone storage to SD storage...,negative,other,validation_500
+GOLD-VAL-0359,2,Notifications doesn't work but everything else is perfect. At first the notifications works but now unless I open the app itself  I don't get any of my notifications for messages,negative,other,validation_500
+GOLD-VAL-0251,3,Princess Sanju,neutral,other,validation_500
+GOLD-VAL-0120,4,Really good application. Used by us and our Chemistry teacher for JEE based discussion and large study materials (pdf) are easily shared (their file size is no hindrance). For JEE Aspirants  this is so much better than Whatsapp... Now we can organize our online study groups w/o being disturbed by 'old friends' or relatives who don't realise the need for peace for JEE prep. Cheers devs. (For the uniniated JEE is a two stage college entrance exam for admission to the IITs and other prestigious colleges of India. Widely regarded as the toughest college entrance exam in the world  only 4995 students are selected for the old IITs (the old ones are more prestigious) out of 1.5 million aspirants),positive,praise,validation_500
+GOLD-VAL-0311,1,RPC_MCGET_FAIL Gotta love an app that stops working for bo reason.,negative,praise,validation_500
+GOLD-VAL-0300,3,XopC6zhv I don't agree with paid or fake reviews for cash. apperwall sent me here to leave a review for 51 cents. poor practices in promotions.,neutral,other,validation_500
+GOLD-VAL-0256,3,Editing the themes is not working at all after saving theme,neutral,other,validation_500
+GOLD-VAL-0355,3,It's ok. Need to alot of update...video calling feature should added... It should be like as whatsaap...,neutral,other,validation_500
+GOLD-VAL-0400,1,Word is out.. Telegram is not safe.. the CIA has backdoor access,negative,other,validation_500
+GOLD-VAL-0226,2,Slow I find it difficult to download,negative,performance,validation_500
+GOLD-VAL-0354,1,creating a group cant make a group or a channel chat,negative,other,validation_500
+GOLD-VAL-0235,1,last update ruined it  please fix,negative,ui_ux,validation_500
+GOLD-VAL-0383,5,Simply amazing,positive,praise,validation_500
+GOLD-VAL-0275,1,Its interface is totally inaccessible for blind users.,negative,other,validation_500
+GOLD-VAL-0037,3,profile pic privacy is not there,neutral,other,validation_500
+GOLD-VAL-0197,5,Please provide video calling,positive,praise,validation_500
+GOLD-VAL-0140,2,so maja guys super,negative,praise,validation_500
+GOLD-VAL-0365,5,Bug!!!!!!! Please resolve the geolocation bug in the secret-chat that make me vulnerable to an man-in-the-middle attack!,positive,crash,validation_500
+GOLD-VAL-0245,2,Well  I can't exactly use it because I don't have a phone number :/,negative,other,validation_500
+GOLD-VAL-0440,2,In spite of our several requests there is no option to delete unwanted group post from only me mobile.My mobile is connected with Lot of group where total membership is around 2K +. On these group at least 100 active member is there and their daily unwanted posts always boating all others.is any way to delete unwanted posts and unpleasant emotions etc.,negative,other,validation_500
+GOLD-VAL-0287,1,😡😠 I hate this and I dont know why???,negative,other,validation_500
+GOLD-VAL-0060,5,It's very cool,positive,praise,validation_500
+GOLD-VAL-0112,3,Hard to retype and or try to change the words written.. before sending,neutral,other,validation_500
+GOLD-VAL-0090,1,Advertise kami karavi,negative,other,validation_500
+GOLD-VAL-0437,1,Super Great,negative,praise,validation_500
+GOLD-VAL-0007,1,Disappointed such a shame that an app with millions of users made a dumb move like insulting a religion. buddhist people are using this app too. so... good luck with pissing users off.,negative,praise,validation_500
+GOLD-VAL-0361,4,Galaxy Note 4 🌐 Iran Android ➡ 6.0.1,positive,praise,validation_500
+GOLD-VAL-0347,3,After updates i cannot get any direct notifications or real time notification... Only gotten all my message when i open the app... Pls fix,neutral,other,validation_500
+GOLD-VAL-0339,1,I hate stikers in this Please remove the stikers buddhism,negative,other,validation_500
+GOLD-VAL-0159,3,Hi Video call needed this app then I rated 5star,neutral,other,validation_500
+GOLD-VAL-0151,5,Yaxwi ancha takomillawgan,positive,praise,validation_500
+GOLD-VAL-0178,5,With Google's plans to destroy Hangouts  this will likely become my messaging app in the near future. If that day comes  I will plan on bringing many people with me.,positive,praise,validation_500
+GOLD-VAL-0394,1,New update has a bug.... Cant update profile picture,negative,crash,validation_500
+GOLD-VAL-0185,3,"Privacy  security  self destruct  and anonymity are why i use this app. Most recent update nags for permission to get into the phone's contact list. It's fine to ask once during initial setup  but don't make me hit """"""""""""""""never ask again"""""""""""""""". Stop prying!""""",mixed,other,validation_500
+GOLD-VAL-0450,1,Not working in Amazon Fire phone,negative,other,validation_500
+GOLD-VAL-0011,4,Missing features. Nudge  status  favourite contacts  profile pic protection  hidden chat  delivered check report.,positive,praise,validation_500
+GOLD-VAL-0381,5,Number one #1 👍👍👍,positive,praise,validation_500
+GOLD-VAL-0104,1,"I heta stickers in this """"""""""""""""Please urge your company to remove the stickers as insulting to Buddhism here. And indeed worried about what to include such""""""""""""""""""""",negative,other,validation_500
+GOLD-VAL-0082,4,Fibion Telegramme,positive,praise,validation_500
+GOLD-VAL-0039,1,Bad comment,negative,other,validation_500
+GOLD-VAL-0315,5,@SSSeyfi best app in world...😊,positive,praise,validation_500
+GOLD-VAL-0168,5,Love it! The option of using gifs are fun to share. Great job guys.,positive,praise,validation_500
+GOLD-VAL-0470,5,My favorite It is very good,positive,praise,validation_500
+GOLD-VAL-0297,1,Diny Remove those buddha stckers!!!!!!! 😡😡,negative,other,validation_500
+GOLD-VAL-0475,1,One of the most useless app I have ever downloaded,negative,other,validation_500
+GOLD-VAL-0199,5,I can't install its said have something problem,positive,praise,validation_500
+GOLD-VAL-0298,3,Upgradation Needed for user friendly Atleast feedback option in public groups should add,neutral,other,validation_500
+GOLD-VAL-0417,1,I love INDIA,negative,praise,validation_500
+GOLD-VAL-0147,5,Like👍 I like telegram nice nice good good,positive,praise,validation_500
+GOLD-VAL-0393,3,No voice and video call,neutral,other,validation_500
+GOLD-VAL-0148,2,It's Best chat application but Now We can't download the voice records,negative,praise,validation_500
+GOLD-VAL-0448,1,Doesn't play my HD video screen recording which I sent to my various telegram friends group ...It freezes always and a crash dialog box appears.,negative,crash,validation_500
+GOLD-VAL-0288,3,Great... When it works. Great app  solid security  and good customization. Only problem is messages have been getting delivered 6-8 hours late. Kind of... pointless to use if the main function doesn't work properly. Emailed support and no response for two weeks and counting. Would gladly pay for a working version...Edit: Still no response from support. Bummed out they haven't responded.,neutral,praise,validation_500
+GOLD-VAL-0124,5,Simply superb,positive,praise,validation_500
+GOLD-VAL-0369,1,Very bad This app disrespects Buddhism using buddhas stickers.. It is very very you can't take buddha as one thing thatales humour or Sarcasm,negative,other,validation_500
+GOLD-VAL-0097,5,I like it so much so I give 1000 likes,positive,praise,validation_500
+GOLD-VAL-0144,5,New Kartick,positive,praise,validation_500
+GOLD-VAL-0240,5,I am indian I love it,positive,praise,validation_500
+GOLD-VAL-0443,2,Videocalling chat????,negative,other,validation_500
+GOLD-VAL-0098,5,koba tavdishvili,positive,praise,validation_500
+GOLD-VAL-0408,1,After the last update my phone frezz whenever i open telegram,negative,other,validation_500
+GOLD-VAL-0123,1,ini apa cm di hape ku aja apa emg aplikasi nya ya kl salah nulis dikit aja trs di delete malah kluar tulisan2 sebelumnya jadi mlh susah buat org yg mau benerin typo nya,negative,other,validation_500
+GOLD-VAL-0184,2,Stuck on finding network.. I Use this app for work. . not convenient.,negative,crash,validation_500
+GOLD-VAL-0203,1,Not secure,negative,other,validation_500
+GOLD-VAL-0247,5,Practical Much better than WhatsApp,positive,praise,validation_500
+GOLD-VAL-0306,4,Feels fast and smooth after new update I like telegram like always  there is also an Indian group on telegram by name @IndiaTalk. Join and enjoy chatting with fellow Indians on any topic but do read the rules 😁,mixed,other,validation_500
+GOLD-VAL-0299,3,India ka hai plz ishe use karo,neutral,other,validation_500
+GOLD-VAL-0352,3,Too much updates with the same change log over and over,neutral,other,validation_500
+GOLD-VAL-0387,1,Hated Because its a kind of addiction program especially in Iran that the people doesnt have the calture of using the internet space.,negative,other,validation_500
+GOLD-VAL-0396,3,Another app that all of your contacts would have to download and use. Won't work for me based on that,neutral,other,validation_500
+GOLD-VAL-0285,5,Good one ..,positive,praise,validation_500
+GOLD-VAL-0126,1,Faika kutty,negative,other,validation_500
+GOLD-VAL-0303,2,This app could be better if i had the option of sharing my videos from my phone  if i want to share a video  i have to record a video while on the app in order to send it  which seems stupid since i can share pictures from my phone gallery but not videos  fix that little issue and the app will be alot better  but for now  its only worth 2 stars  3 at the most,negative,other,validation_500
+GOLD-VAL-0224,5,Its so easy and power full Great job,positive,praise,validation_500
+GOLD-VAL-0419,5,No badge conter on android 7.not working. Android 7 Galaxy s7 edge,positive,praise,validation_500
+GOLD-VAL-0220,1,Why Not working with HTC 626,negative,other,validation_500
+GOLD-VAL-0130,1,Nofication I m using Samsung S7 after set all sound for notification still no sound  need to always check on the hand phone for message. Please fix the problem .,negative,other,validation_500
+GOLD-VAL-0421,5,The app is amazing but... My keyboard persist when I'm trying to choose the gif.. and I can't send any gif since the send button is at the bottom & my keyboard is blocking it.. I've been updating several times. Can you fix this? Thank you. (Samsung Galaxy A5 (2016),positive,praise,validation_500
+GOLD-VAL-0290,1,Notifications not work as expected I cannot get notifications if Telegram is in background.,negative,other,validation_500
+GOLD-VAL-0445,2,anyone can help me?? i set up the telegram and they ask permission to allow media files etc. i press allow and it keep popping out the overlaying detected and they ask me to off it.. i alrdy off it and the pop up still cmg out .. then the telegram has No permissions allowed.. help me plss!!,negative,other,validation_500
+GOLD-VAL-0377,3,need telegram widget,neutral,other,validation_500
+GOLD-VAL-0292,1,anything other than text wont load,negative,other,validation_500
+GOLD-VAL-0356,5,Muhabbat bu nima???? Muhabbat bu shunday narsaki muhabbat bilan qaralgan narsalarga,positive,praise,validation_500
+GOLD-VAL-0295,5,I love the app.,positive,praise,validation_500
+GOLD-VAL-0397,3,Calm down everyone You mentioning the problems with the update is good but scolding the developers for your inconvenience is bad . This was a real time bug which the devs could not foresee . It happens and they are even sending updates for the past 2-3 days to solve it . Frankly I don't see a problem with the edit message update it saves a lot of idiotic messages sent by mistake. And yes even I lost fingerprint option   but they are actively solving it . Just calm down and let them do it without you hurling insults. Peace out,mixed,crash,validation_500
+GOLD-VAL-0341,5,The Best This is simply the most amazing messaging app out there.,positive,praise,validation_500
+GOLD-VAL-0113,1,Always didn't show badge notifications. Must open the app only the notification come in. What's wrong?,negative,other,validation_500
+GOLD-VAL-0180,1,PLEASE REMOVE THE POPE AND THE BUDDHA STICKERS!!!! IT IS VERY INSULTING AND DISRESPECTFUL,negative,other,validation_500
+GOLD-VAL-0308,1,What is Telegram simple answer a chatting apps please do not say a messaging apps this is like whatsapp apps to apps only then why you need phone#,negative,other,validation_500
+GOLD-VAL-0433,1,Nahid Why I cannot download it?,negative,other,validation_500
+GOLD-VAL-0488,1,There is a lot problem can't send videos and images it will slowly uploaded..,negative,performance,validation_500
+GOLD-VAL-0482,5,Very nice and good,positive,praise,validation_500
+GOLD-VAL-0423,3,superb app i love this app because it is of india it is better than whatsapp.whatsapp is waste so please everyone install this app and uninstall whatsapp suggestion:- please make that if we copy anything then paste in that my name wont come to whom i share please improve it like whatsapp and male that we can put wallpaper in chats like whatsapp and make a beta tester version please improve,neutral,praise,validation_500
+GOLD-VAL-0234,5,Best Best messenger ever i see,positive,praise,validation_500
+GOLD-VAL-0312,1,I hate stickers in this Please unge your company to remove the stickers as insulting to Buddhism hare and indeed worried about whatto include such .,negative,other,validation_500
+GOLD-VAL-0165,3,Vivo not notify me in notification. If someone text me on telegram  it was not notify me  we have to open this app every minute to know who text we. Please fix it.,neutral,other,validation_500
+GOLD-VAL-0137,5,The best messaging apps,positive,praise,validation_500
+GOLD-VAL-0198,5,Fantastic apps....Thousands time better than Whatsapp..,positive,praise,validation_500
+GOLD-VAL-0259,5,Boy Chotki,positive,praise,validation_500
+GOLD-VAL-0233,3,Fast using & after reting...,neutral,other,validation_500
+GOLD-VAL-0116,1,I dont like it ...... at all ;),negative,other,validation_500
+GOLD-VAL-0121,1,ItsTaking whole day to load even on high-speed Internet,negative,other,validation_500
+GOLD-VAL-0350,1,Very bad. Poor performance all around.,negative,other,validation_500
+GOLD-VAL-0225,4,Nice way of communication! Love it,positive,praise,validation_500
+GOLD-VAL-0403,3,Pls add support for android wear,neutral,other,validation_500
+GOLD-VAL-0398,1,So much problems,negative,other,validation_500
+GOLD-VAL-0128,1,I cant recieve any notification when someone chat me..i have to check it manually..please improve this as soon as possible,negative,other,validation_500
+GOLD-VAL-0286,3,looks quite better  than similar apps  but please  devide contact permission: one permission for READING contacts  another for MODIFYING. cause  for ex  i want to see my telegram contacts in telegram app  but i don't want this application modifying contacts in my phone,mixed,ui_ux,validation_500
+GOLD-VAL-0412,5,After update it took long long time to get connected or no connection at all. Have try uninstall and re-install. But it just would not work as usual before update. Please rectify the problem.,positive,praise,validation_500
+GOLD-VAL-0108,1,Not secure no video and voice call,negative,other,validation_500
+GOLD-VAL-0371,5,Good Happy,positive,praise,validation_500
+GOLD-VAL-0326,1,"i hate sticker in this """"""""""""""""Please urge your company to remove the stickers as insulting to Buddhism here. And indeed worried about what to include such""""""""""""""""""""",negative,other,validation_500
+GOLD-VAL-0134,2,Very speed Super,negative,praise,validation_500
+GOLD-VAL-0453,2,"So close It would be the perfect messenger for me if every chat had p2p encryption. Not just the """"""""""""""""secret chat"""""""""""""""" - - - privacy is a standard not a feature!""""",negative,other,validation_500
+GOLD-VAL-0045,5,Profile photos can't be easily seen,positive,praise,validation_500
+GOLD-VAL-0461,5,It is amazing app,positive,praise,validation_500
+GOLD-VAL-0066,5,Telegram aps Really its excellent apps for better communication.,positive,praise,validation_500
+GOLD-VAL-0284,1,Nice Indians app,negative,other,validation_500
+GOLD-VAL-0086,5,This is a very nice app and my frind and i use this app very mouch,positive,praise,validation_500
+GOLD-VAL-0243,3,Telegram India,neutral,other,validation_500
+GOLD-VAL-0187,1,Gif keep crashing. Must save first. Ugh !!,negative,crash,validation_500
+GOLD-VAL-0384,1,I cant install dis apps ilke but ihate dis because I cant install,negative,other,validation_500
+GOLD-VAL-0160,5,Why it doesn't support calls?,positive,praise,validation_500
+GOLD-VAL-0013,3,I heard that the U.S CIA has spying techniques and they can get in all the back doors of apple  samsung  and including telegram.,neutral,other,validation_500
+GOLD-VAL-0036,2,Downloading of Pictures and attachments are not working....,negative,performance,validation_500
+GOLD-VAL-0029,5,we are eager for voice call  in middle east!,positive,praise,validation_500
+GOLD-VAL-0171,5,Good !!! WUFLVzvJ Great app with easy to use interface. Thank you very much  and publishers do not forget the addition of new gadgets,positive,praise,validation_500
+GOLD-VAL-0143,3,The only disadvantage is that I get notifications of strangers  is there somehow I can turn this of? Other than this  the app is absolutely amazing,neutral,other,validation_500
+GOLD-VAL-0399,2,My audio message playback stops/staggers because of the proximity sensor even when my headphones are connected. That's a bug.,negative,crash,validation_500
+GOLD-VAL-0343,3,It's good but not good,mixed,praise,validation_500
+GOLD-VAL-0222,1,New version Service do not open my sended videos in new version,negative,other,validation_500
+GOLD-VAL-0096,2,App balloon or number badges damaged I don't know why  but my app badge only show 2 notification on homescreen instead of real messages.,negative,other,validation_500
+GOLD-VAL-0052,5,Suresh I am very happy and very impressive and good useful to us,positive,praise,validation_500
+GOLD-VAL-0241,1,Please remove the modern buddha sticker pack in this app😠😠😠😠😠😠,negative,other,validation_500
+GOLD-VAL-0485,1,BAD SERVICE,negative,other,validation_500
+GOLD-VAL-0379,5,The app is excellent. Could you please add a feature to put privacy on a user's Profile Pic? So that only my contacts can see my Profile Pic if I choose to do so. Maybe someone just wants to keep the profile pic to themselves. Perhaps an option to make the users profile pic visible in certain groups that the user allows. This will allow the user to have more control over who can see their profile pic and who can't. Lastly an option that enables a user to have more than one profile pic. One profile pic for private contacts. Another different profile pic for Groups etc.,positive,praise,validation_500
+GOLD-VAL-0179,4,Plz provide existing group search options private & public both  plz provide option to save any massage as a notes for future revision purpuse,positive,praise,validation_500
+GOLD-VAL-0042,5,It is very nice,positive,praise,validation_500
+GOLD-VAL-0499,3,Change the way of voice calling and answer questions asked from volunteers,neutral,other,validation_500
+GOLD-VAL-0422,3,"I love using this app to talk to friends but recently ive been having a problem where whoever I talk to's picture just becomes a colored circle with the first letter of their name  and the last time seen thing says """"""""""""""""a long time"""""""""""""""" nothings wrong with my wifi nor who I'm talk to. Also they only recieve some of my messages. If its possible  could this be fixed please?""""",mixed,praise,validation_500
+GOLD-VAL-0207,2,I created an account recently(last version)but it doesn't show me my contacts that they have telegram account,negative,other,validation_500
+GOLD-VAL-0283,3,Average... Make option available of knowing if the send message reached there... please make it availabe...,neutral,other,validation_500
+GOLD-VAL-0255,1,"I hate this because it has stickers that insulting to Buddhism. """"""""""""""""Please urge your company to remove the stickers as insulting to Buddhism here. And indeed worried about what to include such""""""""""""""""""""",negative,other,validation_500

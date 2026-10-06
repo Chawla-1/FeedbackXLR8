@@ -1,0 +1,238 @@
+{
+  "engine": "v2_rating_assisted",
+  "benchmark_dataset": "benchmark/golden.csv",
+  "evaluation_timestamp": "2026-10-06T22:37:27.951332",
+  "sentiment_evaluation": {
+    "total_samples": 515,
+    "correct": 406,
+    "accuracy": 0.7883,
+    "accuracy_95ci": [
+      0.751,
+      0.8214
+    ],
+    "macro_f1": 0.6806,
+    "macro_precision": 0.7452,
+    "macro_recall": 0.6635,
+    "classes": [
+      "negative",
+      "positive",
+      "neutral",
+      "mixed"
+    ],
+    "confusion_matrix": [
+      [
+        172,
+        4,
+        2,
+        6
+      ],
+      [
+        7,
+        173,
+        0,
+        4
+      ],
+      [
+        31,
+        23,
+        46,
+        0
+      ],
+      [
+        8,
+        13,
+        11,
+        15
+      ]
+    ],
+    "per_class": {
+      "negative": {
+        "precision": 0.789,
+        "recall": 0.9348,
+        "f1_score": 0.8557,
+        "support": 184,
+        "tp": 172,
+        "fp": 46,
+        "fn": 12
+      },
+      "positive": {
+        "precision": 0.8122,
+        "recall": 0.9402,
+        "f1_score": 0.8715,
+        "support": 184,
+        "tp": 173,
+        "fp": 40,
+        "fn": 11
+      },
+      "neutral": {
+        "precision": 0.7797,
+        "recall": 0.46,
+        "f1_score": 0.5786,
+        "support": 100,
+        "tp": 46,
+        "fp": 13,
+        "fn": 54
+      },
+      "mixed": {
+        "precision": 0.6,
+        "recall": 0.3191,
+        "f1_score": 0.4167,
+        "support": 47,
+        "tp": 15,
+        "fp": 10,
+        "fn": 32
+      }
+    }
+  },
+  "theme_evaluation": {
+    "total_samples": 515,
+    "correct": 339,
+    "accuracy": 0.6583,
+    "accuracy_95ci": [
+      0.6163,
+      0.6979
+    ],
+    "macro_f1": 0.7539,
+    "macro_precision": 0.8661,
+    "macro_recall": 0.7374,
+    "classes": [
+      "crash",
+      "auth_otp",
+      "performance",
+      "billing",
+      "ui_ux",
+      "praise",
+      "other"
+    ],
+    "confusion_matrix": [
+      [
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        2,
+        14,
+        0,
+        1,
+        3,
+        20
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        8,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        77,
+        142
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        215
+      ]
+    ],
+    "per_class": {
+      "crash": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 16,
+        "tp": 16,
+        "fp": 0,
+        "fn": 0
+      },
+      "auth_otp": {
+        "precision": 0.7273,
+        "recall": 0.6667,
+        "f1_score": 0.6957,
+        "support": 12,
+        "tp": 8,
+        "fp": 3,
+        "fn": 4
+      },
+      "performance": {
+        "precision": 0.9333,
+        "recall": 0.35,
+        "f1_score": 0.5091,
+        "support": 40,
+        "tp": 14,
+        "fp": 1,
+        "fn": 26
+      },
+      "billing": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      },
+      "ui_ux": {
+        "precision": 0.8889,
+        "recall": 0.8,
+        "f1_score": 0.8421,
+        "support": 10,
+        "tp": 8,
+        "fp": 1,
+        "fn": 2
+      },
+      "praise": {
+        "precision": 0.9506,
+        "recall": 0.35,
+        "f1_score": 0.5116,
+        "support": 220,
+        "tp": 77,
+        "fp": 4,
+        "fn": 143
+      },
+      "other": {
+        "precision": 0.5628,
+        "recall": 0.9954,
+        "f1_score": 0.7191,
+        "support": 216,
+        "tp": 215,
+        "fp": 167,
+        "fn": 1
+      }
+    }
+  }
+}

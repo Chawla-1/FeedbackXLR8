@@ -150,7 +150,10 @@ def run_pii_benchmark():
         "per_entity_metrics": results_per_entity
     }
     
+    os.makedirs("benchmark", exist_ok=True)
     with open(PII_BENCHMARK_FILE, "w", encoding="utf-8") as f:
+        json.dump(benchmark_output, f, indent=2)
+    with open("benchmark/pii_v3.json", "w", encoding="utf-8") as f:
         json.dump(benchmark_output, f, indent=2)
         
     print(f"PII Benchmark results written to {PII_BENCHMARK_FILE}")
