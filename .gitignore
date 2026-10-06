@@ -2,16 +2,99 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+
+# C extensions
+*.dll
+*.dylib
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
 
 # Environments
-.venv/
+.env
+.env.local
+.env.production
+.venv
 venv/
 ENV/
+env/
 
-# Sensitive Google Cloud credentials (keep local)
+# Sensitive credentials (NEVER commit these)
 animelot-*.json
 service-account*.json
 *.key
+*.pem
+*.p12
 
-# Streamlit local state
+# Streamlit local state & secrets
 .streamlit/secrets.toml
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Large datasets (download separately)
+data/app_reviews_raw.parquet
+data/reviews_10k.csv
+data/*.parquet
+data/apps/*/processed_reviews.parquet
+
+# Office documents (not needed in repo)
+*.docx
+*.pptx
+*.pdf
+*.xlsx
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+.~lock.*
+
+# Model caches
+data/sentiment_model.joblib
+*.joblib
+*.pkl
+*.pickle
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/

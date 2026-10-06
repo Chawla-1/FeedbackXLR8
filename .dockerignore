@@ -1,0 +1,55 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+env/
+
+# Environments
+.env
+.env.local
+.env.production
+
+# Credentials
+animelot-*.json
+service-account*.json
+*.key
+*.pem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Large data files
+data/app_reviews_raw.parquet
+data/reviews_10k.csv
+data/*.parquet
+data/apps/*/processed_reviews.parquet
+
+# Docs
+*.docx
+*.pptx
+*.pdf
+docs/
+
+# Logs
+*.log
+logs/
+
+# Tests
+tests/
+benchmark/
+scripts/
+
+# Temporary
+*.tmp
+*.bak

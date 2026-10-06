@@ -8,6 +8,18 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 
+# Import configuration
+from config import (
+    AuthConfig, 
+    AppConfig, 
+    GooglePlayConfig,
+    ModelConfig,
+    PerformanceConfig,
+    AlertConfig,
+    get_data_path,
+    get_app_data_path
+)
+
 from pipeline.pii_redactor import PIIShield
 from pipeline.sentiment import SentimentEngine
 from pipeline.founder_engine import (
@@ -33,7 +45,7 @@ from pipeline.playstore_fetcher import (
 # Configuration & Page Setup
 # -------------------------------------------------------------
 st.set_page_config(
-    page_title="FeedbackXLR8 | Multi-App Review Intelligence",
+    page_title=f"{AppConfig.NAME} | Multi-App Review Intelligence",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -42,12 +54,9 @@ st.set_page_config(
 # =============================================================
 # LOGIN GATE
 # =============================================================
-# Demo credentials (in production replace with a proper auth system)
-VALID_ACCOUNTS = {
-    "admin@feedbackxlr8.io": {"password": "feedbackxlr8", "name": "Admin User", "role": "Admin"},
-    "demo@feedbackxlr8.io":  {"password": "demo1234",      "name": "Demo Analyst", "role": "Analyst"},
-    "founder@company.io":    {"password": "founder2026",   "name": "Founder",      "role": "Founder"},
-}
+# Load accounts from configuration
+VALID_ACCOUNTS = AuthConfig.ACCOUNTS
+ENABLE_LOGIN = AuthConfig.ENABLED
 
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
@@ -190,10 +199,10 @@ def render_login():
     </style>
     """, unsafe_allow_html=True)
 
-    st.markdown("""
+    st.markdown(f"""
     <div class="login-header">
         <div class="login-logo">📊</div>
-        <div class="login-brand">FeedbackXLR8</div>
+        <div class="login-brand">{AppConfig.NAME}</div>
         <div class="login-tagline">Multi-App Review Intelligence Platform</div>
     </div>
     """, unsafe_allow_html=True)
@@ -219,17 +228,20 @@ def render_login():
                 st.session_state.login_error = "Invalid email or password. Please try again."
                 st.rerun()
 
-    st.markdown("""
-    <div class="login-hint">
-        <b>Demo Credentials:</b><br>
-        📧 <b>admin@feedbackxlr8.io</b> / <b>feedbackxlr8</b><br>
-        📧 <b>demo@feedbackxlr8.io</b> / <b>demo1234</b><br>
-        📧 <b>founder@company.io</b> / <b>founder2026</b>
-    </div>
-    <div class="login-footer">© 2026 FeedbackXLR8 · Enterprise Review Intelligence · Secure Access</div>
+    # Only show credentials in development mode
+    if AppConfig.ENV == "development":
+        demo_hint = "<div class='login-hint'><b>Demo Credentials:</b><br>"
+        for email, info in VALID_ACCOUNTS.items():
+            demo_hint += f"📧 <b>{email}</b> / <b>{info['password']}</b><br>"
+        demo_hint += "</div>"
+        st.markdown(demo_hint, unsafe_allow_html=True)
+    
+    st.markdown(f"""
+    <div class="login-footer">© 2026 {AppConfig.NAME} · Enterprise Review Intelligence · Secure Access</div>
     """, unsafe_allow_html=True)
 
-if not st.session_state.logged_in:
+# Only require login if enabled
+if ENABLE_LOGIN and not st.session_state.logged_in:
     render_login()
     st.stop()
 
