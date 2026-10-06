@@ -81,6 +81,18 @@ data/apps/*/processed_reviews.parquet
 *.pdf
 *.xlsx
 
+# Internal documentation (keep local only)
+DEPLOYMENT.md
+GITHUB_SETUP.md
+PLATFORM_SPEC.md
+Project_Requirements.md
+Feature_Tracking.md
+feedbackxlr8-upgrade-checklist.md
+DEPLOYMENT_CHECKLIST.txt
+PUSH_SUCCESS.md
+docs/DEMO_SCRIPT.md
+docs/SLIDE_DECK.md
+
 # Logs
 *.log
 logs/
