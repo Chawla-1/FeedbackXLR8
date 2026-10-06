@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# Sensitive Google Cloud credentials (keep local)
+animelot-*.json
+service-account*.json
+*.key
+
+# Streamlit local state
+.streamlit/secrets.toml

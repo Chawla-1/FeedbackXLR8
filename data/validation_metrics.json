@@ -1,0 +1,354 @@
+{
+  "label_provenance": "Ground-truth labels derived from star ratings (4-5\u2605\u2192positive, 1-2\u2605\u2192negative, 3\u2605\u2192neutral). This is disclosed honestly \u2014 both scores measure agreement with rating-derived labels.",
+  "text_only": {
+    "overall_accuracy": 0.484,
+    "macro_f1": 0.482,
+    "sample_size": 500,
+    "confusion_matrix": {
+      "labels": [
+        "positive",
+        "neutral",
+        "negative"
+      ],
+      "matrix": [
+        [
+          109,
+          77,
+          14
+        ],
+        [
+          20,
+          64,
+          16
+        ],
+        [
+          27,
+          104,
+          69
+        ]
+      ]
+    },
+    "per_class": {
+      "positive": {
+        "precision": 0.699,
+        "recall": 0.545,
+        "f1_score": 0.612,
+        "support": 200
+      },
+      "neutral": {
+        "precision": 0.261,
+        "recall": 0.64,
+        "f1_score": 0.371,
+        "support": 100
+      },
+      "negative": {
+        "precision": 0.697,
+        "recall": 0.345,
+        "f1_score": 0.462,
+        "support": 200
+      }
+    },
+    "failure_cases": [
+      {
+        "review_id": "VAL-NEG-375",
+        "text": "Persian Add to Telegram Language Persian \ud83d\ude10",
+        "rating": 2,
+        "true_label": "negative",
+        "pred_label": "neutral",
+        "confidence": 0.35,
+        "pos_signals": 0,
+        "neg_signals": 0
+      },
+      {
+        "review_id": "VAL-NEG-378",
+        "text": "Disappointed such a shame that an app with millions of users made a dumb move like insulting a religion. buddhist people",
+        "rating": 1,
+        "true_label": "negative",
+        "pred_label": "neutral",
+        "confidence": 0.45,
+        "pos_signals": 1,
+        "neg_signals": 1
+      },
+      {
+        "review_id": "VAL-POS-010",
+        "text": "Missing features. Nudge  status  favourite contacts  profile pic protection  hidden chat  delivered check report.",
+        "rating": 4,
+        "true_label": "positive",
+        "pred_label": "negative",
+        "confidence": 0.63,
+        "pos_signals": 0,
+        "neg_signals": 1
+      },
+      {
+        "review_id": "VAL-POS-085",
+        "text": "User Ist time user.. let me check",
+        "rating": 5,
+        "true_label": "positive",
+        "pred_label": "neutral",
+        "confidence": 0.35,
+        "pos_signals": 0,
+        "neg_signals": 0
+      },
+      {
+        "review_id": "VAL-NEG-389",
+        "text": "I live in Europe and I don't have a call-function!",
+        "rating": 2,
+        "true_label": "negative",
+        "pred_label": "neutral",
+        "confidence": 0.35,
+        "pos_signals": 0,
+        "neg_signals": 0
+      },
+      {
+        "review_id": "VAL-NEG-317",
+        "text": "Very nice Swag",
+        "rating": 1,
+        "true_label": "negative",
+        "pred_label": "positive",
+        "confidence": 0.63,
+        "pos_signals": 1,
+        "neg_signals": 0
+      },
+      {
+        "review_id": "VAL-NEU-409",
+        "text": "Very good app with a nice interface and secure messaging. Only a problem with this is that you get notifications when yo",
+        "rating": 3,
+        "true_label": "neutral",
+        "pred_label": "positive",
+        "confidence": 0.79,
+        "pos_signals": 3,
+        "neg_signals": 1
+      },
+      {
+        "review_id": "VAL-NEU-491",
+        "text": "I like it.Really good",
+        "rating": 3,
+        "true_label": "neutral",
+        "pred_label": "positive",
+        "confidence": 0.63,
+        "pos_signals": 1,
+        "neg_signals": 0
+      },
+      {
+        "review_id": "VAL-NEG-357",
+        "text": "Boss Super",
+        "rating": 1,
+        "true_label": "negative",
+        "pred_label": "positive",
+        "confidence": 0.63,
+        "pos_signals": 1,
+        "neg_signals": 0
+      },
+      {
+        "review_id": "VAL-POS-077",
+        "text": "The future of modern messaging",
+        "rating": 5,
+        "true_label": "positive",
+        "pred_label": "neutral",
+        "confidence": 0.35,
+        "pos_signals": 0,
+        "neg_signals": 0
+      },
+      {
+        "review_id": "VAL-NEU-498",
+        "text": "Please add this option: Don't add/copy telegram contacts to/in device's contacts. It is really a big problem.",
+        "rating": 3,
+        "true_label": "neutral",
+        "pred_label": "positive",
+        "confidence": 0.63,
+        "pos_signals": 0,
+        "neg_signals": 1
+      },
+      {
+        "review_id": "VAL-NEG-212",
+        "text": "Not bad but it can be better. I think it's spy cause i dont use it so much.",
+        "rating": 2,
+        "true_label": "negative",
+        "pred_label": "positive",
+        "confidence": 0.63,
+        "pos_signals": 0,
+        "neg_signals": 1
+      },
+      {
+        "review_id": "VAL-POS-102",
+        "text": "we are eager for voice call  in middle east!",
+        "rating": 5,
+        "true_label": "positive",
+        "pred_label": "neutral",
+        "confidence": 0.35,
+        "pos_signals": 0,
+        "neg_signals": 0
+      },
+      {
+        "review_id": "VAL-NEG-335",
+        "text": "Haaang Haaang",
+        "rating": 1,
+        "true_label": "negative",
+        "pred_label": "neutral",
+        "confidence": 0.35,
+        "pos_signals": 0,
+        "neg_signals": 0
+      },
+      {
+        "review_id": "VAL-NEU-476",
+        "text": "Please work on how we can delete unwanted messages in group chats  the whole place gets congested with messages that are",
+        "rating": 3,
+        "true_label": "neutral",
+        "pred_label": "negative",
+        "confidence": 0.63,
+        "pos_signals": 1,
+        "neg_signals": 0
+      }
+    ]
+  },
+  "rating_assisted": {
+    "overall_accuracy": 0.918,
+    "macro_f1": 0.886,
+    "confusion_matrix": {
+      "labels": [
+        "positive",
+        "neutral",
+        "negative"
+      ],
+      "matrix": [
+        [
+          198,
+          2,
+          0
+        ],
+        [
+          20,
+          64,
+          16
+        ],
+        [
+          0,
+          3,
+          197
+        ]
+      ]
+    },
+    "per_class": {
+      "positive": {
+        "precision": 0.908,
+        "recall": 0.99,
+        "f1_score": 0.947,
+        "support": 200
+      },
+      "neutral": {
+        "precision": 0.928,
+        "recall": 0.64,
+        "f1_score": 0.757,
+        "support": 100
+      },
+      "negative": {
+        "precision": 0.925,
+        "recall": 0.985,
+        "f1_score": 0.954,
+        "support": 200
+      }
+    }
+  },
+  "mixed_sentiment_detector": {
+    "precision": 0.667,
+    "recall": 0.444,
+    "f1_score": 0.533,
+    "true_positives": 8,
+    "false_positives": 4,
+    "false_negatives": 10,
+    "examples": [
+      {
+        "text": "Very good app with a nice interface and secure messaging. Only a problem with this is that you get n",
+        "rating": 3,
+        "type": "false_negative"
+      },
+      {
+        "text": "I think it's best and useful messaging",
+        "rating": 1,
+        "type": "false_negative"
+      },
+      {
+        "text": "Badge counter on android not working. Pls fix this. Would be good to have the badge counter. Thanks.",
+        "rating": 1,
+        "type": "false_negative"
+      },
+      {
+        "text": "Unreliable Two times in the last two months Telegram has had issues  rendering users across the glob",
+        "rating": 3,
+        "type": "false_negative"
+      },
+      {
+        "text": "Ruined by latest update.. Why would you ruin such an awesome app by forcing the same  retarded markd",
+        "rating": 2,
+        "type": "false_negative"
+      }
+    ]
+  },
+  "overall_accuracy": 0.484,
+  "sample_size": 500,
+  "confusion_matrix": {
+    "labels": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "matrix": [
+      [
+        109,
+        77,
+        14
+      ],
+      [
+        20,
+        64,
+        16
+      ],
+      [
+        27,
+        104,
+        69
+      ]
+    ]
+  },
+  "per_class": {
+    "positive": {
+      "precision": 0.699,
+      "recall": 0.545,
+      "f1_score": 0.612,
+      "support": 200
+    },
+    "neutral": {
+      "precision": 0.261,
+      "recall": 0.64,
+      "f1_score": 0.371,
+      "support": 100
+    },
+    "negative": {
+      "precision": 0.697,
+      "recall": 0.345,
+      "f1_score": 0.462,
+      "support": 200
+    }
+  },
+  "macro_f1": 0.482,
+  "failure_mode_analysis": [
+    {
+      "mode": "Sarcasm / Irony",
+      "observation": "'Oh great, another crash' \u2014 positive word triggers false positive. Lexicon-based engine cannot detect sarcasm without contextual models."
+    },
+    {
+      "mode": "Negation",
+      "observation": "'Not bad' misclassified as negative due to 'bad' keyword. Negation handler catches simple cases but fails on complex double negation."
+    },
+    {
+      "mode": "No Lexicon Signal",
+      "observation": "Short reviews like 'Okay' or 'Fine' with no strong sentiment words default to neutral with low confidence (0.35)."
+    },
+    {
+      "mode": "Rating-Text Disagreement",
+      "observation": "~5-10% of reviews have text sentiment that contradicts the star rating (e.g., 5-star but text complains). These are the highest-value mixed-sentiment cases."
+    }
+  ],
+  "engineering_tradeoffs": "We chose lexicon+rules over transformers for determinism and 3-second runtime on 10k reviews. The text-only accuracy cost is visible in the numbers above. A transformer model (e.g. cardiffnlp/twitter-roberta-base) would likely add 15-25% accuracy on text-only classification but increase runtime to 2-3 minutes on CPU.",
+  "why_nlp_over_rating": "If rating already tells sentiment, why use NLP? Three reasons: (1) Support tickets, survey free-text, and social mentions have NO star rating -- text analysis is the only option. (2) Text-level sentiment catches rating-text mismatches (sarcastic 5-star, mild-tone 1-star) that rating alone cannot detect. (3) Theme extraction and mixed-sentiment detection are purely text-derived features that rating cannot provide."
+}

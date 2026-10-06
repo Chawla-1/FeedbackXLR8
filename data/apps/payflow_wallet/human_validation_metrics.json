@@ -1,0 +1,272 @@
+{
+  "label_source": "Independent human labeling (rating hidden during annotation)",
+  "sample_size": 150,
+  "text_only_accuracy": 0.687,
+  "macro_f1": 0.623,
+  "confusion_matrix": {
+    "labels": [
+      "mixed",
+      "negative",
+      "neutral",
+      "positive"
+    ],
+    "matrix": [
+      [
+        6,
+        2,
+        5,
+        3
+      ],
+      [
+        0,
+        13,
+        18,
+        6
+      ],
+      [
+        0,
+        4,
+        35,
+        2
+      ],
+      [
+        1,
+        4,
+        2,
+        49
+      ]
+    ]
+  },
+  "per_class": {
+    "mixed": {
+      "precision": 0.857,
+      "recall": 0.375,
+      "f1_score": 0.522,
+      "support": 16
+    },
+    "negative": {
+      "precision": 0.565,
+      "recall": 0.351,
+      "f1_score": 0.433,
+      "support": 37
+    },
+    "neutral": {
+      "precision": 0.583,
+      "recall": 0.854,
+      "f1_score": 0.693,
+      "support": 41
+    },
+    "positive": {
+      "precision": 0.817,
+      "recall": 0.875,
+      "f1_score": 0.845,
+      "support": 56
+    }
+  },
+  "human_vs_rating_agreement": 0.593,
+  "rating_text_mismatch_count": 61,
+  "rating_text_mismatch_examples": [
+    {
+      "text": "Service is not good. account deleting issues. I try many times but not deleted",
+      "human_label": "mixed",
+      "rating": 1,
+      "rating_implied": "negative"
+    },
+    {
+      "text": "i wanna add a new sticker in my pack. The stickers bot said it's done but i can't see that in my pac",
+      "human_label": "negative",
+      "rating": 3,
+      "rating_implied": "neutral"
+    },
+    {
+      "text": "Rivoglio il Telegram di prima Non copiate WhatsApp  per favore. Adoravo la possibilit\u00e0 di utilizzare",
+      "human_label": "neutral",
+      "rating": 1,
+      "rating_implied": "negative"
+    },
+    {
+      "text": "good but notification list not desply",
+      "human_label": "mixed",
+      "rating": 3,
+      "rating_implied": "neutral"
+    },
+    {
+      "text": "Good This is good and bad",
+      "human_label": "mixed",
+      "rating": 4,
+      "rating_implied": "positive"
+    },
+    {
+      "text": "We are all traceable by this application. In authoritarian countries  that means death!",
+      "human_label": "neutral",
+      "rating": 1,
+      "rating_implied": "negative"
+    },
+    {
+      "text": "App is good but sometime it takes a lot of time to connect.....connecting and connecting....... .",
+      "human_label": "mixed",
+      "rating": 3,
+      "rating_implied": "neutral"
+    },
+    {
+      "text": "Anil Kumar",
+      "human_label": "neutral",
+      "rating": 2,
+      "rating_implied": "negative"
+    },
+    {
+      "text": "pLease add Voice Call and Video Call  likes WA. Big Thanks. \ud83d\udc4d\ud83d\udc4d\ud83d\udc4d\ud83d\udc4d\ud83d\udc4d will give 5Stars later.",
+      "human_label": "positive",
+      "rating": 2,
+      "rating_implied": "negative"
+    },
+    {
+      "text": "Open source projects are probably abandoned... not updated for more than months... No end to end enc",
+      "human_label": "neutral",
+      "rating": 2,
+      "rating_implied": "negative"
+    }
+  ],
+  "model_disagreements": [
+    {
+      "text": "It's better than whatsapp",
+      "human_label": "positive",
+      "model_pred": "neutral",
+      "hidden_rating": 5,
+      "confidence": 0.35
+    },
+    {
+      "text": "i wanna add a new sticker in my pack. The stickers bot said it's done but i can't see that in my pack. And it same about",
+      "human_label": "negative",
+      "model_pred": "neutral",
+      "hidden_rating": 3,
+      "confidence": 0.35
+    },
+    {
+      "text": "good but notification list not desply",
+      "human_label": "mixed",
+      "model_pred": "negative",
+      "hidden_rating": 3,
+      "confidence": 0.63
+    },
+    {
+      "text": "No way to export secure chats history.",
+      "human_label": "neutral",
+      "model_pred": "negative",
+      "hidden_rating": 3,
+      "confidence": 0.63
+    },
+    {
+      "text": "Good This is good and bad",
+      "human_label": "mixed",
+      "model_pred": "neutral",
+      "hidden_rating": 4,
+      "confidence": 0.45
+    },
+    {
+      "text": "NAD . this app is very bad . never download this",
+      "human_label": "negative",
+      "model_pred": "positive",
+      "hidden_rating": 1,
+      "confidence": 0.63
+    },
+    {
+      "text": "App is good but sometime it takes a lot of time to connect.....connecting and connecting....... .",
+      "human_label": "mixed",
+      "model_pred": "positive",
+      "hidden_rating": 3,
+      "confidence": 0.63
+    },
+    {
+      "text": "The new emoji are DISGUSTING  and many people agree with me. Can't even use them without feeling weird anymore.",
+      "human_label": "negative",
+      "model_pred": "neutral",
+      "hidden_rating": 1,
+      "confidence": 0.35
+    },
+    {
+      "text": "Best messaging app Why not include in teligram video feature to see chatting person as like in KiK app",
+      "human_label": "positive",
+      "model_pred": "negative",
+      "hidden_rating": 4,
+      "confidence": 0.63
+    },
+    {
+      "text": "If you guys can't solve its connectivity problem then bring minor or '' custom themes'' are useless. I Don't like it not",
+      "human_label": "negative",
+      "model_pred": "neutral",
+      "hidden_rating": 2,
+      "confidence": 0.45
+    },
+    {
+      "text": "awesome app i hate new whatsapp  thanks",
+      "human_label": "mixed",
+      "model_pred": "positive",
+      "hidden_rating": 5,
+      "confidence": 0.71
+    },
+    {
+      "text": "I am no longer able to pin channels and contacts to the top of the list  please it is one of the best features of the ap",
+      "human_label": "positive",
+      "model_pred": "negative",
+      "hidden_rating": 4,
+      "confidence": 0.63
+    },
+    {
+      "text": "Needs an ability to pin the favorite chats/channels to the top of the main list or make folders for them to organize the",
+      "human_label": "neutral",
+      "model_pred": "positive",
+      "hidden_rating": 3,
+      "confidence": 0.63
+    },
+    {
+      "text": "Why I can't sent pictures?",
+      "human_label": "negative",
+      "model_pred": "neutral",
+      "hidden_rating": 1,
+      "confidence": 0.35
+    },
+    {
+      "text": "Not working \ud83d\ude20",
+      "human_label": "negative",
+      "model_pred": "neutral",
+      "hidden_rating": 1,
+      "confidence": 0.35
+    },
+    {
+      "text": "Poor implementation of material design. The font size wouldn't change when I change it via system settings. (Edit) In re",
+      "human_label": "negative",
+      "model_pred": "positive",
+      "hidden_rating": 1,
+      "confidence": 0.63
+    },
+    {
+      "text": "When i started using Telegram i was thinking that it was worse and i uninstalled it but my friend asked me for talking t",
+      "human_label": "positive",
+      "model_pred": "mixed",
+      "hidden_rating": 5,
+      "confidence": 0.85
+    },
+    {
+      "text": "This update is no voice call \ud83d\udc4e",
+      "human_label": "negative",
+      "model_pred": "neutral",
+      "hidden_rating": 2,
+      "confidence": 0.35
+    },
+    {
+      "text": "I like it that's good personaly but its st oil good I don't know why",
+      "human_label": "positive",
+      "model_pred": "negative",
+      "hidden_rating": 5,
+      "confidence": 0.63
+    },
+    {
+      "text": "Thats good but is not very safe ...",
+      "human_label": "mixed",
+      "model_pred": "negative",
+      "hidden_rating": 4,
+      "confidence": 0.63
+    }
+  ]
+}

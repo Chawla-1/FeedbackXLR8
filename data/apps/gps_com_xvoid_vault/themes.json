@@ -1,0 +1,27 @@
+[
+  {
+    "title": "General Praise & Feature Experience",
+    "volume": 2,
+    "avg_rating": 4.5,
+    "representative_reviews": [
+      "GPAPI-VAULT-0002",
+      "GPS-VAULT-0001"
+    ]
+  },
+  {
+    "title": "Ads & Monetization",
+    "volume": 1,
+    "avg_rating": 3.0,
+    "representative_reviews": [
+      "GPAPI-VAULT-0001"
+    ]
+  },
+  {
+    "title": "App Stability & Launch Crashes",
+    "volume": 1,
+    "avg_rating": 3.0,
+    "representative_reviews": [
+      "GPAPI-VAULT-0003"
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "healthtrack",
+    "name": "HealthTrack",
+    "icon": "❤️",
+    "description": "Fitness tracking, health monitoring & wearable device sync",
+    "category": "Health & Fitness",
+    "color": "#dc2626",
+    "summary": {
+      "total_reviews": 2045,
+      "avg_rating": 4.26,
+      "neg_pct": 9.9,
+      "active_alerts": 0,
+      "drift_health": "HEALTHY",
+      "top_theme": "Uncategorized / Emerging Issues",
+      "pii_events": 88
+    }
+  },
+  {
+    "id": "edulearn_plus",
+    "name": "EduLearn Plus",
+    "icon": "📚",
+    "description": "Online courses, live classes & interactive learning platform",
+    "category": "EdTech",
+    "color": "#7c3aed",
+    "summary": {
+      "total_reviews": 2070,
+      "avg_rating": 4.26,
+      "neg_pct": 8.3,
+      "active_alerts": 0,
+      "drift_health": "HEALTHY",
+      "top_theme": "Voice & Video Call Quality",
+      "pii_events": 100
+    }
+  },
+  {
+    "id": "gps_com_xvoid_vault",
+    "name": "Xvoid:Offline Password Manager",
+    "icon": "📱",
+    "description": "Xvoid is a password manager that actually respects your privacy.",
+    "category": "Tools",
+    "color": "#0ea5e9",
+    "source": "playstore",
+    "package_name": "com.xvoid.vault",
+    "has_api_key": false,
+    "summary": {
+      "total_reviews": 4,
+      "avg_rating": 3.75,
+      "neg_pct": 25.0,
+      "active_alerts": 0,
+      "drift_health": "HEALTHY",
+      "top_theme": "General Praise & Feature Experience",
+      "pii_events": 0
+    }
+  }
+]

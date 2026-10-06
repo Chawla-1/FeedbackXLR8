@@ -1,0 +1,307 @@
+{
+  "benchmark_dataset": "150 Independent Human-Labeled Reviews (data/human_labels_150.csv)",
+  "sample_size": 150,
+  "evaluation_timestamp": "2026-10-05 21:49:04",
+  "models": [
+    {
+      "model_name": "Majority Class Baseline",
+      "description": "Statistical lower-bound; always predicts majority ('positive')",
+      "sample_size": 150,
+      "accuracy": 0.373,
+      "ci_95": "[0.300, 0.453]",
+      "ci_lower": 0.3,
+      "ci_upper": 0.453,
+      "margin_of_error": "\u00b17.7%",
+      "macro_precision": 0.093,
+      "macro_recall": 0.25,
+      "macro_f1": 0.136,
+      "latency_ms_per_150": 0.0,
+      "throughput_reviews_per_sec": 99999966,
+      "confusion_matrix": {
+        "labels": [
+          "mixed",
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            16
+          ],
+          [
+            0,
+            0,
+            0,
+            37
+          ],
+          [
+            0,
+            0,
+            0,
+            41
+          ],
+          [
+            0,
+            0,
+            0,
+            56
+          ]
+        ]
+      },
+      "per_class": {
+        "mixed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 16.0
+        },
+        "negative": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 37.0
+        },
+        "neutral": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 41.0
+        },
+        "positive": {
+          "precision": 0.373,
+          "recall": 1.0,
+          "f1_score": 0.544,
+          "support": 56.0
+        }
+      }
+    },
+    {
+      "model_name": "NLTK VADER Baseline",
+      "description": "Standard rule-based sentiment lexicon for social/review text",
+      "sample_size": 150,
+      "accuracy": 0.6,
+      "ci_95": "[0.520, 0.675]",
+      "ci_lower": 0.52,
+      "ci_upper": 0.675,
+      "margin_of_error": "\u00b17.8%",
+      "macro_precision": 0.453,
+      "macro_recall": 0.472,
+      "macro_f1": 0.446,
+      "latency_ms_per_150": 22.27,
+      "throughput_reviews_per_sec": 6735,
+      "confusion_matrix": {
+        "labels": [
+          "mixed",
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "matrix": [
+          [
+            0,
+            6,
+            0,
+            10
+          ],
+          [
+            0,
+            17,
+            10,
+            10
+          ],
+          [
+            0,
+            5,
+            19,
+            17
+          ],
+          [
+            0,
+            0,
+            2,
+            54
+          ]
+        ]
+      },
+      "per_class": {
+        "mixed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 16.0
+        },
+        "negative": {
+          "precision": 0.607,
+          "recall": 0.459,
+          "f1_score": 0.523,
+          "support": 37.0
+        },
+        "neutral": {
+          "precision": 0.613,
+          "recall": 0.463,
+          "f1_score": 0.528,
+          "support": 41.0
+        },
+        "positive": {
+          "precision": 0.593,
+          "recall": 0.964,
+          "f1_score": 0.735,
+          "support": 56.0
+        }
+      }
+    },
+    {
+      "model_name": "Lexicon Rule Engine",
+      "description": "Curated keyword lexicon with contrastive clause parser",
+      "sample_size": 150,
+      "accuracy": 0.687,
+      "ci_95": "[0.609, 0.755]",
+      "ci_lower": 0.609,
+      "ci_upper": 0.755,
+      "margin_of_error": "\u00b17.3%",
+      "macro_precision": 0.706,
+      "macro_recall": 0.614,
+      "macro_f1": 0.623,
+      "latency_ms_per_150": 5.51,
+      "throughput_reviews_per_sec": 27209,
+      "confusion_matrix": {
+        "labels": [
+          "mixed",
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "matrix": [
+          [
+            6,
+            2,
+            5,
+            3
+          ],
+          [
+            0,
+            13,
+            18,
+            6
+          ],
+          [
+            0,
+            4,
+            35,
+            2
+          ],
+          [
+            1,
+            4,
+            2,
+            49
+          ]
+        ]
+      },
+      "per_class": {
+        "mixed": {
+          "precision": 0.857,
+          "recall": 0.375,
+          "f1_score": 0.522,
+          "support": 16.0
+        },
+        "negative": {
+          "precision": 0.565,
+          "recall": 0.351,
+          "f1_score": 0.433,
+          "support": 37.0
+        },
+        "neutral": {
+          "precision": 0.583,
+          "recall": 0.854,
+          "f1_score": 0.693,
+          "support": 41.0
+        },
+        "positive": {
+          "precision": 0.817,
+          "recall": 0.875,
+          "f1_score": 0.845,
+          "support": 56.0
+        }
+      }
+    },
+    {
+      "model_name": "TF-IDF + Logistic Regression (ML)",
+      "description": "Offline n-gram model trained on 10k weak rating labels + mixed detector",
+      "sample_size": 150,
+      "accuracy": 0.66,
+      "ci_95": "[0.581, 0.731]",
+      "ci_lower": 0.581,
+      "ci_upper": 0.731,
+      "margin_of_error": "\u00b17.5%",
+      "macro_precision": 0.694,
+      "macro_recall": 0.608,
+      "macro_f1": 0.618,
+      "latency_ms_per_150": 25.86,
+      "throughput_reviews_per_sec": 5800,
+      "confusion_matrix": {
+        "labels": [
+          "mixed",
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "matrix": [
+          [
+            6,
+            2,
+            6,
+            2
+          ],
+          [
+            0,
+            31,
+            6,
+            0
+          ],
+          [
+            0,
+            21,
+            17,
+            3
+          ],
+          [
+            1,
+            4,
+            6,
+            45
+          ]
+        ]
+      },
+      "per_class": {
+        "mixed": {
+          "precision": 0.857,
+          "recall": 0.375,
+          "f1_score": 0.522,
+          "support": 16.0
+        },
+        "negative": {
+          "precision": 0.534,
+          "recall": 0.838,
+          "f1_score": 0.653,
+          "support": 37.0
+        },
+        "neutral": {
+          "precision": 0.486,
+          "recall": 0.415,
+          "f1_score": 0.447,
+          "support": 41.0
+        },
+        "positive": {
+          "precision": 0.9,
+          "recall": 0.804,
+          "f1_score": 0.849,
+          "support": 56.0
+        }
+      }
+    }
+  ]
+}

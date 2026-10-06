@@ -1,0 +1,445 @@
+[
+  {
+    "cluster_id": 6,
+    "title": "General Praise & Feature Experience",
+    "keywords": [
+      "great",
+      "love",
+      "best",
+      "awesome",
+      "perfect",
+      "favorite",
+      "smooth",
+      "nice",
+      "good"
+    ],
+    "volume": 2003,
+    "negativity_ratio": 0.043,
+    "impact_score": 4.83,
+    "verbatims": [
+      {
+        "review_id": "REV-17758",
+        "quote": "Lost fingerprint support. Great update but I just lost most important aspect of the app that is there's no more fingerprint support. Kindly fix ASAP.",
+        "rating": 5,
+        "date": "2026-09-23 23:58:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-19684",
+        "quote": "Best one It is the best out there. Thank you developers!",
+        "rating": 5,
+        "date": "2026-07-26 00:14:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-10577",
+        "quote": "Best app ever Fast  secure  constantly updates  has awesome desktop version - everything you need!",
+        "rating": 5,
+        "date": "2026-07-26 00:35:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-19908",
+        "quote": "Nice and fascinating to use",
+        "rating": 5,
+        "date": "2026-09-23 17:39:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-13288",
+        "quote": "My favorite messaging app.",
+        "rating": 5,
+        "date": "2026-09-23 17:16:00",
+        "version": "v3.4.0"
+      }
+    ],
+    "is_novel_theme": false,
+    "classification_method": "taxonomy_regex"
+  },
+  {
+    "cluster_id": 7,
+    "title": "Uncategorized / Emerging Issues",
+    "keywords": [
+      "emerging"
+    ],
+    "volume": 717,
+    "negativity_ratio": 0.114,
+    "impact_score": 4.52,
+    "verbatims": [
+      {
+        "review_id": "REV-17915",
+        "quote": "Have been using hike till now just switched to telegram and uptill now I pretty much like it",
+        "rating": 5,
+        "date": "2026-07-26 17:08:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-12831",
+        "quote": "Mast hy bidu.... Lalntop",
+        "rating": 5,
+        "date": "2026-09-23 22:07:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-17862",
+        "quote": "I am indian",
+        "rating": 5,
+        "date": "2026-09-23 17:27:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-16401",
+        "quote": "Priya Bunny loves",
+        "rating": 5,
+        "date": "2026-07-26 02:39:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-14944",
+        "quote": "Mr Romanus",
+        "rating": 5,
+        "date": "2026-07-26 05:54:00",
+        "version": "v3.1.0"
+      }
+    ],
+    "is_novel_theme": true,
+    "classification_method": "unmatched_fallback"
+  },
+  {
+    "cluster_id": 4,
+    "title": "Media Download & File Storage",
+    "keywords": [
+      "download",
+      "media",
+      "photo",
+      "video",
+      "storage",
+      "save",
+      "files",
+      "gallery"
+    ],
+    "volume": 298,
+    "negativity_ratio": 0.124,
+    "impact_score": 1.95,
+    "verbatims": [
+      {
+        "review_id": "REV-14585",
+        "quote": "Great Just pls  make it possible to delete  erase  all media and chat history from a group chat  it's filling my memory 3000+ media is filling my phone!",
+        "rating": 5,
+        "date": "2026-09-23 17:40:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-11623",
+        "quote": "One of the best apps out there. Whatsapp is no match to this app. You can download anything you want. From videos to music. You can play games. Yet it still gives you the feel that it's a messaging app. I love telegram \ud83d\udc4d",
+        "rating": 5,
+        "date": "2026-09-23 15:12:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-14566",
+        "quote": "It's my most favorite messenger one of the things i like about it is that for example i send a message a text or a photos or .... it will always be there even if i delete telegram or i just change to any other phone i just put my ID and password done ! I have all my history",
+        "rating": 5,
+        "date": "2026-07-26 05:20:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-14928",
+        "quote": "Awesome app Five star Rating is not enough for this app Telegram app deserve 7 STAR rating or more very good app with lot of outstanding features. Please add this feature also  we copy and paste photos to the message platform. at present we are not paste photos from another sides to Telegram please add this feature. This feature is present at evernote.",
+        "rating": 5,
+        "date": "2026-07-26 06:46:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-11197",
+        "quote": "The app is too good. It's so much easier to get media. I like it a lot",
+        "rating": 5,
+        "date": "2026-07-27 13:16:00",
+        "version": "v3.1.0"
+      }
+    ],
+    "is_novel_theme": false,
+    "classification_method": "taxonomy_regex"
+  },
+  {
+    "cluster_id": 1,
+    "title": "App Stability & Launch Crashes",
+    "keywords": [
+      "crash",
+      "crashes",
+      "crashing",
+      "force close",
+      "freeze",
+      "stopped",
+      "not opening",
+      "shut down",
+      "bug"
+    ],
+    "volume": 127,
+    "negativity_ratio": 0.283,
+    "impact_score": 1.31,
+    "verbatims": [
+      {
+        "review_id": "REV-16416",
+        "quote": "J Update plz",
+        "rating": 1,
+        "date": "2026-07-31 03:19:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-10818",
+        "quote": "I just started using telegram today  and the app has failed the first task it's supposed to do. Import my contacts!!! If I can't see any contacts then how am I going to chat with others conveniently through this app. Major turn off. I've tried everything from your bug reporting page. Close app  restart  changed contacts to international number  changed contact [REDACTED_NAME] reverted. All still lead to the same result: nothing seen in contacts. The only way I can now see contacts is by adding them manually but damn why the heck would I manually add over 100+ contacts again??? What a let down. AND I'm very sure that the contacts that I tried adding have telegram too  and obviously I've allowed the app to access my phone contacts DUHH.",
+        "rating": 1,
+        "date": "2026-08-07 05:27:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-19718",
+        "quote": "A terrible insult to lord buddha That sticker pack containing pictures of lord Buddha is the most terrible insult I have ever seen against Buddhism. Buddhists were calm and respected the right of other people to have their own religion s. But the religious extremists are now abusing that calmness. I know  the truth is a challenge against the dazzling of the myth. That's why those aggressive extremists are afraid of Buddhism. This is not a request!! This is an order!!!!! YOU MUST IMMEDIATELY REMOVE THAT STICKERS. call +44 20 [REDACTED_PHONE] regarding account freeze",
+        "rating": 1,
+        "date": "2026-08-06 20:20:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-17289",
+        "quote": "Not working \ud83d\ude20",
+        "rating": 1,
+        "date": "2026-08-17 01:26:00",
+        "version": "v3.2.1"
+      },
+      {
+        "review_id": "REV-18705",
+        "quote": "The app isnt working. The app isnt responding please di fix it",
+        "rating": 1,
+        "date": "2026-08-18 23:41:00",
+        "version": "v3.2.1"
+      }
+    ],
+    "is_novel_theme": false,
+    "classification_method": "taxonomy_regex"
+  },
+  {
+    "cluster_id": 2,
+    "title": "Voice & Video Call Quality",
+    "keywords": [
+      "call",
+      "voice",
+      "audio",
+      "video call",
+      "mic",
+      "sound",
+      "speaker",
+      "calling"
+    ],
+    "volume": 121,
+    "negativity_ratio": 0.058,
+    "impact_score": 0.6,
+    "verbatims": [
+      {
+        "review_id": "REV-16667",
+        "quote": "Great app  add voice calling feature. Tnx",
+        "rating": 5,
+        "date": "2026-07-26 23:43:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-17980",
+        "quote": "Need improvement Telegram need updates version like to do telegram call and video call. Good it's better to use",
+        "rating": 5,
+        "date": "2026-07-27 19:36:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-16166",
+        "quote": "Please add call video.",
+        "rating": 5,
+        "date": "2026-07-27 09:15:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-18252",
+        "quote": "The best as usual  but when can we see calling feature on telegram?",
+        "rating": 5,
+        "date": "2026-08-11 10:26:00",
+        "version": "v3.2.1"
+      },
+      {
+        "review_id": "REV-19168",
+        "quote": "Loved it..! It does not have audio or video calling which makes it perfect.. It does work well in Instant Messaging with most secure way.. no overloaded crap..",
+        "rating": 5,
+        "date": "2026-08-07 05:15:00",
+        "version": "v3.1.0"
+      }
+    ],
+    "is_novel_theme": false,
+    "classification_method": "taxonomy_regex"
+  },
+  {
+    "cluster_id": 3,
+    "title": "Notification & Background Sync",
+    "keywords": [
+      "notification",
+      "notify",
+      "push",
+      "sync",
+      "background",
+      "alerts",
+      "unread"
+    ],
+    "volume": 43,
+    "negativity_ratio": 0.209,
+    "impact_score": 0.37,
+    "verbatims": [
+      {
+        "review_id": "REV-12883",
+        "quote": "Still possess notification problem Just now i send message to my bro who is using telegram on xiaomi 3s prime but he is not getting notified when he opens telegram at that time he knows some has messaged him . Fix this this is really annoying.",
+        "rating": 1,
+        "date": "2026-07-28 22:41:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-16844",
+        "quote": "Unread notification - still the same problem Unread notification at icon won't go away...!!! I dont have any unread messages left...!! I clear n delete all my message but still dont go away...fix these stupid error...!!!!!",
+        "rating": 1,
+        "date": "2026-08-07 18:15:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-18754",
+        "quote": "I couldn't send message after 15 minute chats",
+        "rating": 1,
+        "date": "2026-08-14 05:52:00",
+        "version": "v3.2.1"
+      },
+      {
+        "review_id": "REV-18365",
+        "quote": "Can not send message without hidding the keyboard! Even on that review!",
+        "rating": 1,
+        "date": "2026-08-24 18:21:00",
+        "version": "v3.2.1"
+      },
+      {
+        "review_id": "REV-12825",
+        "quote": "Notifications light MIUI 8 Notifications light are not working anymore with MIUI 8 by XIAOMI. My device is Redmi Note 3 pro",
+        "rating": 1,
+        "date": "2026-09-08 14:18:00",
+        "version": "v3.3.0"
+      }
+    ],
+    "is_novel_theme": false,
+    "classification_method": "taxonomy_regex"
+  },
+  {
+    "cluster_id": 5,
+    "title": "Battery Drain & Device Lag",
+    "keywords": [
+      "battery",
+      "drain",
+      "draining",
+      "heat",
+      "lag",
+      "slow",
+      "ram",
+      "overheating"
+    ],
+    "volume": 26,
+    "negativity_ratio": 0.385,
+    "impact_score": 0.33,
+    "verbatims": [
+      {
+        "review_id": "REV-15443",
+        "quote": "File sharing too slow Speed it up",
+        "rating": 1,
+        "date": "2026-08-24 23:17:00",
+        "version": "v3.2.1"
+      },
+      {
+        "review_id": "REV-12672",
+        "quote": "After I enter my phone number  it keeps loading forever. I'm using Galaxy S7 edge. Help?",
+        "rating": 1,
+        "date": "2026-09-13 11:46:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-18598",
+        "quote": "Worst app Dosent work on my phone",
+        "rating": 1,
+        "date": "2026-09-12 23:00:00",
+        "version": "v3.3.0"
+      },
+      {
+        "review_id": "REV-12952",
+        "quote": "Hate it even more Your servers suck I sent u my phone number and IP address!! It's still freaking connecting on me once in a while do something because it's driving me insane! Oh and don't give me the run around. (Oh now its not connecting its been 30 minutes)",
+        "rating": 1,
+        "date": "2026-09-11 16:16:00",
+        "version": "v3.3.0"
+      },
+      {
+        "review_id": "REV-14873",
+        "quote": "This app very very slow I dont work with app",
+        "rating": 1,
+        "date": "2026-09-22 02:40:00",
+        "version": "v3.4.0"
+      }
+    ],
+    "is_novel_theme": false,
+    "classification_method": "taxonomy_regex"
+  },
+  {
+    "cluster_id": 0,
+    "title": "Login, Auth & Verification",
+    "keywords": [
+      "login",
+      "sms",
+      "verification",
+      "code",
+      "otp",
+      "auth",
+      "account",
+      "sign in",
+      "connect to server"
+    ],
+    "volume": 14,
+    "negativity_ratio": 0.214,
+    "impact_score": 0.12,
+    "verbatims": [
+      {
+        "review_id": "REV-17061",
+        "quote": "Uses your cell phone plan sms to send and receive messages. Wants your phone number for it. Sry. That's none of your business!!!",
+        "rating": 1,
+        "date": "2026-07-31 15:13:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-18073",
+        "quote": "Can't login after repeated attempts and re-installation of the App.",
+        "rating": 1,
+        "date": "2026-08-13 16:56:00",
+        "version": "v3.2.1"
+      },
+      {
+        "review_id": "REV-11271",
+        "quote": "E-sim account was hacked",
+        "rating": 1,
+        "date": "2026-09-17 13:24:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-19428",
+        "quote": "Lack Lack sms and better pc clients",
+        "rating": 1,
+        "date": "2026-09-10 19:46:00",
+        "version": "v3.3.0"
+      },
+      {
+        "review_id": "REV-14743",
+        "quote": "Cant even login  keeps loading forever when try to insert phone numbers",
+        "rating": 1,
+        "date": "2026-09-23 13:26:00",
+        "version": "v3.4.0"
+      }
+    ],
+    "is_novel_theme": false,
+    "classification_method": "taxonomy_regex"
+  }
+]

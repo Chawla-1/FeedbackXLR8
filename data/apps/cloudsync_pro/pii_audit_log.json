@@ -1,0 +1,1227 @@
+[
+  {
+    "review_id": "REV-11107",
+    "pii_type": "EMAIL",
+    "original": "john.doe29@gmail.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.419769"
+  },
+  {
+    "review_id": "REV-11107",
+    "pii_type": "PERSON_NAME",
+    "original": "me at",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.419769"
+  },
+  {
+    "review_id": "REV-12021",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.420769"
+  },
+  {
+    "review_id": "REV-11382",
+    "pii_type": "PERSON_NAME",
+    "original": "friendly",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.422769"
+  },
+  {
+    "review_id": "REV-11379",
+    "pii_type": "EMAIL",
+    "original": "alex_smith@yahoo.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.431438"
+  },
+  {
+    "review_id": "REV-15985",
+    "pii_type": "PERSON_NAME",
+    "original": "super group",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.436449"
+  },
+  {
+    "review_id": "REV-18359",
+    "pii_type": "EMAIL",
+    "original": "john.doe29@gmail.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.436449"
+  },
+  {
+    "review_id": "REV-18359",
+    "pii_type": "PERSON_NAME",
+    "original": "me at",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.436449"
+  },
+  {
+    "review_id": "REV-18078",
+    "pii_type": "EMAIL",
+    "original": "alex_smith@yahoo.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.437448"
+  },
+  {
+    "review_id": "REV-11943",
+    "pii_type": "EMAIL",
+    "original": "david.m@corp.net",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.437448"
+  },
+  {
+    "review_id": "REV-11612",
+    "pii_type": "EMAIL",
+    "original": "john.doe29@gmail.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.437448"
+  },
+  {
+    "review_id": "REV-11612",
+    "pii_type": "PERSON_NAME",
+    "original": "me at",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.437448"
+  },
+  {
+    "review_id": "REV-13979",
+    "pii_type": "EMAIL",
+    "original": "john.doe29@gmail.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.443449"
+  },
+  {
+    "review_id": "REV-13979",
+    "pii_type": "PERSON_NAME",
+    "original": "me at",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.443449"
+  },
+  {
+    "review_id": "REV-13189",
+    "pii_type": "PERSON_NAME",
+    "original": "friendly",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.444450"
+  },
+  {
+    "review_id": "REV-11375",
+    "pii_type": "PERSON_NAME",
+    "original": "me",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.447454"
+  },
+  {
+    "review_id": "REV-11375",
+    "pii_type": "PERSON_NAME",
+    "original": "you guys",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.447454"
+  },
+  {
+    "review_id": "REV-11375",
+    "pii_type": "PERSON_NAME",
+    "original": "details",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.447454"
+  },
+  {
+    "review_id": "REV-11375",
+    "pii_type": "PERSON_NAME",
+    "original": "details here",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.447454"
+  },
+  {
+    "review_id": "REV-19676",
+    "pii_type": "EMAIL",
+    "original": "david.m@corp.net",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.453671"
+  },
+  {
+    "review_id": "REV-18364",
+    "pii_type": "PERSON_NAME",
+    "original": "permission  but",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.453671"
+  },
+  {
+    "review_id": "REV-18364",
+    "pii_type": "PERSON_NAME",
+    "original": "list is",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.453671"
+  },
+  {
+    "review_id": "REV-18345",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.457673"
+  },
+  {
+    "review_id": "REV-12019",
+    "pii_type": "PERSON_NAME",
+    "original": "an option",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.462673"
+  },
+  {
+    "review_id": "REV-13940",
+    "pii_type": "EMAIL",
+    "original": "john.doe29@gmail.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.478811"
+  },
+  {
+    "review_id": "REV-13940",
+    "pii_type": "PERSON_NAME",
+    "original": "me at",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.478811"
+  },
+  {
+    "review_id": "REV-17284",
+    "pii_type": "PERSON_NAME",
+    "original": "list",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.479815"
+  },
+  {
+    "review_id": "REV-19718",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.482815"
+  },
+  {
+    "review_id": "REV-10818",
+    "pii_type": "PERSON_NAME",
+    "original": "name and",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.484861"
+  },
+  {
+    "review_id": "REV-16501",
+    "pii_type": "PERSON_NAME",
+    "original": "of telegram",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.487863"
+  },
+  {
+    "review_id": "REV-17604",
+    "pii_type": "PERSON_NAME",
+    "original": "interface",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.494858"
+  },
+  {
+    "review_id": "REV-17243",
+    "pii_type": "PERSON_NAME",
+    "original": "photos  hide",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.495858"
+  },
+  {
+    "review_id": "REV-13341",
+    "pii_type": "PERSON_NAME",
+    "original": "me we",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.497860"
+  },
+  {
+    "review_id": "REV-15544",
+    "pii_type": "EMAIL",
+    "original": "alex_smith@yahoo.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.498869"
+  },
+  {
+    "review_id": "REV-15383",
+    "pii_type": "PERSON_NAME",
+    "original": "Evrytime",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.499873"
+  },
+  {
+    "review_id": "REV-15383",
+    "pii_type": "PERSON_NAME",
+    "original": "list will",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.499873"
+  },
+  {
+    "review_id": "REV-15383",
+    "pii_type": "PERSON_NAME",
+    "original": "number",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.499873"
+  },
+  {
+    "review_id": "REV-16291",
+    "pii_type": "EMAIL",
+    "original": "john.doe29@gmail.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.502863"
+  },
+  {
+    "review_id": "REV-16291",
+    "pii_type": "PERSON_NAME",
+    "original": "me at",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.502863"
+  },
+  {
+    "review_id": "REV-17106",
+    "pii_type": "PHONE",
+    "original": "415-555-2671",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.502863"
+  },
+  {
+    "review_id": "REV-17106",
+    "pii_type": "PERSON_NAME",
+    "original": "user Sarah",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.502863"
+  },
+  {
+    "review_id": "REV-19697",
+    "pii_type": "EMAIL",
+    "original": "alex_smith@yahoo.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.510857"
+  },
+  {
+    "review_id": "REV-16706",
+    "pii_type": "EMAIL",
+    "original": "david.m@corp.net",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.511857"
+  },
+  {
+    "review_id": "REV-14978",
+    "pii_type": "PERSON_NAME",
+    "original": "friendly and",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.513858"
+  },
+  {
+    "review_id": "REV-15566",
+    "pii_type": "EMAIL",
+    "original": "david.m@corp.net",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.516857"
+  },
+  {
+    "review_id": "REV-19544",
+    "pii_type": "EMAIL",
+    "original": "john.doe29@gmail.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.517858"
+  },
+  {
+    "review_id": "REV-19544",
+    "pii_type": "PERSON_NAME",
+    "original": "me at",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.517858"
+  },
+  {
+    "review_id": "REV-11704",
+    "pii_type": "PHONE",
+    "original": "415-555-2671",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.523860"
+  },
+  {
+    "review_id": "REV-11704",
+    "pii_type": "PERSON_NAME",
+    "original": "user Sarah",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.523860"
+  },
+  {
+    "review_id": "REV-17838",
+    "pii_type": "PERSON_NAME",
+    "original": "with friends",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.530857"
+  },
+  {
+    "review_id": "REV-14437",
+    "pii_type": "PERSON_NAME",
+    "original": "friendly",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.532858"
+  },
+  {
+    "review_id": "REV-18420",
+    "pii_type": "EMAIL",
+    "original": "john.doe29@gmail.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.555867"
+  },
+  {
+    "review_id": "REV-18420",
+    "pii_type": "PERSON_NAME",
+    "original": "me at",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.555867"
+  },
+  {
+    "review_id": "REV-15750",
+    "pii_type": "PERSON_NAME",
+    "original": "friendly apps",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.556864"
+  },
+  {
+    "review_id": "REV-19273",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.560859"
+  },
+  {
+    "review_id": "REV-19273",
+    "pii_type": "PERSON_NAME",
+    "original": "interface",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.560859"
+  },
+  {
+    "review_id": "REV-19345",
+    "pii_type": "EMAIL",
+    "original": "john.doe29@gmail.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.561859"
+  },
+  {
+    "review_id": "REV-19345",
+    "pii_type": "PERSON_NAME",
+    "original": "me at",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.561859"
+  },
+  {
+    "review_id": "REV-14451",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.562858"
+  },
+  {
+    "review_id": "REV-11236",
+    "pii_type": "EMAIL",
+    "original": "alex_smith@yahoo.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.565857"
+  },
+  {
+    "review_id": "REV-17796",
+    "pii_type": "PHONE",
+    "original": "415-555-2671",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.578254"
+  },
+  {
+    "review_id": "REV-17796",
+    "pii_type": "PERSON_NAME",
+    "original": "user Sarah",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.578254"
+  },
+  {
+    "review_id": "REV-19545",
+    "pii_type": "PERSON_NAME",
+    "original": "base is",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.582249"
+  },
+  {
+    "review_id": "REV-16073",
+    "pii_type": "PHONE",
+    "original": "415-555-2671",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.588257"
+  },
+  {
+    "review_id": "REV-16073",
+    "pii_type": "PERSON_NAME",
+    "original": "user Sarah",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.588257"
+  },
+  {
+    "review_id": "REV-12156",
+    "pii_type": "EMAIL",
+    "original": "david.m@corp.net",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.590258"
+  },
+  {
+    "review_id": "REV-16732",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.590258"
+  },
+  {
+    "review_id": "REV-17082",
+    "pii_type": "PERSON_NAME",
+    "original": "friendly app",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.595258"
+  },
+  {
+    "review_id": "REV-11603",
+    "pii_type": "PERSON_NAME",
+    "original": "friendly and",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.596255"
+  },
+  {
+    "review_id": "REV-19362",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.598261"
+  },
+  {
+    "review_id": "REV-17236",
+    "pii_type": "PERSON_NAME",
+    "original": "with the",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.599263"
+  },
+  {
+    "review_id": "REV-14489",
+    "pii_type": "PERSON_NAME",
+    "original": "experience in",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.600260"
+  },
+  {
+    "review_id": "REV-11252",
+    "pii_type": "PHONE",
+    "original": "415-555-2671",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.602763"
+  },
+  {
+    "review_id": "REV-11252",
+    "pii_type": "PERSON_NAME",
+    "original": "user Sarah",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.602763"
+  },
+  {
+    "review_id": "REV-17845",
+    "pii_type": "PHONE",
+    "original": "+1-555-0199",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.608770"
+  },
+  {
+    "review_id": "REV-18648",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.608770"
+  },
+  {
+    "review_id": "REV-11700",
+    "pii_type": "EMAIL",
+    "original": "john.doe29@gmail.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.609770"
+  },
+  {
+    "review_id": "REV-11700",
+    "pii_type": "PERSON_NAME",
+    "original": "me at",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.609770"
+  },
+  {
+    "review_id": "REV-19033",
+    "pii_type": "EMAIL",
+    "original": "david.m@corp.net",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.619441"
+  },
+  {
+    "review_id": "REV-12174",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.630434"
+  },
+  {
+    "review_id": "REV-19702",
+    "pii_type": "PHONE",
+    "original": "415-555-2671",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.638429"
+  },
+  {
+    "review_id": "REV-19702",
+    "pii_type": "PERSON_NAME",
+    "original": "user Sarah",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.638429"
+  },
+  {
+    "review_id": "REV-15069",
+    "pii_type": "EMAIL",
+    "original": "alex_smith@yahoo.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.654439"
+  },
+  {
+    "review_id": "REV-13579",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.660439"
+  },
+  {
+    "review_id": "REV-12001",
+    "pii_type": "EMAIL",
+    "original": "alex_smith@yahoo.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.660439"
+  },
+  {
+    "review_id": "REV-12001",
+    "pii_type": "PERSON_NAME",
+    "original": "list but",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.660439"
+  },
+  {
+    "review_id": "REV-12001",
+    "pii_type": "PERSON_NAME",
+    "original": "telegram never",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.660439"
+  },
+  {
+    "review_id": "REV-12001",
+    "pii_type": "PERSON_NAME",
+    "original": "if changed",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.660439"
+  },
+  {
+    "review_id": "REV-12363",
+    "pii_type": "PERSON_NAME",
+    "original": "with friends",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.665941"
+  },
+  {
+    "review_id": "REV-11589",
+    "pii_type": "PERSON_NAME",
+    "original": "friendly apps",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.667953"
+  },
+  {
+    "review_id": "REV-12912",
+    "pii_type": "EMAIL",
+    "original": "alex_smith@yahoo.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.672948"
+  },
+  {
+    "review_id": "REV-15733",
+    "pii_type": "EMAIL",
+    "original": "david.m@corp.net",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.673957"
+  },
+  {
+    "review_id": "REV-12110",
+    "pii_type": "PERSON_NAME",
+    "original": "it if",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.674953"
+  },
+  {
+    "review_id": "REV-14246",
+    "pii_type": "PERSON_NAME",
+    "original": "to this",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.674953"
+  },
+  {
+    "review_id": "REV-15900",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.680947"
+  },
+  {
+    "review_id": "REV-19627",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.682947"
+  },
+  {
+    "review_id": "REV-10512",
+    "pii_type": "PERSON_NAME",
+    "original": "so it",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.686950"
+  },
+  {
+    "review_id": "REV-17071",
+    "pii_type": "PHONE",
+    "original": "415-555-2671",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.688947"
+  },
+  {
+    "review_id": "REV-17071",
+    "pii_type": "PERSON_NAME",
+    "original": "user Sarah",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.688947"
+  },
+  {
+    "review_id": "REV-17176",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.690947"
+  },
+  {
+    "review_id": "REV-15414",
+    "pii_type": "EMAIL",
+    "original": "john.doe29@gmail.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.704405"
+  },
+  {
+    "review_id": "REV-15414",
+    "pii_type": "PERSON_NAME",
+    "original": "me at",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.704405"
+  },
+  {
+    "review_id": "REV-16980",
+    "pii_type": "PERSON_NAME",
+    "original": "list have",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.712033"
+  },
+  {
+    "review_id": "REV-16980",
+    "pii_type": "PERSON_NAME",
+    "original": "list",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.712033"
+  },
+  {
+    "review_id": "REV-16980",
+    "pii_type": "PERSON_NAME",
+    "original": "were just",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.712033"
+  },
+  {
+    "review_id": "REV-16980",
+    "pii_type": "PERSON_NAME",
+    "original": "LIST IS",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.712033"
+  },
+  {
+    "review_id": "REV-16980",
+    "pii_type": "PERSON_NAME",
+    "original": "in my",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.712033"
+  },
+  {
+    "review_id": "REV-18521",
+    "pii_type": "PHONE",
+    "original": "415-555-2671",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.723172"
+  },
+  {
+    "review_id": "REV-18521",
+    "pii_type": "PERSON_NAME",
+    "original": "user Sarah",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.723172"
+  },
+  {
+    "review_id": "REV-12577",
+    "pii_type": "EMAIL",
+    "original": "john.doe29@gmail.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.725901"
+  },
+  {
+    "review_id": "REV-12577",
+    "pii_type": "PERSON_NAME",
+    "original": "me at",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.725901"
+  },
+  {
+    "review_id": "REV-11437",
+    "pii_type": "PERSON_NAME",
+    "original": "interface",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.732203"
+  },
+  {
+    "review_id": "REV-15535",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.732203"
+  },
+  {
+    "review_id": "REV-12197",
+    "pii_type": "PERSON_NAME",
+    "original": "my friends",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.740214"
+  },
+  {
+    "review_id": "REV-14409",
+    "pii_type": "PERSON_NAME",
+    "original": "instead of",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.743217"
+  },
+  {
+    "review_id": "REV-14123",
+    "pii_type": "PERSON_NAME",
+    "original": "issue",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.743217"
+  },
+  {
+    "review_id": "REV-14123",
+    "pii_type": "PERSON_NAME",
+    "original": "on the",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.743217"
+  },
+  {
+    "review_id": "REV-14123",
+    "pii_type": "PERSON_NAME",
+    "original": "list please",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.743217"
+  },
+  {
+    "review_id": "REV-14472",
+    "pii_type": "EMAIL",
+    "original": "alex_smith@yahoo.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.744214"
+  },
+  {
+    "review_id": "REV-15804",
+    "pii_type": "PERSON_NAME",
+    "original": "interface  very",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.748212"
+  },
+  {
+    "review_id": "REV-12806",
+    "pii_type": "PERSON_NAME",
+    "original": "add history",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.750217"
+  },
+  {
+    "review_id": "REV-13243",
+    "pii_type": "EMAIL",
+    "original": "david.m@corp.net",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.755212"
+  },
+  {
+    "review_id": "REV-18028",
+    "pii_type": "PHONE",
+    "original": "415-555-2671",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.760207"
+  },
+  {
+    "review_id": "REV-18028",
+    "pii_type": "PERSON_NAME",
+    "original": "user Sarah",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.760207"
+  },
+  {
+    "review_id": "REV-17914",
+    "pii_type": "PERSON_NAME",
+    "original": "showed in",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.762208"
+  },
+  {
+    "review_id": "REV-18906",
+    "pii_type": "PERSON_NAME",
+    "original": "interface",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.780618"
+  },
+  {
+    "review_id": "REV-11732",
+    "pii_type": "PERSON_NAME",
+    "original": "response",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.780618"
+  },
+  {
+    "review_id": "REV-14821",
+    "pii_type": "EMAIL",
+    "original": "john.doe29@gmail.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.789638"
+  },
+  {
+    "review_id": "REV-14821",
+    "pii_type": "PERSON_NAME",
+    "original": "me at",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.789638"
+  },
+  {
+    "review_id": "REV-19061",
+    "pii_type": "PERSON_NAME",
+    "original": "for delete",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.790635"
+  },
+  {
+    "review_id": "REV-11965",
+    "pii_type": "EMAIL",
+    "original": "john.doe29@gmail.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.802640"
+  },
+  {
+    "review_id": "REV-11965",
+    "pii_type": "PERSON_NAME",
+    "original": "me at",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.802640"
+  },
+  {
+    "review_id": "REV-17169",
+    "pii_type": "EMAIL",
+    "original": "john.doe29@gmail.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.804156"
+  },
+  {
+    "review_id": "REV-17169",
+    "pii_type": "PERSON_NAME",
+    "original": "me at",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.804156"
+  },
+  {
+    "review_id": "REV-14812",
+    "pii_type": "PERSON_NAME",
+    "original": "name",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.812173"
+  },
+  {
+    "review_id": "REV-11729",
+    "pii_type": "EMAIL",
+    "original": "alex_smith@yahoo.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.819170"
+  },
+  {
+    "review_id": "REV-17664",
+    "pii_type": "PHONE",
+    "original": "415-555-2671",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.821159"
+  },
+  {
+    "review_id": "REV-17664",
+    "pii_type": "PERSON_NAME",
+    "original": "user Sarah",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.821159"
+  },
+  {
+    "review_id": "REV-15331",
+    "pii_type": "PERSON_NAME",
+    "original": "list of",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.823159"
+  },
+  {
+    "review_id": "REV-15331",
+    "pii_type": "PERSON_NAME",
+    "original": "list",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.823159"
+  },
+  {
+    "review_id": "REV-11905",
+    "pii_type": "PERSON_NAME",
+    "original": "name",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.823159"
+  },
+  {
+    "review_id": "REV-11826",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.825155"
+  },
+  {
+    "review_id": "REV-16414",
+    "pii_type": "PHONE",
+    "original": "415-555-2671",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.829154"
+  },
+  {
+    "review_id": "REV-16414",
+    "pii_type": "PERSON_NAME",
+    "original": "user Sarah",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.829154"
+  },
+  {
+    "review_id": "REV-10177",
+    "pii_type": "PERSON_NAME",
+    "original": "use it",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.830153"
+  },
+  {
+    "review_id": "REV-12107",
+    "pii_type": "EMAIL",
+    "original": "david.m@corp.net",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.833155"
+  },
+  {
+    "review_id": "REV-18864",
+    "pii_type": "EMAIL",
+    "original": "alex_smith@yahoo.com",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.834154"
+  },
+  {
+    "review_id": "REV-17584",
+    "pii_type": "PERSON_NAME",
+    "original": "doesn",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.841582"
+  },
+  {
+    "review_id": "REV-10077",
+    "pii_type": "PHONE",
+    "original": "+1-555-0199",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.842582"
+  },
+  {
+    "review_id": "REV-10871",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.843582"
+  },
+  {
+    "review_id": "REV-15555",
+    "pii_type": "PERSON_NAME",
+    "original": "list",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.857595"
+  },
+  {
+    "review_id": "REV-14580",
+    "pii_type": "EMAIL",
+    "original": "david.m@corp.net",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.860591"
+  },
+  {
+    "review_id": "REV-14320",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.867256"
+  },
+  {
+    "review_id": "REV-17558",
+    "pii_type": "PERSON_NAME",
+    "original": "information",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.869255"
+  },
+  {
+    "review_id": "REV-13991",
+    "pii_type": "PHONE",
+    "original": "+1-555-0199",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.869255"
+  },
+  {
+    "review_id": "REV-13520",
+    "pii_type": "PERSON_NAME",
+    "original": "have no",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.873260"
+  },
+  {
+    "review_id": "REV-17693",
+    "pii_type": "PHONE",
+    "original": "7946 0912",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.883256"
+  },
+  {
+    "review_id": "REV-12649",
+    "pii_type": "PERSON_NAME",
+    "original": "friendly",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.890256"
+  },
+  {
+    "review_id": "REV-18597",
+    "pii_type": "PERSON_NAME",
+    "original": "experience and",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.890256"
+  },
+  {
+    "review_id": "REV-16086",
+    "pii_type": "PERSON_NAME",
+    "original": "experience Using",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.891255"
+  },
+  {
+    "review_id": "REV-19669",
+    "pii_type": "EMAIL",
+    "original": "david.m@corp.net",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.897263"
+  },
+  {
+    "review_id": "REV-14752",
+    "pii_type": "PERSON_NAME",
+    "original": "interface and",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.897263"
+  },
+  {
+    "review_id": "REV-16958",
+    "pii_type": "PERSON_NAME",
+    "original": "he was",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.906261"
+  },
+  {
+    "review_id": "REV-18513",
+    "pii_type": "EMAIL",
+    "original": "david.m@corp.net",
+    "redacted": "[REDACTED_EMAIL]",
+    "timestamp": "2026-10-01T11:14:52.909260"
+  },
+  {
+    "review_id": "REV-18612",
+    "pii_type": "PHONE",
+    "original": "415-555-2671",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.915257"
+  },
+  {
+    "review_id": "REV-18612",
+    "pii_type": "PERSON_NAME",
+    "original": "user Sarah",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.915257"
+  },
+  {
+    "review_id": "REV-12381",
+    "pii_type": "PERSON_NAME",
+    "original": "group",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.916256"
+  },
+  {
+    "review_id": "REV-15782",
+    "pii_type": "PERSON_NAME",
+    "original": "synchronisation because",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.916256"
+  },
+  {
+    "review_id": "REV-15782",
+    "pii_type": "PERSON_NAME",
+    "original": "list of",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.916256"
+  },
+  {
+    "review_id": "REV-15782",
+    "pii_type": "PERSON_NAME",
+    "original": "its not",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.916256"
+  },
+  {
+    "review_id": "REV-11465",
+    "pii_type": "PERSON_NAME",
+    "original": "receive messages",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.917263"
+  },
+  {
+    "review_id": "REV-18199",
+    "pii_type": "PHONE",
+    "original": "415-555-2671",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.920261"
+  },
+  {
+    "review_id": "REV-18199",
+    "pii_type": "PERSON_NAME",
+    "original": "user Sarah",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.920261"
+  },
+  {
+    "review_id": "REV-15585",
+    "pii_type": "PHONE",
+    "original": "415-555-2671",
+    "redacted": "[REDACTED_PHONE]",
+    "timestamp": "2026-10-01T11:14:52.928256"
+  },
+  {
+    "review_id": "REV-15585",
+    "pii_type": "PERSON_NAME",
+    "original": "user Sarah",
+    "redacted": "[REDACTED_NAME]",
+    "timestamp": "2026-10-01T11:14:52.928256"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "health": "HEALTHY",
+  "color": "green",
+  "psi_score": 0.0242,
+  "recent_distribution": {
+    "positive": 0.41338582677165353,
+    "negative": 0.08661417322834646,
+    "neutral": 0.5
+  },
+  "historical_distribution": {
+    "positive": 0.48975672215108834,
+    "negative": 0.08130601792573623,
+    "neutral": 0.42893725992317544
+  },
+  "novel_themes": [],
+  "message": "Sentiment distribution matches historical baseline within normal variance."
+}

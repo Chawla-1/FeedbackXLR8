@@ -1,0 +1,438 @@
+[
+  {
+    "cluster_id": 2,
+    "title": "Voice & Video Call Quality",
+    "keywords": [
+      "call",
+      "voice",
+      "audio",
+      "video call",
+      "mic",
+      "sound",
+      "speaker",
+      "calling"
+    ],
+    "volume": 646,
+    "negativity_ratio": 0.096,
+    "impact_score": 6.14,
+    "verbatims": [
+      {
+        "review_id": "REV-15638",
+        "quote": "The Great one in iran Hello telegram is the best app in iran we all use it but if you add voice phone it will be better and can you please interduce me a bot which can help us to remove the voice messages caption?",
+        "rating": 5,
+        "date": "2026-07-27 04:27:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-13921",
+        "quote": "Dark theme  voice and video calling are missing",
+        "rating": 5,
+        "date": "2026-09-23 23:59:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-11643",
+        "quote": "Best messaging app  easy to use  good interface  and of course  voice call which is coming!",
+        "rating": 5,
+        "date": "2026-07-26 04:56:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-15707",
+        "quote": "Hopefully you add call service and abilty to write a status. Thanks",
+        "rating": 5,
+        "date": "2026-09-23 08:31:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-11403",
+        "quote": "Hello sir I love the app.The thing that keeps me to say that it is the worlds best app is lack of video and voice call feature otherwise it is the best..",
+        "rating": 5,
+        "date": "2026-09-23 11:12:00",
+        "version": "v3.4.0"
+      }
+    ],
+    "is_novel_theme": false,
+    "classification_method": "taxonomy_regex"
+  },
+  {
+    "cluster_id": 6,
+    "title": "General Praise & Feature Experience",
+    "keywords": [
+      "great",
+      "love",
+      "best",
+      "awesome",
+      "perfect",
+      "favorite",
+      "smooth",
+      "nice",
+      "good"
+    ],
+    "volume": 778,
+    "negativity_ratio": 0.048,
+    "impact_score": 4.95,
+    "verbatims": [
+      {
+        "review_id": "REV-13179",
+        "quote": "Great app all around. .",
+        "rating": 5,
+        "date": "2026-09-23 22:44:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-13886",
+        "quote": "Love it No words:):):):):):):):):)",
+        "rating": 5,
+        "date": "2026-09-23 22:22:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-10025",
+        "quote": "Pradeep Love India  be an Indian",
+        "rating": 5,
+        "date": "2026-09-23 20:01:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-18560",
+        "quote": "Absolutely amazing",
+        "rating": 5,
+        "date": "2026-07-26 09:21:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-14764",
+        "quote": "It is a great messaging app. I love the backup system of the app. It keeps all my message even after unistalling the app. I love this application and hat's off to the developers. Best wishes for future development.",
+        "rating": 5,
+        "date": "2026-07-26 10:01:00",
+        "version": "v3.1.0"
+      }
+    ],
+    "is_novel_theme": false,
+    "classification_method": "taxonomy_regex"
+  },
+  {
+    "cluster_id": 7,
+    "title": "Uncategorized / Emerging Issues",
+    "keywords": [
+      "emerging"
+    ],
+    "volume": 482,
+    "negativity_ratio": 0.093,
+    "impact_score": 4.53,
+    "verbatims": [
+      {
+        "review_id": "REV-12104",
+        "quote": "Easy to share..",
+        "rating": 5,
+        "date": "2026-09-23 23:37:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-18799",
+        "quote": "shahab bebevi",
+        "rating": 5,
+        "date": "2026-07-26 00:19:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-14858",
+        "quote": "Sweet Likes",
+        "rating": 5,
+        "date": "2026-09-23 02:52:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-19867",
+        "quote": "Please increase the number of chats we can pin to top",
+        "rating": 5,
+        "date": "2026-09-23 01:59:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-12103",
+        "quote": "BHARATH Need one more STAR to rate because BHARATH",
+        "rating": 5,
+        "date": "2026-09-22 22:03:00",
+        "version": "v3.4.0"
+      }
+    ],
+    "is_novel_theme": true,
+    "classification_method": "unmatched_fallback"
+  },
+  {
+    "cluster_id": 4,
+    "title": "Media Download & File Storage",
+    "keywords": [
+      "download",
+      "media",
+      "photo",
+      "video",
+      "storage",
+      "save",
+      "files",
+      "gallery"
+    ],
+    "volume": 105,
+    "negativity_ratio": 0.133,
+    "impact_score": 1.15,
+    "verbatims": [
+      {
+        "review_id": "REV-16932",
+        "quote": "Wonderful suggestions First  I think it would be the coolest thing if you could set like a 5-10 second video as your profile picture/group profile photo. Second  if there was a way to change the color of the blue bar at the top of every screen thatd b neat. Thanks and I hope to see telegram the first messaging app to use video profile pictures :D",
+        "rating": 5,
+        "date": "2026-07-28 08:16:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-10136",
+        "quote": "Excellent i love it   please increase download speed",
+        "rating": 5,
+        "date": "2026-07-30 10:41:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-15806",
+        "quote": "It is so fast than whats up download it and try it",
+        "rating": 5,
+        "date": "2026-07-30 05:28:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-18283",
+        "quote": "Fix the filename problem plz The document file is being changed its name by itself means it doesnt get saved by the name as it is received but by the some number.file format plz fix that issue coz its very hectic to find desired file in the file explorer",
+        "rating": 5,
+        "date": "2026-08-11 06:12:00",
+        "version": "v3.2.1"
+      },
+      {
+        "review_id": "REV-19516",
+        "quote": "Mst download",
+        "rating": 5,
+        "date": "2026-08-16 03:41:00",
+        "version": "v3.2.1"
+      }
+    ],
+    "is_novel_theme": false,
+    "classification_method": "taxonomy_regex"
+  },
+  {
+    "cluster_id": 5,
+    "title": "Battery Drain & Device Lag",
+    "keywords": [
+      "battery",
+      "drain",
+      "draining",
+      "heat",
+      "lag",
+      "slow",
+      "ram",
+      "overheating"
+    ],
+    "volume": 31,
+    "negativity_ratio": 0.194,
+    "impact_score": 0.41,
+    "verbatims": [
+      {
+        "review_id": "REV-11712",
+        "quote": "It's bs Its be cause I don't have a phone",
+        "rating": 1,
+        "date": "2026-07-26 07:03:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-11791",
+        "quote": "Uploading very slow....",
+        "rating": 1,
+        "date": "2026-08-08 08:08:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-12225",
+        "quote": "Awful can you please make it to be without phone number?",
+        "rating": 1,
+        "date": "2026-08-02 10:22:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-14461",
+        "quote": "Slow Have no idea why but it takes hours to send out a message. When I open the app it always show waiting for network even though I have strong wifi. Pls fixed this!",
+        "rating": 1,
+        "date": "2026-08-02 06:22:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-17533",
+        "quote": "Messenger very slow Sending  receiving and last seen are not functioning properly.",
+        "rating": 1,
+        "date": "2026-08-28 18:07:00",
+        "version": "v3.3.0"
+      }
+    ],
+    "is_novel_theme": false,
+    "classification_method": "taxonomy_regex"
+  },
+  {
+    "cluster_id": 3,
+    "title": "Notification & Background Sync",
+    "keywords": [
+      "notification",
+      "notify",
+      "push",
+      "sync",
+      "background",
+      "alerts",
+      "unread"
+    ],
+    "volume": 11,
+    "negativity_ratio": 0.273,
+    "impact_score": 0.18,
+    "verbatims": [
+      {
+        "review_id": "REV-19270",
+        "quote": "1) it is not that much fast as whatsapp in sending and receiving messeages 2) not having read receipts option 3) having 3g signal also  message is not receiving from other telegram users ** First develop these it will help all alot and more 5 stars will get you ***",
+        "rating": 1,
+        "date": "2026-09-07 19:57:00",
+        "version": "v3.3.0"
+      },
+      {
+        "review_id": "REV-10303",
+        "quote": "Since the last update i get no notifications on the app to say i have received a message. Prior to the update evwrything was great. Need to fix it.",
+        "rating": 2,
+        "date": "2026-08-04 21:18:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-17955",
+        "quote": "Please add i option to know the information of the message deliver . And.. read",
+        "rating": 3,
+        "date": "2026-09-19 19:09:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-11177",
+        "quote": "I lost the notifications from the lock screen. Galaxy S7 Update: Yes  it worked! Weird  I never changed the settings. Thanks anyway! 5 starts are back!",
+        "rating": 4,
+        "date": "2026-08-20 06:03:00",
+        "version": "v3.2.1"
+      },
+      {
+        "review_id": "REV-14052",
+        "quote": "Everything is fine. Only thing to add is double tick when message delivered and any other sign for message read. Please add this. Please.",
+        "rating": 4,
+        "date": "2026-09-22 20:12:00",
+        "version": "v3.4.0"
+      }
+    ],
+    "is_novel_theme": false,
+    "classification_method": "taxonomy_regex"
+  },
+  {
+    "cluster_id": 1,
+    "title": "App Stability & Launch Crashes",
+    "keywords": [
+      "crash",
+      "crashes",
+      "crashing",
+      "force close",
+      "freeze",
+      "stopped",
+      "not opening",
+      "shut down",
+      "bug"
+    ],
+    "volume": 4,
+    "negativity_ratio": 0.75,
+    "impact_score": 0.14,
+    "verbatims": [
+      {
+        "review_id": "REV-11678",
+        "quote": "The last update made all smileys ugly  they have always been so cute on telegram",
+        "rating": 1,
+        "date": "2026-08-19 13:53:00",
+        "version": "v3.2.1"
+      },
+      {
+        "review_id": "REV-13369",
+        "quote": "The time of the messages was better before 3.17.0 and has some problem in New update 3.17.1",
+        "rating": 2,
+        "date": "2026-09-06 06:19:00",
+        "version": "v3.3.0"
+      },
+      {
+        "review_id": "REV-14189",
+        "quote": "I like this App.. call +44 20 [REDACTED_PHONE] regarding account freeze",
+        "rating": 5,
+        "date": "2026-09-01 04:34:00",
+        "version": "v3.3.0"
+      },
+      {
+        "review_id": "REV-19184",
+        "quote": "I can't use turning off comments! It's unavailable on my device. I keep my Instagram update but there's no option for me!",
+        "rating": 5,
+        "date": "2026-09-20 00:40:00",
+        "version": "v3.4.0"
+      }
+    ],
+    "is_novel_theme": false,
+    "classification_method": "taxonomy_regex"
+  },
+  {
+    "cluster_id": 0,
+    "title": "Login, Auth & Verification",
+    "keywords": [
+      "login",
+      "sms",
+      "verification",
+      "code",
+      "otp",
+      "auth",
+      "account",
+      "sign in",
+      "connect to server"
+    ],
+    "volume": 13,
+    "negativity_ratio": 0.077,
+    "impact_score": 0.11,
+    "verbatims": [
+      {
+        "review_id": "REV-16084",
+        "quote": "Uhm  I panicked when it called me and declined the call quickly. Now it doesnt call me and I cant get the code...",
+        "rating": 5,
+        "date": "2026-08-02 22:50:00",
+        "version": "v3.1.0"
+      },
+      {
+        "review_id": "REV-12779",
+        "quote": "Broken since last update Can't receive messages since the last update. I tried to resolve this by reinstalling the app  but now activation fails with an RPC error after entering the code. Will rate again when that issue is resolved.",
+        "rating": 5,
+        "date": "2026-09-14 05:10:00",
+        "version": "v3.4.0"
+      },
+      {
+        "review_id": "REV-19264",
+        "quote": "Looks fantastic  with excellent performance. Telegram looks awesome and exactly as the developers claim  it's fast with \"\"\"\"\"\"\"\"buttery-smooth\"\"\"\"\"\"\"\" usage... There's plenty of functionality to keep one hooked and because it's Open Source  it's pretty easy to verify the security of this application. I do wish however  that Telegram had integrated video-calling functionality  as that would make this application near perfect...\"\"",
+        "rating": 4,
+        "date": "2026-08-20 11:24:00",
+        "version": "v3.2.1"
+      },
+      {
+        "review_id": "REV-10071",
+        "quote": "Read Receipt Delivery and read receipt with time are required to switch from WhatsApp... i know delivery is only to server & double tick means read. at least make something to know the read time of each msg",
+        "rating": 4,
+        "date": "2026-09-02 20:04:00",
+        "version": "v3.3.0"
+      },
+      {
+        "review_id": "REV-10500",
+        "quote": "fake security I saw my all contacts in My relatives telegram contacts. They even don't login from my phone and they don't even know them. somehow telegram transfer my contacts To my other telegram contacts. fix it",
+        "rating": 3,
+        "date": "2026-09-16 16:47:00",
+        "version": "v3.4.0"
+      }
+    ],
+    "is_novel_theme": false,
+    "classification_method": "taxonomy_regex"
+  }
+]
