@@ -1,0 +1,8 @@
+{
+  "dataset_size": 20,
+  "accuracy": 0.9,
+  "mixed_precision": 1.0,
+  "mixed_recall": 0.8,
+  "mixed_f1": 0.8889,
+  "eval_time_ms_per_review": 0.035
+}

@@ -968,6 +968,21 @@ with st.sidebar:
 
         # (Copilot is accessible via the '💬 Ask Copilot' button at the top of the page)
 
+        # Engine Kill-Switch (Rule 1: Never delete v2 fallback)
+        st.markdown(f"<div style='font-size:10.5px; font-weight:700; color:{TEXT_SUB}; text-transform:uppercase; margin-top:10px; margin-bottom:4px;'>ENGINE MODE (DEMO KILL-SWITCH)</div>", unsafe_allow_html=True)
+        if "active_engine" not in st.session_state:
+            st.session_state.active_engine = "v3.0 (Transformer & c-TF-IDF)"
+        sel_engine = st.selectbox(
+            "Active Pipeline Engine",
+            ["v3.0 (Transformer & c-TF-IDF)", "v2.0 (Lexicon Baseline)"],
+            index=0 if "v3.0" in st.session_state.active_engine else 1,
+            label_visibility="collapsed",
+            help="1-click live demo fallback kill switch"
+        )
+        st.session_state.active_engine = sel_engine
+        if "v2.0" in sel_engine:
+            st.markdown(f"<div style='font-size:10px; color:{PBI_AMBER}; margin-bottom:8px;'>⚠️ Running on v2.0 baseline fallback engine</div>", unsafe_allow_html=True)
+
         # Surge simulator
         if st.session_state.custom_dataset is None:
             if not st.session_state.surge_injected:
