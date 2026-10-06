@@ -69,11 +69,44 @@ service-account*.json
 *~
 .DS_Store
 
-# Large datasets (download separately)
+# Large datasets (download separately, never commit)
 data/app_reviews_raw.parquet
 data/reviews_10k.csv
 data/*.parquet
+data/*.csv
 data/apps/*/processed_reviews.parquet
+data/apps/*/
+data/apps/*/*.json
+data/apps/*/*.csv
+data/apps/*/*.parquet
+
+# Generated data files (runtime output, not source code)
+data/alerts.json
+data/drift_metrics.json
+data/human_validation_metrics.json
+data/pii_audit_log.json
+data/pii_benchmark_metrics.json
+data/scale_benchmark_metrics.json
+data/sentiment_baselines_comparison.json
+data/themes.json
+data/validation_metrics.json
+data/human_labels_150.csv
+data/validation_500.csv
+data/surge_injection.csv
+data/sample_enterprise_reviews.csv
+
+# Development/testing scripts (not needed in production)
+scripts/annotate_human_labels.py
+scripts/benchmark_*.py
+scripts/build_golden_benchmark.py
+scripts/create_human_labels.py
+scripts/download_dataset.py
+scripts/evaluate_sentiment_baselines.py
+scripts/measure_review_latency.py
+scripts/prepare_datasets.py
+scripts/train_weak_sentiment.py
+scripts/validate_human_labels.py
+test_play_api.py
 
 # Office documents (not needed in repo)
 *.docx

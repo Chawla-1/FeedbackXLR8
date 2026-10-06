@@ -1,9 +1,0 @@
-review_id,date,rating,review_text,app_version,platform
-REV-ENT-101,2026-09-28,1,"The new billing page keeps freezing every time I try to update my corporate credit card. Fix this!",v4.2.0,Web
-REV-ENT-102,2026-09-28,5,"FeedbackXLR8 migration was completely seamless. Customer support team resolved our SSO query in 10 minutes.",v4.2.0,SaaS
-REV-ENT-103,2026-09-29,1,"Ever since update 4.2.0, push notifications on iOS are delayed by up to 3 hours. Critical alerts missed.",v4.2.0,iOS
-REV-ENT-104,2026-09-29,2,"Exporting PDF reports fails with error code 504 on large workspaces. Please contact me at john.smith@enterprise.com.",v4.2.0,Web
-REV-ENT-105,2026-09-30,5,"Outstanding platform! The automated sentiment clustering saves our product managers 15 hours every week.",v4.1.9,Web
-REV-ENT-106,2026-09-30,4,"Good overall, but I wish the dark mode was a bit higher contrast. Reach our admin at +1-555-019-2834.",v4.2.0,Android
-REV-ENT-107,2026-10-01,1,"Crash on launch immediately after entering workspace domain. Unusable on Android 14.",v4.2.0,Android
-REV-ENT-108,2026-10-01,5,"Fast, clean and reliable. Best analytics tool we have used all year.",v4.1.9,iOS
