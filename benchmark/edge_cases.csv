@@ -1,0 +1,27 @@
+review_text,sentiment,rating,category,review_id
+Great app! Crashes every 5 minutes. Love it!,negative,1,sarcasm,EDGE-001
+Nothing but bugs. Absolutely wonderful.,negative,1,sarcasm,EDGE-002
+Thanks for draining my battery. Really appreciate it.,negative,1,sarcasm,EDGE-003
+"No crashes, no bugs, works perfectly",positive,5,negation,EDGE-004
+Doesn't lag at all. Very smooth experience.,positive,5,negation,EDGE-005
+Not slow anymore. Latest update fixed everything.,positive,4,negation,EDGE-006
+No issues so far. Happy with it.,positive,4,negation,EDGE-007
+Would be 5 stars if they fix the login bug,mixed,3,conditional,EDGE-008
+Good app but crashes on Android 12,mixed,3,conditional,EDGE-009
+Love the features but the ads are too much,mixed,3,conditional,EDGE-010
+"Great UI, however it drains battery fast",mixed,3,conditional,EDGE-011
+"If only it didn't crash, would be perfect",mixed,2,conditional,EDGE-012
+Nice design but constant force closes ruin it,mixed,2,contrastive,EDGE-013
+Fast and responsive yet loses my data frequently,mixed,2,contrastive,EDGE-014
+Simple to use although very limited functionality,mixed,3,contrastive,EDGE-015
+"Bahut accha app hai, lekin ads bohot zyada hai",mixed,3,hinglish,EDGE-016
+UI ekdum mast hai phir bhi crash ho jata hai,mixed,3,hinglish,EDGE-017
+"After the update, all bugs are gone. Finally works!",positive,5,improvement,EDGE-018
+Used to crash a lot. Now it's stable and fast.,positive,5,improvement,EDGE-019
+Good idea but terrible execution,negative,1,harsh,EDGE-020
+Had high hopes. Completely disappointed.,negative,1,harsh,EDGE-021
+Looks nice but unusable due to constant crashes,negative,1,harsh,EDGE-022
+Nothing but problems since day one,negative,1,harsh,EDGE-023
+It's okay I guess,neutral,3,ambiguous,EDGE-024
+Nothing special but it works,neutral,3,ambiguous,EDGE-025
+Does what it says. That's about it.,neutral,3,ambiguous,EDGE-026

@@ -1,0 +1,26 @@
+review_text,sentiment,rating,category,review_id
+Average app. Nothing extraordinary.,neutral,3,neutral,NEUTRAL-001
+"It's okay. Not great, not terrible.",neutral,3,neutral,NEUTRAL-002
+Decent enough for basic use.,neutral,3,neutral,NEUTRAL-003
+Meh. Could be better.,neutral,3,neutral,NEUTRAL-004
+Does the job but nothing more.,neutral,3,neutral,NEUTRAL-005
+Average performance. Expected more.,neutral,3,neutral,NEUTRAL-006
+Okay for now. Will see if I keep using it.,neutral,3,neutral,NEUTRAL-007
+Standard app. Nothing stands out.,neutral,3,neutral,NEUTRAL-008
+Neither good nor bad. Just fine.,neutral,3,neutral,NEUTRAL-009
+Basic functionality works. UI could be better.,neutral,3,neutral,NEUTRAL-010
+Excellent app! Highly recommend.,positive,5,clear_positive,NEUTRAL-011
+Love it! Best in its category.,positive,5,clear_positive,NEUTRAL-012
+Amazing features. Worth every penny.,positive,5,clear_positive,NEUTRAL-013
+Perfect! Does everything I need.,positive,5,clear_positive,NEUTRAL-014
+Great job developers. Keep it up!,positive,5,clear_positive,NEUTRAL-015
+Terrible app. Don't waste your time.,negative,1,clear_negative,NEUTRAL-016
+Worst app ever. Uninstalled immediately.,negative,1,clear_negative,NEUTRAL-017
+Crashes constantly. Completely broken.,negative,1,clear_negative,NEUTRAL-018
+Horrible experience. Full of bugs.,negative,1,clear_negative,NEUTRAL-019
+Total waste of storage space.,negative,1,clear_negative,NEUTRAL-020
+Good concept but needs work,mixed,3,subtle_mixed,NEUTRAL-021
+"Useful features, poor implementation",mixed,3,subtle_mixed,NEUTRAL-022
+Has potential but falls short,mixed,3,subtle_mixed,NEUTRAL-023
+Nice try but not quite there yet,mixed,3,subtle_mixed,NEUTRAL-024
+"Some good parts, some bad parts",mixed,3,subtle_mixed,NEUTRAL-025

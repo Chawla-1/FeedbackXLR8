@@ -1,0 +1,432 @@
+{
+  "healthtrack": {
+    "name": "FitSync Pro",
+    "package_name": "com.fitsync.pro",
+    "category": "Health & Fitness",
+    "description": "Competitor fitness tracking app",
+    "total_reviews": 8420,
+    "avg_rating": 3.8,
+    "weakness_score": 62,
+    "top_weaknesses": [
+      {
+        "theme": "App Stability & Launch Crashes",
+        "negative_count": 1240,
+        "avg_rating": 2.1,
+        "severity_score": 82.5,
+        "sample_complaints": [
+          "App crashes every time I try to start a workout. Lost all my progress data multiple times.",
+          "Force closes when syncing with Apple Watch. This is a basic feature that doesn't work!",
+          "Constant freezing during exercises. Completely unusable for actual workouts."
+        ]
+      },
+      {
+        "theme": "Performance & Battery",
+        "negative_count": 980,
+        "avg_rating": 2.4,
+        "severity_score": 71.3,
+        "sample_complaints": [
+          "Drains battery like crazy. Phone dies in 3 hours with this app running.",
+          "GPS tracking is so slow and inaccurate. My runs show me swimming in the ocean!",
+          "App lags terribly when recording workouts. Missed half my stats because of delays."
+        ]
+      },
+      {
+        "theme": "Authentication & Account",
+        "negative_count": 756,
+        "avg_rating": 2.6,
+        "severity_score": 65.8,
+        "sample_complaints": [
+          "Can't login after the latest update. Support doesn't respond to emails.",
+          "Lost all my workout history after password reset. Years of data gone!",
+          "Login fails randomly. Have to reinstall app every few days just to access my account."
+        ]
+      },
+      {
+        "theme": "Billing & Subscriptions",
+        "negative_count": 542,
+        "avg_rating": 1.9,
+        "severity_score": 58.4,
+        "sample_complaints": [
+          "Charged twice for premium subscription. No refund after 2 weeks of complaints.",
+          "Can't cancel subscription through the app. Hidden cancellation process is predatory.",
+          "Premium features don't work even after paying $99/year. Total scam."
+        ]
+      },
+      {
+        "theme": "UI/UX & Design",
+        "negative_count": 387,
+        "avg_rating": 3.2,
+        "severity_score": 45.2,
+        "sample_complaints": [
+          "UI is cluttered and confusing. Takes 5 taps to start a simple workout.",
+          "Dark mode doesn't work properly. Bright white flashes hurt my eyes during night runs.",
+          "Navigation is unintuitive. Can't find basic features without searching help docs."
+        ]
+      }
+    ],
+    "sentiment_breakdown": {
+      "positive": 42.3,
+      "negative": 31.5,
+      "mixed": 18.7,
+      "neutral": 7.5
+    },
+    "pain_points": [
+      {"pain_point": "Sync failures with wearables", "mention_count": 1450},
+      {"pain_point": "Data loss after updates", "mention_count": 892},
+      {"pain_point": "Inaccurate GPS tracking", "mention_count": 743},
+      {"pain_point": "Battery drain issues", "mention_count": 621},
+      {"pain_point": "Poor customer support", "mention_count": 518}
+    ],
+    "recommendations": [
+      "🎯 Emphasize your reliable workout tracking - FitSync users are frustrated with crashes during exercises",
+      "🔋 Highlight your battery efficiency - competitor drains batteries significantly",
+      "📱 Market your seamless wearable sync - FitSync has major sync issues with Apple Watch",
+      "💰 Position your transparent pricing - FitSync has billing complaints and hidden cancellation",
+      "📊 Showcase data reliability - many users report losing workout history after updates"
+    ]
+  },
+  "edulearn_plus": {
+    "name": "StudyMaster AI",
+    "package_name": "com.studymaster.ai",
+    "category": "Education",
+    "description": "Competitor learning platform",
+    "total_reviews": 12350,
+    "avg_rating": 3.6,
+    "weakness_score": 68,
+    "top_weaknesses": [
+      {
+        "theme": "App Stability & Launch Crashes",
+        "negative_count": 1890,
+        "avg_rating": 1.8,
+        "severity_score": 87.2,
+        "sample_complaints": [
+          "App crashes right before I submit my homework. Lost 2 hours of work three times this week!",
+          "Force closes during video lessons. Can't complete my courses because it's so unreliable.",
+          "Freezes every time I try to take a quiz. Failed my exam because the app wouldn't load."
+        ]
+      },
+      {
+        "theme": "Performance & Battery",
+        "negative_count": 1456,
+        "avg_rating": 2.3,
+        "severity_score": 79.5,
+        "sample_complaints": [
+          "Videos buffer endlessly even on WiFi. Takes 10 minutes to load a 2-minute lesson.",
+          "App is incredibly slow. Opening any course takes 30+ seconds of loading screens.",
+          "Heats up my phone to the point I can't hold it. Battery dies in under 2 hours."
+        ]
+      },
+      {
+        "theme": "Ads & Monetization",
+        "negative_count": 1203,
+        "avg_rating": 1.6,
+        "severity_score": 76.8,
+        "sample_complaints": [
+          "Full-screen ads every 30 seconds! Can't study with constant interruptions.",
+          "Paid for ad-free but still getting ads. Support says it's 'working as intended'. Scam!",
+          "Ads are longer than the actual lessons. 2-minute video has 5 minutes of ads."
+        ]
+      },
+      {
+        "theme": "Authentication & Account",
+        "negative_count": 987,
+        "avg_rating": 2.1,
+        "severity_score": 71.4,
+        "sample_complaints": [
+          "Login fails during exams. Lost my progress on three different tests.",
+          "Account randomly logs out. Have to reset password every single day.",
+          "Can't access purchased courses after switching devices. Support is useless."
+        ]
+      },
+      {
+        "theme": "Billing & Subscriptions",
+        "negative_count": 843,
+        "avg_rating": 1.7,
+        "severity_score": 69.2,
+        "sample_complaints": [
+          "Charged $299 for annual plan that I never authorized. Can't get refund.",
+          "Free trial auto-renewed without warning. Charged $49.99 I didn't budget for.",
+          "Subscription doesn't unlock promised features. Paying for nothing!"
+        ]
+      }
+    ],
+    "sentiment_breakdown": {
+      "positive": 38.7,
+      "negative": 35.2,
+      "mixed": 19.8,
+      "neutral": 6.3
+    },
+    "pain_points": [
+      {"pain_point": "Excessive ads interrupting lessons", "mention_count": 2341},
+      {"pain_point": "Work lost due to crashes", "mention_count": 1876},
+      {"pain_point": "Slow video loading", "mention_count": 1534},
+      {"pain_point": "Auto-renewal without warning", "mention_count": 923},
+      {"pain_point": "Login failures during exams", "mention_count": 812}
+    ],
+    "recommendations": [
+      "📚 Promote your stable learning environment - StudyMaster users lose work due to frequent crashes",
+      "🎥 Emphasize fast video streaming - competitor has severe buffering issues",
+      "🚫 Highlight ad-free learning experience - StudyMaster has aggressive ad interruptions",
+      "💳 Market transparent billing - competitor has unauthorized charges and auto-renewal complaints",
+      "🔐 Showcase reliable authentication - users can't access content during critical exam times"
+    ]
+  },
+  "cloudsync_pro": {
+    "name": "CloudVault Max",
+    "package_name": "com.cloudvault.max",
+    "category": "Productivity",
+    "description": "Competitor cloud storage app",
+    "total_reviews": 15670,
+    "avg_rating": 3.4,
+    "weakness_score": 74,
+    "top_weaknesses": [
+      {
+        "theme": "Performance & Battery",
+        "negative_count": 2340,
+        "avg_rating": 2.0,
+        "severity_score": 89.3,
+        "sample_complaints": [
+          "Syncing takes forever! 5MB file has been 'uploading' for 3 hours. Unusable for work.",
+          "Battery drain is insane. Phone dies in 90 minutes with background sync enabled.",
+          "App freezes my entire phone when uploading. Have to force restart multiple times daily."
+        ]
+      },
+      {
+        "theme": "Authentication & Account",
+        "negative_count": 1987,
+        "avg_rating": 1.9,
+        "severity_score": 85.7,
+        "sample_complaints": [
+          "Two-factor authentication is broken. Can't access my files for work meetings. Lost a client!",
+          "Password reset doesn't work. Been locked out for 5 days with no response from support.",
+          "Random logouts lose my sync progress. Have to re-upload everything from scratch."
+        ]
+      },
+      {
+        "theme": "App Stability & Launch Crashes",
+        "negative_count": 1765,
+        "avg_rating": 2.2,
+        "severity_score": 81.4,
+        "sample_complaints": [
+          "Crashes when trying to download important work files. Missed deadline because of this!",
+          "Force closes every time I share a folder. Basic functionality doesn't work.",
+          "App won't open on Android 14. Completely incompatible with latest OS."
+        ]
+      },
+      {
+        "theme": "Billing & Subscriptions",
+        "negative_count": 1543,
+        "avg_rating": 1.6,
+        "severity_score": 78.9,
+        "sample_complaints": [
+          "Charged $499 for 'enterprise' plan I never ordered. Credit card company had to reverse it.",
+          "Storage quota doesn't match what I paid for. Paying for 2TB but only getting 500GB.",
+          "Can't downgrade plan. Forced to pay $99/month even though I only need 50GB now."
+        ]
+      },
+      {
+        "theme": "UI/UX & Design",
+        "negative_count": 1234,
+        "avg_rating": 2.8,
+        "severity_score": 66.5,
+        "sample_complaints": [
+          "File organization is a nightmare. Can't find anything without using search.",
+          "Sharing permissions are confusing. Accidentally gave edit access to 50 people.",
+          "Dark mode is half-broken. Some screens are dark, others blindingly white."
+        ]
+      }
+    ],
+    "sentiment_breakdown": {
+      "positive": 35.2,
+      "negative": 39.8,
+      "mixed": 18.5,
+      "neutral": 6.5
+    },
+    "pain_points": [
+      {"pain_point": "Extremely slow sync speeds", "mention_count": 2876},
+      {"pain_point": "Two-factor auth failures", "mention_count": 2103},
+      {"pain_point": "Billing overcharges", "mention_count": 1687},
+      {"pain_point": "File access during meetings", "mention_count": 1432},
+      {"pain_point": "Battery drain from background sync", "mention_count": 1298}
+    ],
+    "recommendations": [
+      "⚡ Highlight your fast sync speeds - CloudVault users frustrated with extremely slow uploads",
+      "🔐 Promote reliable authentication - competitor has broken 2FA causing work disruptions",
+      "💰 Emphasize honest billing - CloudVault has serious overcharging complaints",
+      "📱 Market your stability - competitor crashes when accessing files in critical moments",
+      "🔋 Showcase battery efficiency - background sync causes severe drain for users"
+    ]
+  },
+  "payflow_wallet": {
+    "name": "QuickPay Digital",
+    "package_name": "com.quickpay.digital",
+    "category": "Finance",
+    "description": "Competitor digital wallet",
+    "total_reviews": 18920,
+    "avg_rating": 3.2,
+    "weakness_score": 81,
+    "top_weaknesses": [
+      {
+        "theme": "Authentication & Account",
+        "negative_count": 3245,
+        "avg_rating": 1.5,
+        "severity_score": 94.8,
+        "sample_complaints": [
+          "Locked out of my account with $2,400 inside! Support hasn't responded in 12 days. This is theft!",
+          "Biometric login fails 90% of the time. Have to use backup codes which defeats the security purpose.",
+          "Account suspended for 'suspicious activity' with no explanation. Can't access my rent money!"
+        ]
+      },
+      {
+        "theme": "Billing & Subscriptions",
+        "negative_count": 2876,
+        "avg_rating": 1.4,
+        "severity_score": 91.5,
+        "sample_complaints": [
+          "Charged me twice for the same transaction. $850 double-charged and no refund after 3 weeks!",
+          "Hidden fees everywhere! $2.99 fee on every transaction wasn't mentioned anywhere in terms.",
+          "Premium subscription charged me $199 after free trial ended without ANY warning."
+        ]
+      },
+      {
+        "theme": "App Stability & Launch Crashes",
+        "negative_count": 2543,
+        "avg_rating": 1.8,
+        "severity_score": 88.2,
+        "sample_complaints": [
+          "App crashes at checkout! Embarrassed at store counter three times this week.",
+          "Force closes when trying to send money. Friends think I'm ignoring their payment requests.",
+          "Won't open during payment. Had to use my old credit card and waste the cashback offer."
+        ]
+      },
+      {
+        "theme": "Performance & Battery",
+        "negative_count": 1987,
+        "avg_rating": 2.1,
+        "severity_score": 82.6,
+        "sample_complaints": [
+          "Transactions take 5-10 minutes to process. Missed time-sensitive deals multiple times.",
+          "App is unbearably slow. Takes 2 minutes just to open and load my balance.",
+          "Background refresh kills my battery. Phone dies before end of day because of this app."
+        ]
+      },
+      {
+        "theme": "UI/UX & Design",
+        "negative_count": 1654,
+        "avg_rating": 2.5,
+        "severity_score": 74.3,
+        "sample_complaints": [
+          "Can't find transaction history. Where are my receipts? Terrible for expense tracking.",
+          "Payment confirmation is hidden. Accidentally sent $500 to wrong person with no warning!",
+          "Dark mode doesn't work. Bright white screen at night is blinding and unprofessional."
+        ]
+      }
+    ],
+    "sentiment_breakdown": {
+      "positive": 31.5,
+      "negative": 44.2,
+      "mixed": 17.8,
+      "neutral": 6.5
+    },
+    "pain_points": [
+      {"pain_point": "Account lockouts blocking fund access", "mention_count": 3567},
+      {"pain_point": "Double-charging transactions", "mention_count": 2934},
+      {"pain_point": "Crashes during payment at stores", "mention_count": 2678},
+      {"pain_point": "Hidden transaction fees", "mention_count": 2103},
+      {"pain_point": "Slow transaction processing", "mention_count": 1876}
+    ],
+    "recommendations": [
+      "🔐 Promote your reliable authentication - QuickPay locks users out of their own money for weeks",
+      "💳 Highlight accurate billing - competitor has serious double-charging and hidden fee issues",
+      "⚡ Emphasize payment reliability - users embarrassed at checkout due to frequent crashes",
+      "🏦 Market your security without hassle - biometric login fails constantly for QuickPay users",
+      "💰 Showcase transparent fees - competitor has hidden charges causing serious trust issues"
+    ]
+  },
+  "gps_com_xvoid_vault": {
+    "name": "SecureBox Premium",
+    "package_name": "com.securebox.premium",
+    "category": "Tools",
+    "description": "Competitor secure storage app",
+    "total_reviews": 9870,
+    "avg_rating": 3.7,
+    "weakness_score": 59,
+    "top_weaknesses": [
+      {
+        "theme": "Authentication & Account",
+        "negative_count": 1432,
+        "avg_rating": 2.2,
+        "severity_score": 76.4,
+        "sample_complaints": [
+          "Master password reset deletes ALL my data! Lost family photos and important documents.",
+          "Fingerprint unlock randomly stops working. Have to reinstall app to fix it.",
+          "Can't recover account if I forget password. All my encrypted files gone forever!"
+        ]
+      },
+      {
+        "theme": "Performance & Battery",
+        "negative_count": 1187,
+        "avg_rating": 2.6,
+        "severity_score": 71.8,
+        "sample_complaints": [
+          "Decryption takes 5+ minutes for a 10MB file. Unusable for quick access.",
+          "App uses 40% of my battery just sitting idle. Massive background drain.",
+          "Opening vault is painfully slow. 30-second load time every single time."
+        ]
+      },
+      {
+        "theme": "App Stability & Launch Crashes",
+        "negative_count": 943,
+        "avg_rating": 2.4,
+        "severity_score": 68.5,
+        "sample_complaints": [
+          "Crashes when importing large files. Can't back up my important videos.",
+          "Force closes randomly and corrupts my files! Lost crucial tax documents.",
+          "App won't open after Android 14 update. All my data is inaccessible!"
+        ]
+      },
+      {
+        "theme": "UI/UX & Design",
+        "negative_count": 876,
+        "avg_rating": 3.1,
+        "severity_score": 62.3,
+        "sample_complaints": [
+          "File organization is confusing. Takes forever to find what I need.",
+          "No dark mode option. Bright white interface when opening vault at night.",
+          "Can't preview files without decrypting. Have to guess which file I need."
+        ]
+      },
+      {
+        "theme": "Billing & Subscriptions",
+        "negative_count": 654,
+        "avg_rating": 2.3,
+        "severity_score": 58.9,
+        "sample_complaints": [
+          "Premium features advertised but not included. $79/year for nothing extra!",
+          "Cloud backup requires separate subscription. Wasn't clear in pricing.",
+          "Can't export my data without premium. Holding my files hostage!"
+        ]
+      }
+    ],
+    "sentiment_breakdown": {
+      "positive": 47.3,
+      "negative": 28.7,
+      "mixed": 17.2,
+      "neutral": 6.8
+    },
+    "pain_points": [
+      {"pain_point": "Data loss after password reset", "mention_count": 1876},
+      {"pain_point": "Slow file decryption", "mention_count": 1432},
+      {"pain_point": "Battery drain in background", "mention_count": 1098},
+      {"pain_point": "File corruption after crashes", "mention_count": 876},
+      {"pain_point": "No data export without premium", "mention_count": 743}
+    ],
+    "recommendations": [
+      "🔐 Highlight your secure password recovery - SecureBox users lose ALL data on reset",
+      "⚡ Promote fast decryption speeds - competitor takes 5+ minutes for basic files",
+      "🔋 Emphasize battery efficiency - SecureBox drains 40% battery in background",
+      "💾 Market your data safety - users report file corruption after crashes",
+      "📤 Showcase free data export - competitor locks data behind premium paywall"
+    ]
+  }
+}

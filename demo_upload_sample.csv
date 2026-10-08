@@ -1,0 +1,31 @@
+review_id,date,rating,review_text,app_version,platform
+DEMO-001,2026-09-15,5,Love this app! Works perfectly and the UI is beautiful. Best password manager I've used.,v3.2.0,Android
+DEMO-002,2026-09-16,1,Crashes every time I try to open it. Completely unusable after the latest update.,v3.3.0,iOS
+DEMO-003,2026-09-17,4,Great features but the export to PDF is broken. Otherwise really solid app.,v3.3.0,Web
+DEMO-004,2026-09-18,2,App is too slow. Takes 10 seconds just to load my vault. Very frustrating experience.,v3.3.0,Android
+DEMO-005,2026-09-19,5,Excellent! The new biometric login is super fast and secure. Highly recommend.,v3.3.1,iOS
+DEMO-006,2026-09-20,3,It's okay. Nothing special but gets the job done. UI could be more modern.,v3.3.1,Android
+DEMO-007,2026-09-21,1,Lost all my passwords after the update! This is a disaster. Need urgent fix.,v3.3.1,Web
+DEMO-008,2026-09-22,5,Perfect app for managing my work passwords. Cloud sync works flawlessly.,v3.3.1,Android
+DEMO-009,2026-09-23,4,Good app overall but notifications don't work properly. Delays of 5+ minutes.,v3.3.2,iOS
+DEMO-010,2026-09-24,2,Constant freezes and force closes. Really disappointed with recent updates.,v3.3.2,Android
+DEMO-011,2026-09-25,5,Amazing app! The auto-fill feature saves me so much time. Worth every penny.,v3.3.2,Web
+DEMO-012,2026-09-26,1,Billing issue - charged me twice for premium subscription. Still not resolved.,v3.3.2,iOS
+DEMO-013,2026-09-27,4,Pretty good but wish it had dark mode. Feature request for next update please.,v3.3.3,Android
+DEMO-014,2026-09-28,3,Average performance. Not bad but competitors have better features honestly.,v3.3.3,Web
+DEMO-015,2026-09-29,5,Best security app hands down. My company uses it for all employees. Excellent!,v3.3.3,iOS
+DEMO-016,2026-09-30,2,Export function gives 504 gateway timeout error every single time I try.,v3.3.3,Android
+DEMO-017,2026-10-01,1,App crashes immediately on launch after updating to v3.4. Please fix ASAP!,v3.4.0,iOS
+DEMO-018,2026-10-01,1,Same issue here - instant crash on v3.4. Rolling back to previous version.,v3.4.0,Android
+DEMO-019,2026-10-01,5,Works great for me on v3.4! No issues at all. Love the new features.,v3.4.0,Web
+DEMO-020,2026-10-02,1,Crashes on startup every time. This v3.4 update is completely broken.,v3.4.0,iOS
+DEMO-021,2026-10-02,2,Very buggy release. Freezes constantly and syncing doesn't work anymore.,v3.4.0,Android
+DEMO-022,2026-10-03,4,Good app but recent update caused some stability issues. Hoping for hotfix.,v3.4.0,Web
+DEMO-023,2026-10-03,1,Cannot open the app at all. Crash crash crash. Worst update ever released.,v3.4.0,iOS
+DEMO-024,2026-10-04,3,Meh. It's functional but nothing to write home about. Just average really.,v3.4.1,Android
+DEMO-025,2026-10-05,5,v3.4.1 fixed all the crashes! Back to being perfect. Thank you developers!,v3.4.1,iOS
+DEMO-026,2026-10-05,4,Much better after the hotfix. Still some minor bugs but mostly stable now.,v3.4.1,Android
+DEMO-027,2026-10-06,5,Fantastic password manager. Secure reliable and easy to use. Five stars!,v3.4.1,Web
+DEMO-028,2026-10-06,2,Push notifications still broken. Miss important security alerts constantly.,v3.4.1,iOS
+DEMO-029,2026-10-07,4,Solid app with good encryption. Only complaint is slow loading on old phones.,v3.4.1,Android
+DEMO-030,2026-10-07,5,Perfect! The enterprise features are exactly what our team needed. Awesome!,v3.4.1,Web

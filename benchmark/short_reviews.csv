@@ -1,0 +1,31 @@
+review_text,sentiment,rating,category,review_id
+Great!,positive,5,short,SHORT-001
+Love it,positive,5,short,SHORT-002
+Amazing app,positive,5,short,SHORT-003
+Perfect,positive,5,short,SHORT-004
+Best app ever,positive,5,short,SHORT-005
+Awesome,positive,5,short,SHORT-006
+Highly recommended,positive,5,short,SHORT-007
+Works great,positive,5,short,SHORT-008
+5 stars!,positive,5,short,SHORT-009
+Excellent,positive,5,short,SHORT-010
+Terrible,negative,1,short,SHORT-011
+Crashes,negative,1,short,SHORT-012
+Broken,negative,1,short,SHORT-013
+Waste of time,negative,1,short,SHORT-014
+Doesn't work,negative,1,short,SHORT-015
+Horrible,negative,1,short,SHORT-016
+Worst app,negative,1,short,SHORT-017
+Uninstalled,negative,1,short,SHORT-018
+Total failure,negative,1,short,SHORT-019
+Buggy mess,negative,1,short,SHORT-020
+Okay,neutral,3,short,SHORT-021
+It's fine,neutral,3,short,SHORT-022
+Average,neutral,3,short,SHORT-023
+Meh,neutral,3,short,SHORT-024
+Nothing special,neutral,3,short,SHORT-025
+Good but crashes,mixed,3,short,SHORT-026
+"Nice UI, slow",mixed,3,short,SHORT-027
+Works but buggy,mixed,3,short,SHORT-028
+"Cool features, bad ads",mixed,3,short,SHORT-029
+Fast but unstable,mixed,3,short,SHORT-030

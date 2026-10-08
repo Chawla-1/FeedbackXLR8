@@ -224,7 +224,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="FeedbackXLR8 Benchmark Evaluation Harness")
     parser.add_argument("--engine", type=str, default="v2", help="Engine version: v2, v2_rating_assisted, or v3")
     parser.add_argument("--benchmark", type=str, default="benchmark/golden.csv", help="Path to golden benchmark CSV")
-    parser.add_argument("--output", type=str, default="benchmark/baseline_v2.json", help="Path to output JSON")
+    parser.add_argument("--output", type=str, default=None, help="Path to output JSON")
     args = parser.parse_args()
+
+    if args.output is None:
+        args.output = "benchmark/sentiment_v3.json" if args.engine == "v3" else "benchmark/baseline_v2.json"
 
     run_eval(engine_type=args.engine, benchmark_file=args.benchmark, output_file=args.output)

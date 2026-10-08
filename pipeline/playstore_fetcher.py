@@ -132,55 +132,46 @@ def fetch_reviews(
 
 def process_reviews_through_pipeline(
     df: pd.DataFrame,
+    use_transformer: bool = True,
+    enable_embeddings: bool = True,
 ) -> pd.DataFrame:
     """
-    Run fetched reviews through PII redaction and Sentiment analysis.
-    Returns enriched DataFrame with sentiment, theme_title, etc.
+    Run fetched reviews through v3 pipeline: PII redaction, Transformer sentiment, 
+    Embeddings, and Dynamic clustering.
+    
+    Args:
+        df: Raw reviews DataFrame
+        use_transformer: Use transformer sentiment v3 (default: True, recommended)
+        enable_embeddings: Generate embeddings and cluster themes (default: True)
+    
+    Returns:
+        Enriched DataFrame with sentiment, theme_title, embeddings, etc.
     """
     from pipeline.pii_redactor import PIIShield
-    from pipeline.sentiment import SentimentEngine
+    from pipeline.sentiment_v3 import SentimentV3Engine
+    from pipeline.theming_v3 import ThemingV3Engine
 
     pii_eng = PIIShield()
-    sent_eng = SentimentEngine(mode="rating_assisted")
+    sent_eng = SentimentV3Engine(use_transformer=use_transformer)
+    theme_eng = ThemingV3Engine() if enable_embeddings else None
 
     processed = []
+    
+    # Step 1 & 2: PII Redaction + Transformer Sentiment v3
     for _, row in df.iterrows():
         raw_text = str(row.get("review_text", ""))
         r_id = str(row.get("review_id", "GPS-0000"))
+        
+        # PII Redaction
         redacted, _ = pii_eng.redact_text(raw_text, review_id=r_id)
+        
+        # Transformer Sentiment Analysis v3
         r_val = int(row.get("rating", 3))
-        sent_out = sent_eng.analyze_text(redacted, rating=r_val)
-
-        # Theme assignment: classify praise, crashes, and domain themes
-        t_txt = redacted.lower()
-        has_friction_words = any(k in t_txt for k in ["crash", "freeze", "bug", "unusable", "stuck", "force close", "fail", "broken", "error", "problem", "issue", "worst", "terrible", "hate"])
-        has_praise_words = any(k in t_txt for k in ["love", "great", "best", "amazing", "awesome", "excellent", "perfect", "good", "easy", "helpful", "superb", "nice", "useful", "recommend", "smooth", "recall"])
-
-        if any(k in t_txt for k in ["crash", "freeze", "bug", "unusable", "stuck", "force close"]):
-            theme = "App Stability & Launch Crashes"
-        elif any(k in t_txt for k in ["slow", "lag", "performance", "battery", "drain", "loading"]):
-            theme = "Performance & Battery"
-        elif any(k in t_txt for k in ["update", "version", "upgrade", "downgrade"]):
-            theme = "Update & Version Issues"
-        elif any(k in t_txt for k in ["ad", "ads", "advertisement", "spam", "popup"]):
-            theme = "Ads & Monetization"
-        elif any(k in t_txt for k in ["pay", "billing", "subscription", "charge", "refund", "purchase"]):
-            theme = "Billing & Subscriptions"
-        elif r_val >= 4 and has_praise_words and not has_friction_words:
-            # Positive praise & user delight without complaint keywords
-            theme = "General Praise & Feature Experience"
-        elif any(k in t_txt for k in ["ui", "design", "dark mode", "layout", "ugly", "interface"]):
-            theme = "UI/UX & Design"
-        elif any(k in t_txt for k in ["login", "auth", "password", "account", "sign in"]):
-            theme = "Authentication & Account"
-        elif has_praise_words:
-            theme = "General Praise & Feature Experience"
-        else:
-            theme = "Uncategorized / Emerging Issues"
+        sent_out = sent_eng.analyze(redacted, rating=r_val, review_id=r_id)
 
         processed.append({
             "review_id": r_id,
-            "date": row["date"],
+            "date": row.get("date", pd.Timestamp.now()),
             "rating": r_val,
             "review_text": redacted,
             "original_text": raw_text,
@@ -189,14 +180,140 @@ def process_reviews_through_pipeline(
             "is_mixed_sentiment": sent_out["is_mixed"],
             "app_version": str(row.get("app_version", "Unknown")),
             "platform": str(row.get("platform", "Android")),
-            "theme_title": theme,
-            "all_matched_themes": [theme],
         })
 
     result = pd.DataFrame(processed)
     if "date" in result.columns:
         result["date"] = pd.to_datetime(result["date"], errors="coerce").fillna(pd.Timestamp.now())
+    
+    # Step 3, 4, 5: Embeddings + Clustering + c-TF-IDF Theme Labeling
+    if enable_embeddings and theme_eng and len(result) >= 3:
+        result, theme_summaries = theme_eng.cluster_reviews(result, min_cluster_size=3)
+        
+        # Apply keyword classifier to uncategorized reviews (noise cluster = -1)
+        uncategorized_mask = result["theme_title"] == "Uncategorized / Emerging Issues"
+        if uncategorized_mask.any():
+            result.loc[uncategorized_mask, "theme_title"] = result.loc[uncategorized_mask, "review_text"].apply(
+                _classify_theme_by_keywords
+            )
+    else:
+        # Fallback: keyword-based themes for small datasets
+        result["theme_title"] = result["review_text"].apply(_classify_theme_by_keywords)
+        result["cluster_id"] = -1
+        result["all_matched_themes"] = result["theme_title"].apply(lambda x: [x])
+    
     return result
+
+
+def _classify_theme_by_keywords(text: str) -> str:
+    """Enhanced keyword-based theme classification for small datasets or noise clusters."""
+    import re
+    t = text.lower()
+    
+    # BUGFIX #1: Handle negations FIRST - "no crashes" should NOT trigger crash theme
+    # Check for "no [issue]" or "doesn't [issue]" patterns with positive context
+    negation_patterns = [
+        "no crash", "no crashes", "no bug", "no bugs", "no lag", "no lags", 
+        "doesn't crash", "doesnt crash", "doesn't lag", "doesnt lag",
+        "doesn't freeze", "doesnt freeze", "don't freeze", "dont freeze",
+        "no freeze", "no freezes", "no force close", "no force closes",
+        "not slow", "not buggy", "not laggy", "no issues", "no problems",
+        "doesn't have bugs", "doesnt have bugs", "no complaints",
+        "no ads"  # FIX: Add more negation patterns
+    ]
+    
+    # Improvement indicators - "anymore", "now", "finally" signal fixes/improvements
+    improvement_words = ["anymore", "now", "finally", "fixed", "better now", "improved", "like before", "now works"]
+    
+    has_negated_issues = any(neg in t for neg in negation_patterns)
+    has_improvement = any(imp in t for imp in improvement_words)
+    has_positive_words = any(k in t for k in ["perfect", "perfectly", "smooth", "smoothly", 
+                                               "works", "working", "great", "good", "love", 
+                                               "excellent", "amazing", "which is great"])
+    
+    # If review negates problems (with or without explicit positive words) → Praise
+    # OR if it mentions improvements/fixes → Praise  
+    # OR if multiple negations (e.g., "no freezes, no force closes")
+    multiple_negations = sum(1 for neg in negation_patterns if neg in t) >= 2
+    
+    if (has_negated_issues and (has_positive_words or has_improvement or multiple_negations)) or \
+       (has_negated_issues and "which is" in t):  # "No ads, which is great"
+        return "General Praise & Feature Experience"
+    
+    # Priority 1: Specific mentions (ads, billing, auth) - check before generic issues
+    
+    # 1A: Ads & Monetization - BUGFIX: Use word boundaries to avoid "bad"/"had" false matches
+    # Check for "ad" or "ads" as standalone words, plus specific ad-related phrases
+    ad_patterns = [
+        r'\bad\b', r'\bads\b',  # Word boundaries for "ad" and "ads"
+        'advertisement', 'advertisements', 'advertising',
+        'spam', 'spammy', 'popup', 'pop up', 'pop-up', 'popups',
+        'ad experience', 'advertisement experience',
+        'annoying ads', 'ads are annoying', 
+        'could be better', 'annoying',  # Indirect complaints
+        'too many ads', 'too much ads', 'full of ads', 'ads everywhere'
+    ]
+    
+    if any(re.search(pattern, t) if pattern.startswith(r'\b') else pattern in t 
+           for pattern in ad_patterns):
+        return "Ads & Monetization"
+    
+    # 1B: Billing (check early - very specific)
+    elif any(k in t for k in ["pay", "paid", "payment", "billing", "subscription", "subscriptions",
+                              "charge", "charged", "charges", "refund", "refunds", "purchase",
+                              "purchased", "buy", "bought", "price", "pricing", "expensive",
+                              "money", "cost", "costs", "free trial"]):
+        return "Billing & Subscriptions"
+    
+    # 1C: Authentication & security (check early - very specific)
+    elif any(k in t for k in ["login", "log in", "log-in", "sign in", "signin", "sign-in", 
+                            "auth", "password", "passwords", "account", "logged out", 
+                            "can't login", "cant login", "cannot login", "won't login",
+                            "wont login", "unable to login", "authentication", "verify", 
+                            "verification", "otp", "2fa", "two factor", "reset password"]):
+        return "Authentication & Account"
+    
+    # Priority 2: Critical issues (crashes, bugs) - only if NOT negated
+    elif any(k in t for k in ["crash", "crashes", "crashed", "crashing", "freeze", "freezes", "freezing", 
+                            "frozen", "bug", "bugs", "buggy", "unusable", "stuck", "force close", 
+                            "force closes", "won't open", "wont open", "doesn't work", "doesnt work",
+                            "not working", "stopped working", "keeps closing", "shuts down", "won't start",
+                            "wont start"]) and not has_negated_issues:
+        return "App Stability & Launch Crashes"
+    
+    # Priority 3: Performance issues - only if NOT negated
+    elif any(k in t for k in ["slow", "slowness", "lag", "lags", "lagging", "laggy", "performance", 
+                              "battery", "drain", "draining", "loading", "takes forever", "hang", 
+                              "hangs", "hanging", "unresponsive", "sluggish", "choppy"]) and not has_negated_issues:
+        return "Performance & Battery"
+    
+    # Priority 4: Update issues
+    elif any(k in t for k in ["update", "updated", "updates", "version", "upgrade", "upgraded",
+                              "downgrade", "latest version", "new version", "after update",
+                              "since update", "broke after"]):
+        return "Update & Version Issues"
+    
+    # Priority 5: UI/UX - but NOT if it's incidental mention in praise context
+    # Check if "UI" is just mentioned alongside love/awesome/great (incidental)
+    has_strong_praise = any(k in t for k in ["love", "awesome", "amazing", "excellent", "fantastic", "best"])
+    ui_is_main_topic = any(k in t for k in ["ui is", "ux is", "design is", "interface is", 
+                                              "ugly", "confusing", "hard to use", "difficult",
+                                              "bad ui", "bad ux", "terrible design", "poor interface"])
+    
+    if ui_is_main_topic or (not has_strong_praise and any(k in t for k in ["ui", "ux", "design", "dark mode", "light mode", "layout",
+                              "interface", "cluttered", "messy", "unintuitive"])):
+        return "UI/UX & Design"
+    
+    # Priority 6: Positive praise (check after issues to avoid false positives)
+    elif any(k in t for k in ["love", "loves", "loving", "loved", "great", "best", "amazing",
+                              "awesome", "excellent", "perfect", "fantastic", "wonderful",
+                              "good", "helpful", "easy", "simple", "smooth", "fast",
+                              "recommend", "recommended", "works perfectly", "no issues"]):
+        return "General Praise & Feature Experience"
+    
+    # Default: Uncategorized
+    else:
+        return "Uncategorized / Emerging Issues"
 
 
 def save_playstore_app(
@@ -540,7 +657,11 @@ def sync_playstore_reviews(
     df_raw["_norm_txt"] = df_raw["review_text"].astype(str).str.strip().str.lower()
     df_raw = df_raw.drop_duplicates(subset=["_norm_txt"]).drop(columns=["_norm_txt"])
 
-    df_processed = process_reviews_through_pipeline(df_raw)
+    df_processed = process_reviews_through_pipeline(
+        df_raw,
+        use_transformer=True,
+        enable_embeddings=True
+    )
     app_meta = fetch_app_info(package_name) or {"title": package_name, "genre": "App"}
 
     save_playstore_app(
@@ -585,14 +706,14 @@ def append_manual_review(
         df_existing = pd.DataFrame()
 
     from pipeline.pii_redactor import PIIShield
-    from pipeline.sentiment import SentimentEngine
+    from pipeline.sentiment_v3 import SentimentV3Engine
 
     pii_eng = PIIShield()
-    sent_eng = SentimentEngine(mode="rating_assisted")
+    sent_eng = SentimentV3Engine(use_transformer=True)
 
     r_id = f"LOCAL-{len(df_existing)+1:04d}"
     redacted, _ = pii_eng.redact_text(text, review_id=r_id)
-    sent_out = sent_eng.analyze_text(redacted, rating=rating)
+    sent_out = sent_eng.analyze(redacted, rating=rating, review_id=r_id)
 
     t_txt = redacted.lower()
     has_friction = any(k in t_txt for k in ["crash", "freeze", "bug", "unusable", "stuck", "error", "broken", "fail"])

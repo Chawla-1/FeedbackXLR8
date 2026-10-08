@@ -77,7 +77,8 @@ class ModelConfig:
     """ML/NLP model settings"""
     # Sentiment
     SENTIMENT_ENGINE = os.getenv("SENTIMENT_ENGINE", "v3")
-    SENTIMENT_MODEL = os.getenv("SENTIMENT_MODEL", "cardiffnlp/twitter-roberta-base-sentiment-latest")
+    # DistilBERT: 40% smaller, 60% faster than BERT, 97% performance (268MB model)
+    SENTIMENT_MODEL = os.getenv("SENTIMENT_MODEL", "distilbert-base-uncased-finetuned-sst-2-english")
     USE_TRANSFORMER = os.getenv("USE_TRANSFORMER", "true").lower() == "true"
     
     # Theme clustering
@@ -101,6 +102,17 @@ class AlertConfig:
     Z_SCORE_THRESHOLD = float(os.getenv("ALERT_Z_SCORE_THRESHOLD", "2.5"))
     DRIFT_WARNING_THRESHOLD = float(os.getenv("DRIFT_WARNING_THRESHOLD", "0.10"))
     DRIFT_CRITICAL_THRESHOLD = float(os.getenv("DRIFT_CRITICAL_THRESHOLD", "0.25"))
+
+# ============================================
+# Scheduler Configuration
+# ============================================
+class SchedulerConfig:
+    """Background sync scheduler settings"""
+    ENABLED = os.getenv("ENABLE_SCHEDULER", "false").lower() == "true"
+    SYNC_INTERVAL_MINUTES = int(os.getenv("SYNC_INTERVAL_MINUTES", "5"))
+    USE_TRANSFORMER = os.getenv("SCHEDULER_USE_TRANSFORMER", "true").lower() == "true"
+    ENABLE_EMBEDDINGS = os.getenv("SCHEDULER_ENABLE_EMBEDDINGS", "true").lower() == "true"
+    ENABLE_CLUSTERING = os.getenv("SCHEDULER_ENABLE_CLUSTERING", "true").lower() == "true"
 
 # ============================================
 # Logging Configuration

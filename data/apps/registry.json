@@ -44,12 +44,12 @@
     "package_name": "com.xvoid.vault",
     "has_api_key": false,
     "summary": {
-      "total_reviews": 4,
-      "avg_rating": 3.75,
-      "neg_pct": 25.0,
+      "total_reviews": 8,
+      "avg_rating": 3.38,
+      "neg_pct": 12.5,
       "active_alerts": 0,
       "drift_health": "HEALTHY",
-      "top_theme": "General Praise & Feature Experience",
+      "top_theme": "UI/UX & Design",
       "pii_events": 0
     }
   }

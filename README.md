@@ -43,18 +43,18 @@ Anomaly Detection → Dashboard + Alerts
 ### Core Components
 
 **Pipeline Modules**:
-- `sentiment_v3.py`: Transformer-based classifier with contrastive clause splitting
+- `sentiment_v3.py`: Transformer-based classifier (DistilBERT/RoBERTa) with contrastive clause splitting
 - `theming_v3.py`: Dense embeddings (MiniLM-L6) + DBSCAN clustering + c-TF-IDF labeling
 - `pii_redactor.py`: Regex + NER-based masking (emails, phones, URLs)
 - `anomaly_engine.py`: Z-score spike detection + PSI drift monitoring
 - `founder_engine.py`: Priority scoring (Volume × Negativity × Recency × Impact)
+- `scheduler.py`: Background periodic sync for live Google Play reviews
 
 **Technology Stack**:
 - **Backend**: Python 3.8+
 - **Frontend**: Streamlit
-- **ML/NLP**: scikit-learn, sentence-transformers
+- **ML/NLP**: scikit-learn, sentence-transformers, HuggingFace Transformers (DistilBERT)
 - **Data**: Pandas, Parquet (columnar storage)
-- **Optional**: HuggingFace transformers (cardiffnlp/twitter-roberta-base-sentiment)
 
 ### Performance Metrics
 
